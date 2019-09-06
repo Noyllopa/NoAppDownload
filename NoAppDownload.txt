@@ -13,7 +13,7 @@ bilibili.com###app > DIV.bili-header-m.report-wrap-module:first-child > DIV.nav-
 www.cnbeta.com###zjiYCBFmjY
 www.cnbeta.com###ffQphcChKA
 
-! ---dangdang---
+---dangdang---
 www.dangdang.com##.bottom_fixed
 www.dangdang.com##.panel
 ||img63.ddimg.cn/2019/8/30/2019083014415426253.png$image
@@ -22,6 +22,12 @@ www.dangdang.com##.code2s
 search.dangdang.com##.little
 search.dangdang.com###fix_erweima
 search.dangdang.com##.foot_tip_ad
+
+! ---douyu---
+www.douyu.com##li.RightNavigate-item:nth-of-type(1) > [href^="/client"]
+www.douyu.com##li.RightNavigate-item:nth-of-type(1)
+www.douyu.com##li.RightNavigate-item:nth-of-type(2) > [href^="/client"]
+www.douyu.com##li.RightNavigate-item:nth-of-type(2)
 
 ！---ifanr---
 ifanr.com##DIV.page-body:first-child > HEADER.c-global-header:nth-child(3) > DIV.c-header-sns:first-child > DIV.c-header-sns__wrapper > DIV.c-header-sns__about:last-child > DIV.c-header-sns__about--hover:first-child > A:first-child
@@ -47,6 +53,15 @@ smzdm.com###elevator > LI:first-child
 ！---suning---
 suning.com##DIV.sn-sidebar:nth-child(41) > DIV.sn-sidebar-tabs.sn-sidebar-bottom-tabs:nth-child(3) > DIV.sn-sidebar-tab.sn-sidebar-wider-tab.sn-sidebar-code.sn-sidebar-tab-js:nth-child(3) > A > I.tab-icon.tab-icon-code:last-child
 suning.com##DIV.sn-sidebar:nth-child(41) > DIV.sn-sidebar-tabs.sn-sidebar-bottom-tabs:nth-child(3) > DIV.sn-sidebar-tab.sn-sidebar-wider-tab.sn-sidebar-code.sn-sidebar-tab-js.sn-sidebar-tab-hover:nth-child(3)
+||res.suning.cn/public/v3/css/images-sidebar/sidebaricon.png?v=2019010301$image
+www.suning.com##.tab-icon-code.tab-icon
+www.suning.com##.ng-bar-node mb-suning touch-href
+www.suning.com##.ng-bar-node-box app-down-box
+||image.suning.cn/public/v3/images/new-down-img.png
+||res.suning.cn/public/v3/css/images-sidebar/aoyun-code.png?v=2016080401$image
+www.suning.com##.tab-tip-code-warp
+www.suning.com##.sn-sidebar-tab-js.sn-sidebar-code.sn-sidebar-wider-tab.sn-sidebar-tab
+www.suning.com##.touch-href.mb-suning.ng-bar-node
 
 ! ---www.taobao.com---
 www.taobao.com##.clearfix.qr-bd
