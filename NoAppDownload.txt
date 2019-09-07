@@ -1,11 +1,13 @@
 [Adblock Plus 2.1]
-! Version: 20190906001
-! Title:  NoAppDownloadV0.1[20190906001]
-! Last modified: 2019/09/06 14:00:00 +0800
+! Version: 20190907001
+! Title:  NoAppDownload V0.1.2
+! Last modified: 2019/09/07 09:00:00 +0800
 ! Email: noyllopa@live.cn
-! Homepage: https://noyllopa.github.io
 
-！---Bilibili---
+! ---12306---
+www.12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
+
+! ---Bilibili---
 bilibili.com###fixed_app_download
 bilibili.com###app > DIV.bili-header-m.report-wrap-module:first-child > DIV.nav-menu:first-child > DIV.nav-wrapper.clearfix.bili-wrapper:last-child > DIV.nav-con.fl:first-child > UL > LI.nav-item.mobile:last-child
 
@@ -13,7 +15,7 @@ bilibili.com###app > DIV.bili-header-m.report-wrap-module:first-child > DIV.nav-
 www.cnbeta.com###zjiYCBFmjY
 www.cnbeta.com###ffQphcChKA
 
----dangdang---
+! ---dangdang---
 www.dangdang.com##.bottom_fixed
 www.dangdang.com##.panel
 ||img63.ddimg.cn/2019/8/30/2019083014415426253.png$image
@@ -29,20 +31,23 @@ www.douyu.com##li.RightNavigate-item:nth-of-type(1)
 www.douyu.com##li.RightNavigate-item:nth-of-type(2) > [href^="/client"]
 www.douyu.com##li.RightNavigate-item:nth-of-type(2)
 
-！---ifanr---
+! ---huxiu---
+www.huxiu.com##li:nth-of-type(1) > .header-top-list__link > .flip-wrap > .flip-up
+
+! ---ifanr---
 ifanr.com##DIV.page-body:first-child > HEADER.c-global-header:nth-child(3) > DIV.c-header-sns:first-child > DIV.c-header-sns__wrapper > DIV.c-header-sns__about:last-child > DIV.c-header-sns__about--hover:first-child > A:first-child
 ifanr.com##DIV.page-body:first-child > HEADER.c-global-header:nth-child(3) > DIV.c-header-navbar:first-child > DIV.c-header-navbar__content > DIV.c-header-navbar－content__right:last-child > DIV.c-header-sns__about--hover:first-child > A:first-child
 ifanr.com##DIV.page-body:first-child > DIV.c-goto-top:nth-child(8) > DIV.c-goto-top-item.c-goto-top-item--app:nth-child(2)
 ifanr.com##DIV.page-body:first-child > DIV.c-goto-top:nth-child(8) > DIV.c-goto-top-item.c-goto-top-item--qrcodes:nth-child(3)
 
-！---jd---
+! ---jd---
 jd.com###J_mobile > DIV.dt.mobile_txt:first-child
 jd.com###J_mobile > DIV.mobile_static:nth-child(2)
 jr.jd.com###app-jr
 ||static.360buyimg.com/finance/base/1.2.0/css/i/sidebar.gif?20180130$image
 jr.jd.com##.app.ui-sidebar-block
 
-！---smzdm---
+! ---smzdm---
 smzdm.com###global-search > DIV.search-inner.z-clearfix > DIV.download:last-child
 smzdm.com###index-elevator > LI:nth-child(3)
 search.smzdm.com###elevator > LI:first-child > SPAN:first-child
@@ -50,7 +55,7 @@ search.smzdm.com###elevator > LI:first-child
 smzdm.com###elevator > LI:first-child > SPAN:first-child
 smzdm.com###elevator > LI:first-child
 
-！---suning---
+! ---suning---
 suning.com##DIV.sn-sidebar:nth-child(41) > DIV.sn-sidebar-tabs.sn-sidebar-bottom-tabs:nth-child(3) > DIV.sn-sidebar-tab.sn-sidebar-wider-tab.sn-sidebar-code.sn-sidebar-tab-js:nth-child(3) > A > I.tab-icon.tab-icon-code:last-child
 suning.com##DIV.sn-sidebar:nth-child(41) > DIV.sn-sidebar-tabs.sn-sidebar-bottom-tabs:nth-child(3) > DIV.sn-sidebar-tab.sn-sidebar-wider-tab.sn-sidebar-code.sn-sidebar-tab-js.sn-sidebar-tab-hover:nth-child(3)
 ||res.suning.cn/public/v3/css/images-sidebar/sidebaricon.png?v=2019010301$image
@@ -83,11 +88,37 @@ www.tmall.com##.mui-mbar-tab-qrcode.mui-mbar-tab
 www.tmall.com##.mui-mbarp-qrcode-bubble-close.mui-mbar-bubble-close
 www.tmall.com##.mui-mbarp-qrcode-arr.mui-mbar-arr
 
-！---you.163.com---
+! ---you.163.com---
 you.163.com###j-yx-cp-m-siteNav > DIV.yx-cp-row > DIV.yx-cp-siteNav-r:last-child > DIV.yx-cp-siteNavItem:last-child > DIV.yx-cp-siteNavItemHd.pipe:first-child
 you.163.com##[href^="/downloadapp"]
 you.163.com##.m-appDownloadGuide
+you.163.com###j-yx-fixedtoolDownloadlink
 
+
+! ----------MOBILE----------
+
+! ---h5.m.taobao.com---
+||gw.alicdn.com/bao/uploaded/TB1FjNySpXXXXc8aXXXXXXXXXXX-200-200.png$image
+h5.m.taobao.com##.smartbanner-wrapper
+h5.m.taobao.com##.open-app
+
+! ---m.huxiu.com---
+m.huxiu.com###qr_code_pc
+
+! ---m.jd.com---
+m.jd.com###pannelSeat
+m.jd.com###m_common_tip_div
+
+! ---m.you.163.com---
+m.you.163.com##.mask
+||yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/modalClose-9d2d6d39f7.png$image
+m.you.163.com##.close.u-icon-modalClose.u-icon
+||yanxuan.nosdn.127.net/0d5a236cef84d3c537af1fe23d2a66b4.png?imageView&quality=85$image
+m.you.163.com##.modal
+m.you.163.com##.m-userTypeModal
+m.you.163.com##.m-defaultBanner
+m.you.163.com##.m-downloadBanner > .g-row
+m.you.163.com##.m-downloadBanner
 
 
 
