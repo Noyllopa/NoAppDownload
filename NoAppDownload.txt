@@ -1,15 +1,19 @@
 [Adblock Plus 2.1]
-! Version: 20190907001
-! Title:  NoAppDownload V0.1.2
-! Last modified: 2019/09/07 09:00:00 +0800
+! Version: 20190909001
+! Title:  NoAppDownload V0.1.3
+! Last modified: 2019/09/09 16:30:00 +0800
 ! Email: noyllopa@live.cn
 
 ! ---12306---
 www.12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
 
+! ---Bing---
+bing.com###TopApp
+
 ! ---Bilibili---
 bilibili.com###fixed_app_download
 bilibili.com###app > DIV.bili-header-m.report-wrap-module:first-child > DIV.nav-menu:first-child > DIV.nav-wrapper.clearfix.bili-wrapper:last-child > DIV.nav-con.fl:first-child > UL > LI.nav-item.mobile:last-child
+t.bilibili.com##.mobile.nav-item
 
 !---cnbeta---
 www.cnbeta.com###zjiYCBFmjY
@@ -31,6 +35,11 @@ www.douyu.com##li.RightNavigate-item:nth-of-type(1)
 www.douyu.com##li.RightNavigate-item:nth-of-type(2) > [href^="/client"]
 www.douyu.com##li.RightNavigate-item:nth-of-type(2)
 
+! ---hujiang.com---
+||u8.hujiang.com/v2/page?jsonStr=%7B%22g0%22%3A%5B%7B%22b3%22%3A%226c863f57-a991-bba3-6c3a-94805b2c03de%22%2C%22d0%22%3A1283%2C%22d1%22%3A29213%2C%22d2%22%3A113463%2C%22dq%22%3A%22eSQ9IA%252F%252Fq8XA23SIzN4m7w%253D%253D%22%2C%22dz%22%3A1%2C%22e1%22%3Afalse%2C%22e2%22%3A7%7D%5D%2C%22b2%22%3A188%2C%22visitId%22%3A%7B%22b4%22%3A%220f1bce31-c832-a3e6-4988-94b915ee2fc3%22%7D%7D$subdocument
+fr.hujiang.com###regModule
+fr.hujiang.com###uzt-mask
+
 ! ---huxiu---
 www.huxiu.com##li:nth-of-type(1) > .header-top-list__link > .flip-wrap > .flip-up
 
@@ -39,6 +48,12 @@ ifanr.com##DIV.page-body:first-child > HEADER.c-global-header:nth-child(3) > DIV
 ifanr.com##DIV.page-body:first-child > HEADER.c-global-header:nth-child(3) > DIV.c-header-navbar:first-child > DIV.c-header-navbar__content > DIV.c-header-navbar－content__right:last-child > DIV.c-header-sns__about--hover:first-child > A:first-child
 ifanr.com##DIV.page-body:first-child > DIV.c-goto-top:nth-child(8) > DIV.c-goto-top-item.c-goto-top-item--app:nth-child(2)
 ifanr.com##DIV.page-body:first-child > DIV.c-goto-top:nth-child(8) > DIV.c-goto-top-item.c-goto-top-item--qrcodes:nth-child(3)
+ifanr.com##.popup-top__desc
+ifanr.com##.js-download-link-another
+ifanr.com##.popup-download__item
+ifanr.com##.popup-download-wrapper
+ifanr.com##.popup,.popup-top
+ifanr.com##.popup-download
 
 ! ---jd---
 jd.com###J_mobile > DIV.dt.mobile_txt:first-child
@@ -46,6 +61,29 @@ jd.com###J_mobile > DIV.mobile_static:nth-child(2)
 jr.jd.com###app-jr
 ||static.360buyimg.com/finance/base/1.2.0/css/i/sidebar.gif?20180130$image
 jr.jd.com##.app.ui-sidebar-block
+item.jd.com###ttbar-apps
+item.jd.com###toolbar-qrcode
+||img10.360buyimg.com/devfe/jfs/t7507/196/1481278321/1134/d2c81887/599d3334Nf16495a3.gif$image
+item.jd.com##[href="#none"] > .tab-ico
+item.jd.com##.jdm-tbar-tab-qrcode.jdm-toolbar-tab.J-trigger
+
+! ---jianshu---
+www.jianshu.com###web-nav-app-download-btn
+
+! ---meizu---
+||www3.res.meizu.com/static/cn/_partial/header/images/download_ec461fd.png$image
+bbs.meizu.cn##.download
+detail.mall.meizu.com##.bnr-link
+detail.mall.meizu.com##.app detail
+
+! ---oneplusbbs---
+oneplusbbs.com###bbsRegisterGuide
+
+! ---sina---
+www.sina.com.cn##.tn-nav > div.tn-title:nth-of-type(4) > .tn-tab > i
+www.sina.com.cn##.part-a-l > .mod-02
+sina.cn##.j_sax sina_tj_banner
+
 
 ! ---smzdm---
 smzdm.com###global-search > DIV.search-inner.z-clearfix > DIV.download:last-child
@@ -54,6 +92,12 @@ search.smzdm.com###elevator > LI:first-child > SPAN:first-child
 search.smzdm.com###elevator > LI:first-child
 smzdm.com###elevator > LI:first-child > SPAN:first-child
 smzdm.com###elevator > LI:first-child
+smzdm.com##.logo-download
+smzdm.com##.top-applink
+smzdm.com##.J_ota
+
+! ---sohu---
+sohu.com##.download-app
 
 ! ---suning---
 suning.com##DIV.sn-sidebar:nth-child(41) > DIV.sn-sidebar-tabs.sn-sidebar-bottom-tabs:nth-child(3) > DIV.sn-sidebar-tab.sn-sidebar-wider-tab.sn-sidebar-code.sn-sidebar-tab-js:nth-child(3) > A > I.tab-icon.tab-icon-code:last-child
@@ -68,10 +112,13 @@ www.suning.com##.tab-tip-code-warp
 www.suning.com##.sn-sidebar-tab-js.sn-sidebar-code.sn-sidebar-wider-tab.sn-sidebar-tab
 www.suning.com##.touch-href.mb-suning.ng-bar-node
 
-! ---www.taobao.com---
+! ---taobao---
 www.taobao.com##.clearfix.qr-bd
 www.taobao.com##.qr-ft.J_QrFt > .tb-ifont
 www.taobao.com##.qr-ft.J_QrFt
+taobao.com##.qr-tip
+taobao.com##.show.J_TWeiTaoPopup.weitao-popup
+taobao.com##.J_TWeitaoHover.follow-mobile
 
 ! ---tech.sina.com.cn---
 n.sinaimg.cn/tech/zcapp2018/zc_new1x.png$image
@@ -79,7 +126,7 @@ tech.sina.com.cn##.zc-app
 tech.sina.com.cn##.zc-app-btn.right-bar-btn
 n.sinaimg.cn/finance/blackcat/pc/blink.gif$image
 
-! ---tmall.com---
+! ---tmall---
 www.tmall.com##.sn-mobile
 img.alicdn.com/tfs/TB1uwIcRXXXXXXsaXXXXXXXXXXX-154-207.png$image
 www.tmall.com##.mui-mbarp-qrcode-tip
@@ -88,14 +135,24 @@ www.tmall.com##.mui-mbar-tab-qrcode.mui-mbar-tab
 www.tmall.com##.mui-mbarp-qrcode-bubble-close.mui-mbar-bubble-close
 www.tmall.com##.mui-mbarp-qrcode-arr.mui-mbar-arr
 
+! ---userstyles.org---
+userstyles.org###top_android_button
+userstyles.org##.android_button_button
+
 ! ---you.163.com---
 you.163.com###j-yx-cp-m-siteNav > DIV.yx-cp-row > DIV.yx-cp-siteNav-r:last-child > DIV.yx-cp-siteNavItem:last-child > DIV.yx-cp-siteNavItemHd.pipe:first-child
 you.163.com##[href^="/downloadapp"]
 you.163.com##.m-appDownloadGuide
 you.163.com###j-yx-fixedtoolDownloadlink
 
+!---zhihu---
+www.zhihu.com##.Card Banner
+
 
 ! ----------MOBILE----------
+
+! ---coolapk---
+coolapk.com##.mobile-header-content
 
 ! ---h5.m.taobao.com---
 ||gw.alicdn.com/bao/uploaded/TB1FjNySpXXXXc8aXXXXXXXXXXX-200-200.png$image
@@ -109,6 +166,17 @@ m.huxiu.com###qr_code_pc
 m.jd.com###pannelSeat
 m.jd.com###m_common_tip_div
 
+! ---jiemian---
+m.jiemian.com##.box-home
+m.jiemian.com##.download-app
+m.jiemian.com##.open
+m.jiemian.com##.download
+m.jiemian.com##.open-app
+m.jiemian.com##.app-open
+
+! ---m.weathercn.com---
+m.weathercn.com##.red-package
+
 ! ---m.you.163.com---
 m.you.163.com##.mask
 ||yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/modalClose-9d2d6d39f7.png$image
@@ -119,7 +187,7 @@ m.you.163.com##.m-userTypeModal
 m.you.163.com##.m-defaultBanner
 m.you.163.com##.m-downloadBanner > .g-row
 m.you.163.com##.m-downloadBanner
-
+m.you.163.com##.w-button
 
 
 
