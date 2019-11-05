@@ -1,11 +1,13 @@
 [Adblock Plus 2.1]
-! Version: 20190917001
-! Title: NoAppDownload V0.1.4
-! Last modified: 2019/09/17 08:30:00 +0800
-! Email: noyllopa@live.cn
+! Version: 20191105001
+! Title: NoAppDownload V0.1.5
+! Last modified: 2019/11/05 17:00:00 +0800
 
 ! ---12306---
 www.12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
+
+! ---36kr---
+36kr.com##.phone
 
 ! ---Bing---
 bing.com###TopApp
@@ -14,10 +16,16 @@ bing.com###TopApp
 bilibili.com###fixed_app_download
 bilibili.com###app > DIV.bili-header-m.report-wrap-module:first-child > DIV.nav-menu:first-child > DIV.nav-wrapper.clearfix.bili-wrapper:last-child > DIV.nav-con.fl:first-child > UL > LI.nav-item.mobile:last-child
 t.bilibili.com##.mobile.nav-item
-
-!---cnbeta---
-www.cnbeta.com###zjiYCBFmjY
-www.cnbeta.com###ffQphcChKA
+bilibili.com##.index__openAppBtn__src-commonComponent-topArea-
+bilibili.com##.index__container__src-commonComponent-bottomOpenApp-
+bilibili.com##.index__openApp__src-videoPage-related2Col-videoItem-
+bilibili.com##.index__floatOpenBtn__src-videoPage-floatOpenBtn-
+bilibili.com##.index__downLoadBtn__src-videoPage-commentArea-
+bilibili.com##.bili-app-link-container
+bilibili.com##.open-app-bar
+bilibili.com##.btn-ctnr
+bilibili.com##.bili-app
+bilibili.com###openAppBtn
 
 ! ---dangdang---
 www.dangdang.com##.bottom_fixed
@@ -37,6 +45,9 @@ www.douyu.com##li.RightNavigate-item:nth-of-type(1) > [href^="/client"]
 www.douyu.com##li.RightNavigate-item:nth-of-type(1)
 www.douyu.com##li.RightNavigate-item:nth-of-type(2) > [href^="/client"]
 www.douyu.com##li.RightNavigate-item:nth-of-type(2)
+www.douyu.com##.SuperFansGuideTips
+www.douyu.com##.is-active.UPlayerLotteryEnter
+www.douyu.com##.FudaiGiftToolBarTips
 
 ! ---hujiang---
 ||u8.hujiang.com/v2/page?jsonStr=%7B%22g0%22%3A%5B%7B%22b3%22%3A%226c863f57-a991-bba3-6c3a-94805b2c03de%22%2C%22d0%22%3A1283%2C%22d1%22%3A29213%2C%22d2%22%3A113463%2C%22dq%22%3A%22eSQ9IA%252F%252Fq8XA23SIzN4m7w%253D%253D%22%2C%22dz%22%3A1%2C%22e1%22%3Afalse%2C%22e2%22%3A7%7D%5D%2C%22b2%22%3A188%2C%22visitId%22%3A%7B%22b4%22%3A%220f1bce31-c832-a3e6-4988-94b915ee2fc3%22%7D%7D$subdocument
@@ -66,17 +77,19 @@ ifanr.com##.popup-download
 jd.com###J_mobile > DIV.dt.mobile_txt:first-child
 jd.com###J_mobile > DIV.mobile_static:nth-child(2)
 jr.jd.com###app-jr
-||static.360buyimg.com/finance/base/1.2.0/css/i/sidebar.gif?20180130$image
 jr.jd.com##.app.ui-sidebar-block
 item.jd.com###ttbar-apps
 item.jd.com###toolbar-qrcode
-||img10.360buyimg.com/devfe/jfs/t7507/196/1481278321/1134/d2c81887/599d3334Nf16495a3.gif$image
 item.jd.com##[href="#none"] > .tab-ico
 item.jd.com##.jdm-tbar-tab-qrcode.jdm-toolbar-tab.J-trigger
 home.jd.com###ttbar-apps > .cw-icon.dt
 
 ! ---jianshu---
 www.jianshu.com###web-nav-app-download-btn
+
+! ---juejin---
+juejin.im##.extension
+juejin.im##.request-health-alert
 
 ! ---meizu---
 ||www3.res.meizu.com/static/cn/_partial/header/images/download_ec461fd.png$image
@@ -164,17 +177,38 @@ you.163.com###j-yx-fixedtoolDownloadlink
 
 !---zhihu---
 www.zhihu.com##.Card Banner
+www.zhihu.com##.ContentItem-more
+www.zhihu.com##.DownloadGuide
+www.zhihu.com##.HotQuestions
+www.zhihu.com##.HotQuestions-bottomButton
+www.zhihu.com##.MBannerAd
+www.zhihu.com##.MHotFeedAd
+www.zhihu.com##.MobileAppHeader-downloadLink
+www.zhihu.com##.OpenInApp
+www.zhihu.com##.OpenInAppButton
+www.zhihu.com##.Profile-followButton
+www.zhihu.com##.TopstoryItem--advertCard
+www.zhihu.com##.ViewAllInappButton
 
 ! ---zmz2019---
 www.zmz2019.com##.chat-enterbox
 
 ! ----------MOBILE----------
 
+! ---baidu---
+m.baidu.com###header > div:last-child
+m.baidu.com##.ec_wise_ad
+m.baidu.com##.blank-frame
+m.baidu.com###bottom
+m.baidu.com##.suggest-hot
+m.baidu.com##.callicon-wrap
+m.baidu.com###navs
+m.baidu.com###page-copyright
+
 ! ---coolapk---
 coolapk.com##.mobile-header-content
 
 ! ---h5.m.taobao.com---
-||gw.alicdn.com/bao/uploaded/TB1FjNySpXXXXc8aXXXXXXXXXXX-200-200.png$image
 h5.m.taobao.com##.smartbanner-wrapper
 h5.m.taobao.com##.open-app
 
@@ -206,9 +240,7 @@ m.weathercn.com##.red-package
 
 ! ---m.you.163.com---
 m.you.163.com##.mask
-||yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/modalClose-9d2d6d39f7.png$image
 m.you.163.com##.close.u-icon-modalClose.u-icon
-||yanxuan.nosdn.127.net/0d5a236cef84d3c537af1fe23d2a66b4.png?imageView&quality=85$image
 m.you.163.com##.modal
 m.you.163.com##.m-userTypeModal
 m.you.163.com##.m-defaultBanner
@@ -216,7 +248,28 @@ m.you.163.com##.m-downloadBanner > .g-row
 m.you.163.com##.m-downloadBanner
 m.you.163.com##.w-button
 
+! ---music.163.com---
+music.163.com##.topfr
+music.163.com##.m-homeft
+music.163.com##.u-ft
+music.163.com##.cmt_more_applink
+music.163.com##.m-moreLists
 
+!---y.qq.com---
+y.qq.com###js_mod_dialog
+y.qq.com##.top_box
+y.qq.com##.bottom_bar
+y.qq.com##.top_bar
+y.qq.com##.top_operation_box
+y.qq.com##.lyric_action
+y.qq.com##.sing
+y.qq.com##.btn_download
+y.qq.com##.open_qqmusic__btn
+y.qq.com##.similar_song
+y.qq.com##.related_album
+y.qq.com##.related_info
+y.qq.com##.recommend_mv
+y.qq.com##.mod_lead_flow
 
 
 
