@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20191105001
-! Title: NoAppDownload V0.1.5
-! Last modified: 2019/11/05 17:00:00 +0800
+! Version: 20191202001
+! Title: NoAppDownload V0.1.6
+! Last modified: 2019/12/02 15:30:00 +0800
 
 ! ---12306---
 www.12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
@@ -78,8 +78,8 @@ jd.com###J_mobile > DIV.dt.mobile_txt:first-child
 jd.com###J_mobile > DIV.mobile_static:nth-child(2)
 jr.jd.com###app-jr
 jr.jd.com##.app.ui-sidebar-block
-item.jd.com###ttbar-apps
-item.jd.com###toolbar-qrcode
+jd.com###ttbar-apps
+jd.com###toolbar-qrcode
 item.jd.com##[href="#none"] > .tab-ico
 item.jd.com##.jdm-tbar-tab-qrcode.jdm-toolbar-tab.J-trigger
 home.jd.com###ttbar-apps > .cw-icon.dt
@@ -183,12 +183,12 @@ www.zhihu.com##.HotQuestions
 www.zhihu.com##.HotQuestions-bottomButton
 www.zhihu.com##.MBannerAd
 www.zhihu.com##.MHotFeedAd
-www.zhihu.com##.MobileAppHeader-downloadLink
-www.zhihu.com##.OpenInApp
-www.zhihu.com##.OpenInAppButton
+zhihu.com##.MobileAppHeader-downloadLink
+zhihu.com##.OpenInApp
+zhihu.com##.OpenInAppButton
 www.zhihu.com##.Profile-followButton
-www.zhihu.com##.TopstoryItem--advertCard
-www.zhihu.com##.ViewAllInappButton
+zhihu.com##.TopstoryItem--advertCard
+zhihu.com##.ViewAllInappButton
 
 ! ---zmz2019---
 www.zmz2019.com##.chat-enterbox
