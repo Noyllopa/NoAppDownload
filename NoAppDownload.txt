@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20191202001
-! Title: NoAppDownload V0.1.6
-! Last modified: 2019/12/02 15:30:00 +0800
+! Version: 20200206001
+! Title: NoAppDownload V0.1.7
+! Last modified: 2020/02/06 01:00:00 +0800
 
 ! ---12306---
 www.12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
@@ -30,9 +30,7 @@ bilibili.com###openAppBtn
 ! ---dangdang---
 www.dangdang.com##.bottom_fixed
 www.dangdang.com##.panel
-||img63.ddimg.cn/2019/8/30/2019083014415426253.png$image
 www.dangdang.com##.code2s
-||search.dangdang.com/Standard/Search/Extend/hosts/images/model/vsearch/erweima_home2.png$image
 search.dangdang.com##.little
 search.dangdang.com###fix_erweima
 search.dangdang.com##.foot_tip_ad
@@ -92,7 +90,6 @@ juejin.im##.extension
 juejin.im##.request-health-alert
 
 ! ---meizu---
-||www3.res.meizu.com/static/cn/_partial/header/images/download_ec461fd.png$image
 bbs.meizu.cn##.download
 detail.mall.meizu.com##.bnr-link
 detail.mall.meizu.com##.app detail
@@ -101,8 +98,8 @@ detail.mall.meizu.com##.app detail
 oneplusbbs.com###bbsRegisterGuide
 
 ! ---sina---
-www.sina.com.cn##.tn-nav > div.tn-title:nth-of-type(4) > .tn-tab > i
-www.sina.com.cn##.part-a-l > .mod-02
+sina.com.cn##.tn-nav > div.tn-title:nth-of-type(4) > .tn-tab > i
+sina.com.cn##.part-a-l > .mod-02
 sina.cn##.j_sax sina_tj_banner
 
 
@@ -123,15 +120,16 @@ sohu.com##.download-app
 ! ---suning---
 suning.com##DIV.sn-sidebar:nth-child(41) > DIV.sn-sidebar-tabs.sn-sidebar-bottom-tabs:nth-child(3) > DIV.sn-sidebar-tab.sn-sidebar-wider-tab.sn-sidebar-code.sn-sidebar-tab-js:nth-child(3) > A > I.tab-icon.tab-icon-code:last-child
 suning.com##DIV.sn-sidebar:nth-child(41) > DIV.sn-sidebar-tabs.sn-sidebar-bottom-tabs:nth-child(3) > DIV.sn-sidebar-tab.sn-sidebar-wider-tab.sn-sidebar-code.sn-sidebar-tab-js.sn-sidebar-tab-hover:nth-child(3)
-||res.suning.cn/public/v3/css/images-sidebar/sidebaricon.png?v=2019010301$image
-www.suning.com##.tab-icon-code.tab-icon
-www.suning.com##.ng-bar-node mb-suning touch-href
-www.suning.com##.ng-bar-node-box app-down-box
-||image.suning.cn/public/v3/images/new-down-img.png
-||res.suning.cn/public/v3/css/images-sidebar/aoyun-code.png?v=2016080401$image
-www.suning.com##.tab-tip-code-warp
-www.suning.com##.sn-sidebar-tab-js.sn-sidebar-code.sn-sidebar-wider-tab.sn-sidebar-tab
-www.suning.com##.touch-href.mb-suning.ng-bar-node
+suning.com##.tab-icon-code.tab-icon
+suning.com##.ng-bar-node mb-suning touch-href
+suning.com##.ng-bar-node-box app-down-box
+suning.com##.tab-tip-code-warp
+suning.com##.sn-sidebar-tab-js.sn-sidebar-code.sn-sidebar-wider-tab.sn-sidebar-tab
+suning.com##.touch-href.mb-suning.ng-bar-node
+suning.com###sn-sidebar-change-code > IMG.tab-tip-code-warp-img
+suning.com###sn-sidebar-change-code
+suning.com##.tab-icon-code.tab-icon
+
 
 ! ---taobao---
 www.taobao.com##.clearfix.qr-bd
@@ -148,17 +146,14 @@ tech.sina.com.cn##.zc-app-btn.right-bar-btn
 n.sinaimg.cn/finance/blackcat/pc/blink.gif$image
 
 ! ---tmall---
-www.tmall.com##.sn-mobile
-img.alicdn.com/tfs/TB1uwIcRXXXXXXsaXXXXXXXXXXX-154-207.png$image
-www.tmall.com##.mui-mbarp-qrcode-tip
-www.tmall.com##.mui-mbar-tab-logo-qrcode.mui-mbar-tab-logo
-www.tmall.com##.mui-mbar-tab-qrcode.mui-mbar-tab
-www.tmall.com##.mui-mbarp-qrcode-bubble-close.mui-mbar-bubble-close
-www.tmall.com##.mui-mbarp-qrcode-arr.mui-mbar-arr
-tarpa.tmall.com##.mui-mbarp-qrcode-hd-d.mui-mbarp-qrcode-hd
-||img.alicdn.com/tfs/TB1uwIcRXXXXXXsaXXXXXXXXXXX-154-207.png$image
-tarpa.tmall.com##.mui-mbarp-qrcode-tip
-tarpa.tmall.com##.mui-mbar-tab-qrcode.mui-mbar-tab
+tmall.com##.sn-mobile
+tmall.com##.mui-mbarp-qrcode-tip
+tmall.com##.mui-mbar-tab-logo-qrcode.mui-mbar-tab-logo
+tmall.com##.mui-mbar-tab-qrcode.mui-mbar-tab
+tmall.com##.mui-mbarp-qrcode-bubble-close.mui-mbar-bubble-close
+tmall.com##.mui-mbarp-qrcode-arr.mui-mbar-arr
+tmall.com##.mui-mbarp-qrcode-hd-d.mui-mbarp-qrcode-hd
+tmall.com##.mui-mbar-tab-qrcode.mui-mbar-tab
 
 ! ---userstyles.org---
 userstyles.org###top_android_button
@@ -176,17 +171,17 @@ you.163.com##.m-appDownloadGuide
 you.163.com###j-yx-fixedtoolDownloadlink
 
 !---zhihu---
-www.zhihu.com##.Card Banner
-www.zhihu.com##.ContentItem-more
-www.zhihu.com##.DownloadGuide
-www.zhihu.com##.HotQuestions
-www.zhihu.com##.HotQuestions-bottomButton
-www.zhihu.com##.MBannerAd
-www.zhihu.com##.MHotFeedAd
+zhihu.com##.Card Banner
+zhihu.com##.ContentItem-more
+zhihu.com##.DownloadGuide
+zhihu.com##.HotQuestions
+zhihu.com##.HotQuestions-bottomButton
+zhihu.com##.MBannerAd
+zhihu.com##.MHotFeedAd
 zhihu.com##.MobileAppHeader-downloadLink
 zhihu.com##.OpenInApp
 zhihu.com##.OpenInAppButton
-www.zhihu.com##.Profile-followButton
+zhihu.com##.Profile-followButton
 zhihu.com##.TopstoryItem--advertCard
 zhihu.com##.ViewAllInappButton
 
