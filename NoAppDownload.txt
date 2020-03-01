@@ -13,9 +13,14 @@ www.12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
 bing.com###TopApp
 
 ! ---Bilibili---
+www.bilibili.com##li.nav-link-item:nth-of-type(8)
+www.bilibili.com##li.nav-link-item:nth-of-type(9)
+manga.bilibili.com##a.v-middle.h-100.dp-i-block:nth-of-type(5)
+live.bilibili.com##div.pointer.f-left.p-relative.h-100.shortcut-item:nth-of-type(3)
+space.bilibili.com##li.nav-link-item:nth-of-type(8)
+search.bilibili.com##li.nav-link-item:nth-of-type(8)
 bilibili.com###fixed_app_download
 bilibili.com###app > DIV.bili-header-m.report-wrap-module:first-child > DIV.nav-menu:first-child > DIV.nav-wrapper.clearfix.bili-wrapper:last-child > DIV.nav-con.fl:first-child > UL > LI.nav-item.mobile:last-child
-t.bilibili.com##.mobile.nav-item
 bilibili.com##.index__openAppBtn__src-commonComponent-topArea-
 bilibili.com##.index__container__src-commonComponent-bottomOpenApp-
 bilibili.com##.index__openApp__src-videoPage-related2Col-videoItem-
@@ -26,6 +31,8 @@ bilibili.com##.open-app-bar
 bilibili.com##.btn-ctnr
 bilibili.com##.bili-app
 bilibili.com###openAppBtn
+bilibili.com##.mobile.nav-item
+
 
 ! ---dangdang---
 www.dangdang.com##.bottom_fixed
@@ -46,6 +53,11 @@ www.douyu.com##li.RightNavigate-item:nth-of-type(2)
 www.douyu.com##.SuperFansGuideTips
 www.douyu.com##.is-active.UPlayerLotteryEnter
 www.douyu.com##.FudaiGiftToolBarTips
+
+! ---gome---
+www.gome.com.cn###gome-phone
+www.gome.com.cn###gome-aside-app-code
+www.gome.com.cn###gome-aside-app
 
 ! ---hujiang---
 ||u8.hujiang.com/v2/page?jsonStr=%7B%22g0%22%3A%5B%7B%22b3%22%3A%226c863f57-a991-bba3-6c3a-94805b2c03de%22%2C%22d0%22%3A1283%2C%22d1%22%3A29213%2C%22d2%22%3A113463%2C%22dq%22%3A%22eSQ9IA%252F%252Fq8XA23SIzN4m7w%253D%253D%22%2C%22dz%22%3A1%2C%22e1%22%3Afalse%2C%22e2%22%3A7%7D%5D%2C%22b2%22%3A188%2C%22visitId%22%3A%7B%22b4%22%3A%220f1bce31-c832-a3e6-4988-94b915ee2fc3%22%7D%7D$subdocument
@@ -97,6 +109,10 @@ detail.mall.meizu.com##.app detail
 ! ---oneplusbbs---
 oneplusbbs.com###bbsRegisterGuide
 
+! ---pingwest---
+www.pingwest.com##.down-app
+www.pingwest.com##.options > [href="https://s.growingio.com/LWqRgA"]
+
 ! ---sina---
 sina.com.cn##.tn-nav > div.tn-title:nth-of-type(4) > .tn-tab > i
 sina.com.cn##.part-a-l > .mod-02
@@ -113,6 +129,8 @@ smzdm.com###elevator > LI:first-child
 smzdm.com##.logo-download
 smzdm.com##.top-applink
 smzdm.com##.J_ota
+www.smzdm.com###index-elevator > li:nth-of-type(1)
+www.smzdm.com###index-elevator > li:nth-of-type(2)
 
 ! ---sohu---
 sohu.com##.download-app
@@ -200,12 +218,23 @@ m.baidu.com##.callicon-wrap
 m.baidu.com###navs
 m.baidu.com###page-copyright
 
+! ---bilibili---
+www.bilibili.com###header-mobile-app
+www.bilibili.com##.mobile.nav-item
+
 ! ---coolapk---
 coolapk.com##.mobile-header-content
+
+! ---douban---
+m.douban.com##.splash-btn
+m.douban.com##.green.btn
 
 ! ---h5.m.taobao.com---
 h5.m.taobao.com##.smartbanner-wrapper
 h5.m.taobao.com##.open-app
+
+! ---iyingdi---
+www.iyingdi.com##.downLoadApp
 
 ! ---m.huxiu.com---
 m.huxiu.com###qr_code_pc
