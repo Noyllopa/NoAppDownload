@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20200206001
-! Title: NoAppDownload V0.1.7
-! Last modified: 2020/02/06 01:00:00 +0800
+! Version: 20200301001
+! Title: NoAppDownload V0.1.8
+! Last modified: 2020/03/01 14:00:00 +0800
 
 ! ---12306---
 www.12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
@@ -19,6 +19,7 @@ manga.bilibili.com##a.v-middle.h-100.dp-i-block:nth-of-type(5)
 live.bilibili.com##div.pointer.f-left.p-relative.h-100.shortcut-item:nth-of-type(3)
 space.bilibili.com##li.nav-link-item:nth-of-type(8)
 search.bilibili.com##li.nav-link-item:nth-of-type(8)
+message.bilibili.com##li.nav-link-item:nth-of-type(8)
 bilibili.com###fixed_app_download
 bilibili.com###app > DIV.bili-header-m.report-wrap-module:first-child > DIV.nav-menu:first-child > DIV.nav-wrapper.clearfix.bili-wrapper:last-child > DIV.nav-con.fl:first-child > UL > LI.nav-item.mobile:last-child
 bilibili.com##.index__openAppBtn__src-commonComponent-topArea-
@@ -112,6 +113,9 @@ oneplusbbs.com###bbsRegisterGuide
 ! ---pingwest---
 www.pingwest.com##.down-app
 www.pingwest.com##.options > [href="https://s.growingio.com/LWqRgA"]
+
+! ---rrys---
+www.rrys2019.com##.app_link
 
 ! ---sina---
 sina.com.cn##.tn-nav > div.tn-title:nth-of-type(4) > .tn-tab > i
