@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20200301001
-! Title: NoAppDownload V0.1.8
-! Last modified: 2020/03/01 14:00:00 +0800
+! Version: 20200308001
+! Title: NoAppDownload V0.1.9
+! Last modified: 2020/03/08 11:30:00 +0800
 
 ! ---12306---
 www.12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
@@ -243,6 +243,9 @@ www.iyingdi.com##.downLoadApp
 ! ---m.huxiu.com---
 m.huxiu.com###qr_code_pc
 
+! ---m.gome.com.cn---
+m.gome.com.cn##.m-downapp
+
 ! ---m.jd.com---
 m.jd.com###pannelSeat
 m.jd.com###m_common_tip_div
@@ -262,6 +265,10 @@ m.sohu.com##.art-sogou-hotw
 m.sohu.com###artLifeService
 m.sohu.com##.article-main > div:nth-of-type(3)
 m.sohu.com##.fr
+
+! ---m.suning.com---
+m.suning.com##.common-right-d
+m.suning.com##.to-login
 
 ! ---m.weathercn.com---
 m.weathercn.com##.red-package
