@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20200308001
-! Title: NoAppDownload V0.1.9
-! Last modified: 2020/03/08 11:30:00 +0800
+! Version: 20200702001
+! Title: NoAppDownload V0.1.10
+! Last modified: 2020/07/02 9:00:00 +0800
 
 ! ---12306---
 www.12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
@@ -9,17 +9,18 @@ www.12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
 ! ---36kr---
 36kr.com##.phone
 
+! ---acfun---
+www.acfun.cn##.app-guide
+
+! ---Baidu---
+wenku.baidu.com##.clearfix.sb-con > .qrHover
+
 ! ---Bing---
 bing.com###TopApp
 
 ! ---Bilibili---
-www.bilibili.com##li.nav-link-item:nth-of-type(8)
-www.bilibili.com##li.nav-link-item:nth-of-type(9)
 manga.bilibili.com##a.v-middle.h-100.dp-i-block:nth-of-type(5)
 live.bilibili.com##div.pointer.f-left.p-relative.h-100.shortcut-item:nth-of-type(3)
-space.bilibili.com##li.nav-link-item:nth-of-type(8)
-search.bilibili.com##li.nav-link-item:nth-of-type(8)
-message.bilibili.com##li.nav-link-item:nth-of-type(8)
 bilibili.com###fixed_app_download
 bilibili.com###app > DIV.bili-header-m.report-wrap-module:first-child > DIV.nav-menu:first-child > DIV.nav-wrapper.clearfix.bili-wrapper:last-child > DIV.nav-con.fl:first-child > UL > LI.nav-item.mobile:last-child
 bilibili.com##.index__openAppBtn__src-commonComponent-topArea-
@@ -33,7 +34,16 @@ bilibili.com##.btn-ctnr
 bilibili.com##.bili-app
 bilibili.com###openAppBtn
 bilibili.com##.mobile.nav-item
+t.bilibili.com##li.nav-link-item:nth-of-type(9) > span > .van-popover__reference.link
+message.bilibili.com##li.nav-link-item:nth-of-type(9) > span > .van-popover__reference.link
+space.bilibili.com##li.nav-link-item:nth-of-type(8) > span > .van-popover__reference.link
+t.bilibili.com##li.nav-link-item:nth-of-type(8) > span > .van-popover__reference.link
+space.bilibili.com##li.nav-link-item:nth-of-type(9) > span > .van-popover__reference.link
+search.bilibili.com##li.nav-link-item:nth-of-type(9) > span > .van-popover__reference.link
+www.biligame.com##li.nav-link-item:nth-of-type(9) > span > .van-popover__reference.link
 
+! ---dangdang---
+www.cnbeta.com##DIV[style="display:block !important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"]
 
 ! ---dangdang---
 www.dangdang.com##.bottom_fixed
@@ -54,6 +64,8 @@ www.douyu.com##li.RightNavigate-item:nth-of-type(2)
 www.douyu.com##.SuperFansGuideTips
 www.douyu.com##.is-active.UPlayerLotteryEnter
 www.douyu.com##.FudaiGiftToolBarTips
+www.douyu.com##.PrivilegeGiftModalDialog
+www.douyu.com###FansFestival2003Tips
 
 ! ---gome---
 www.gome.com.cn###gome-phone
@@ -107,12 +119,18 @@ bbs.meizu.cn##.download
 detail.mall.meizu.com##.bnr-link
 detail.mall.meizu.com##.app detail
 
+! ---mi---
+www.mi.com##.item-image.item
+
 ! ---oneplusbbs---
 oneplusbbs.com###bbsRegisterGuide
 
 ! ---pingwest---
 www.pingwest.com##.down-app
 www.pingwest.com##.options > [href="https://s.growingio.com/LWqRgA"]
+
+! ---qdaily.com---
+www.qdaily.com##.app
 
 ! ---rrys---
 www.rrys2019.com##.app_link
@@ -133,6 +151,7 @@ smzdm.com###elevator > LI:first-child
 smzdm.com##.logo-download
 smzdm.com##.top-applink
 smzdm.com##.J_ota
+www.smzdm.com##.footer-floating-layer
 www.smzdm.com###index-elevator > li:nth-of-type(1)
 www.smzdm.com###index-elevator > li:nth-of-type(2)
 
@@ -193,6 +212,8 @@ you.163.com##.m-appDownloadGuide
 you.163.com###j-yx-fixedtoolDownloadlink
 
 !---zhihu---
+daily.zhihu.com##.active
+daily.zhihu.com##.Daily
 zhihu.com##.Card Banner
 zhihu.com##.ContentItem-more
 zhihu.com##.DownloadGuide
