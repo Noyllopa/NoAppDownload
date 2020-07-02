@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20200702001
-! Title: NoAppDownload V0.1.10
-! Last modified: 2020/07/02 9:00:00 +0800
+! Version: 20200702002
+! Title: NoAppDownload V0.1.11
+! Last modified: 2020/07/02 9:05:00 +0800
 
 ! ---12306---
 www.12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
@@ -34,12 +34,7 @@ bilibili.com##.btn-ctnr
 bilibili.com##.bili-app
 bilibili.com###openAppBtn
 bilibili.com##.mobile.nav-item
-t.bilibili.com##li.nav-link-item:nth-of-type(9) > span > .van-popover__reference.link
-message.bilibili.com##li.nav-link-item:nth-of-type(9) > span > .van-popover__reference.link
-space.bilibili.com##li.nav-link-item:nth-of-type(8) > span > .van-popover__reference.link
-t.bilibili.com##li.nav-link-item:nth-of-type(8) > span > .van-popover__reference.link
-space.bilibili.com##li.nav-link-item:nth-of-type(9) > span > .van-popover__reference.link
-search.bilibili.com##li.nav-link-item:nth-of-type(9) > span > .van-popover__reference.link
+bilibili.com##li.nav-link-item:nth-of-type(9) > span > .van-popover__reference.link
 www.biligame.com##li.nav-link-item:nth-of-type(9) > span > .van-popover__reference.link
 
 ! ---dangdang---
