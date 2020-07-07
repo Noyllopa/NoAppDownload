@@ -153,6 +153,11 @@ www.smzdm.com###index-elevator > li:nth-of-type(2)
 ! ---sohu---
 sohu.com##.download-app
 
+!---sogou---
+www.sogou.com##.erwm-box
+www.sogou.com###vl
+www.sogou.com###right
+
 ! ---suning---
 suning.com##DIV.sn-sidebar:nth-child(41) > DIV.sn-sidebar-tabs.sn-sidebar-bottom-tabs:nth-child(3) > DIV.sn-sidebar-tab.sn-sidebar-wider-tab.sn-sidebar-code.sn-sidebar-tab-js:nth-child(3) > A > I.tab-icon.tab-icon-code:last-child
 suning.com##DIV.sn-sidebar:nth-child(41) > DIV.sn-sidebar-tabs.sn-sidebar-bottom-tabs:nth-child(3) > DIV.sn-sidebar-tab.sn-sidebar-wider-tab.sn-sidebar-code.sn-sidebar-tab-js.sn-sidebar-tab-hover:nth-child(3)
@@ -281,6 +286,13 @@ m.sohu.com##.art-sogou-hotw
 m.sohu.com###artLifeService
 m.sohu.com##.article-main > div:nth-of-type(3)
 m.sohu.com##.fr
+
+! ---m.sogou.com---
+wap.sogou.com###indexAppOneBtn
+wap.sogou.com##.index-carousel
+wap.sogou.com##.index-tab
+wap.sogou.com###indexAppOneClose
+wap.sougou.com###sug_wraper
 
 ! ---m.suning.com---
 m.suning.com##.common-right-d
