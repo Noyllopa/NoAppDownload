@@ -231,6 +231,9 @@ zhihu.com##.ViewAllInappButton
 ! ---zmz2019---
 www.zmz2019.com##.chat-enterbox
 
+! ---zuimeia---
+zuimeia.com##.app-ad
+
 ! ----------MOBILE----------
 
 ! ---baidu---
