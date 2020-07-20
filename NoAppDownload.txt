@@ -90,6 +90,7 @@ ifanr.com##.popup-download__item
 ifanr.com##.popup-download-wrapper
 ifanr.com##.popup,.popup-top
 ifanr.com##.popup-download
+ifanr.com##.bottom-clap-scroll-down.js-bottom-clap.bottom-clap-wrapper
 
 ! ---jd---
 jd.com###J_mobile > DIV.dt.mobile_txt:first-child
@@ -103,7 +104,7 @@ item.jd.com##.jdm-tbar-tab-qrcode.jdm-toolbar-tab.J-trigger
 home.jd.com###ttbar-apps > .cw-icon.dt
 
 ! ---jianshu---
-www.jianshu.com###web-nav-app-download-btn
+jianshu.com###web-nav-app-download-btn
 
 ! ---juejin---
 juejin.im##.extension
@@ -116,6 +117,7 @@ detail.mall.meizu.com##.app detail
 
 ! ---mi---
 www.mi.com##.item-image.item
+m.mi.com##.download-app-go
 
 ! ---oneplusbbs---
 oneplusbbs.com###bbsRegisterGuide
@@ -123,6 +125,7 @@ oneplusbbs.com###bbsRegisterGuide
 ! ---pingwest---
 www.pingwest.com##.down-app
 www.pingwest.com##.options > [href="https://s.growingio.com/LWqRgA"]
+www.pingwest.com##.download-app-tip
 
 ! ---qdaily.com---
 www.qdaily.com##.app
