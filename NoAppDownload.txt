@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20200702002
-! Title: NoAppDownload V0.1.11
-! Last modified: 2020/07/02 9:05:00 +0800
+! Version: 20200720001
+! Title: NoAppDownload V0.1.13
+! Last modified: 2020/07/20 17:00:00 +0800
 
 ! ---12306---
 www.12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
@@ -129,9 +129,12 @@ www.pingwest.com##.download-app-tip
 
 ! ---qdaily.com---
 www.qdaily.com##.app
+qdaily.com##.clearfix.com-header-brief
 
 ! ---rrys---
 www.rrys2019.com##.app_link
+www.rrys2020.com##.app_link
+www.zmz2019.com##.chat-enterbox
 
 ! ---sina---
 sina.com.cn##.tn-nav > div.tn-title:nth-of-type(4) > .tn-tab > i
@@ -231,9 +234,6 @@ zhihu.com##.Profile-followButton
 zhihu.com##.TopstoryItem--advertCard
 zhihu.com##.ViewAllInappButton
 
-! ---zmz2019---
-www.zmz2019.com##.chat-enterbox
-
 ! ---zuimeia---
 zuimeia.com##.app-ad
 
@@ -259,6 +259,12 @@ coolapk.com##.mobile-header-content
 ! ---douban---
 m.douban.com##.splash-btn
 m.douban.com##.green.btn
+
+! ---douyu---
+m.douyu.com##.btn-open-app.open-btn-more
+m.douyu.com##.HomeHeader-openAppB
+m.douyu.com##.btn-open-app
+m.douyu.com##.abtest-downloadDialog
 
 ! ---h5.m.taobao.com---
 h5.m.taobao.com##.smartbanner-wrapper
