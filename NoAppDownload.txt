@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20200721001
-! Title: NoAppDownload V0.1.14
-! Last modified: 2020/07/21 9:10:00 +0800
+! Version: 20200721002
+! Title: NoAppDownload V0.1.15
+! Last modified: 2020/07/21 9:40:00 +0800
 
 ! ---12306---
 www.12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
@@ -211,6 +211,10 @@ v.qq.com##.svg_icon_client.svg_quick_icon > path:nth-of-type(1)
 v.qq.com##.svg_icon_client.svg_quick_icon
 v.qq.com###pc_client > .quick_link
 
+! ---xiaomiyoupin---
+www.xiaomiyoupin.com##.site-item.m-download.fl
+www.xiaomiyoupin.com##.fixed-nav > li:nth-of-type(2)
+
 ! ---you.163.com---
 you.163.com###j-yx-cp-m-siteNav > DIV.yx-cp-row > DIV.yx-cp-siteNav-r:last-child > DIV.yx-cp-siteNavItem:last-child > DIV.yx-cp-siteNavItemHd.pipe:first-child
 you.163.com##[href^="/downloadapp"]
@@ -244,6 +248,7 @@ zuimeia.com##.app-ad
 3g.163.com##.hotSearch-box
 3g.163.com##.open-modal-mask
 3g.163.com##div[class*="toast-"]
+3g.163.com##div[class*="relativedoc"]
 
 ! ---baidu---
 m.baidu.com###header > div:last-child
@@ -310,6 +315,10 @@ m.sohu.com##.art-sogou-hotw
 m.sohu.com###artLifeService
 m.sohu.com##.article-main > div:nth-of-type(3)
 m.sohu.com##.fr
+m.sohu.com##.new.fixed.fixed_setto_desktop
+m.sohu.com##.visible.promotion-box
+m.sohu.com##.navbar-icon
+m.sohu.com##.index.new.fixed.fixed-setto-desktop
 
 ! ---m.sogou.com---
 wap.sogou.com###indexAppOneBtn
