@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20200721002
-! Title: NoAppDownload V0.1.15
-! Last modified: 2020/07/21 9:40:00 +0800
+! Version: 20200721003
+! Title: NoAppDownload V0.1.16
+! Last modified: 2020/07/21 17:40:00 +0800
 
 ! ---12306---
 www.12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
@@ -117,7 +117,6 @@ detail.mall.meizu.com##.app detail
 
 ! ---mi---
 www.mi.com##.item-image.item
-m.mi.com##.download-app-go
 
 ! ---oneplusbbs---
 oneplusbbs.com###bbsRegisterGuide
@@ -249,6 +248,10 @@ zuimeia.com##.app-ad
 3g.163.com##.open-modal-mask
 3g.163.com##div[class*="toast-"]
 3g.163.com##div[class*="relativedoc"]
+3g.163.com##.big_boom
+3g.163.com##.js-replylink.reply_count
+3g.163.com##.comment_bot
+3g.163.com##.bottom.widget-slider-article.widget-slider
 
 ! ---baidu---
 m.baidu.com###header > div:last-child
@@ -263,6 +266,11 @@ m.baidu.com###page-copyright
 ! ---bilibili---
 www.bilibili.com###header-mobile-app
 www.bilibili.com##.mobile.nav-item
+m.bilibili.com##.openapp
+m.bilibili.com##.m-home-float-openapp
+m.bilibili.com##.m-video2-openapp
+m.bilibili.com##.m-video2-float-openapp
+m.bilibili.com###relateRecomMore
 
 ! ---coolapk---
 coolapk.com##.mobile-header-content
@@ -343,6 +351,9 @@ m.you.163.com##.m-defaultBanner
 m.you.163.com##.m-downloadBanner > .g-row
 m.you.163.com##.m-downloadBanner
 m.you.163.com##.w-button
+
+! ---m.mi.com---
+m.mi.com##.download-app-go
 
 ! ---music.163.com---
 music.163.com##.topfr
