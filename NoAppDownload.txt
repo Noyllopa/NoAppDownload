@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20200720001
-! Title: NoAppDownload V0.1.13
-! Last modified: 2020/07/20 17:00:00 +0800
+! Version: 20200721001
+! Title: NoAppDownload V0.1.14
+! Last modified: 2020/07/21 9:10:00 +0800
 
 ! ---12306---
 www.12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
@@ -239,6 +239,12 @@ zuimeia.com##.app-ad
 
 ! ----------MOBILE----------
 
+! ---3g.163.com---
+3g.163.com##.js-wakeupclient.wakeup_client
+3g.163.com##.hotSearch-box
+3g.163.com##.open-modal-mask
+3g.163.com##div[class*="toast-"]
+
 ! ---baidu---
 m.baidu.com###header > div:last-child
 m.baidu.com##.ec_wise_ad
@@ -265,10 +271,16 @@ m.douyu.com##.btn-open-app.open-btn-more
 m.douyu.com##.HomeHeader-openAppB
 m.douyu.com##.btn-open-app
 m.douyu.com##.abtest-downloadDialog
+m.douyu.com##.clarity-downDialog
 
 ! ---h5.m.taobao.com---
 h5.m.taobao.com##.smartbanner-wrapper
 h5.m.taobao.com##.open-app
+
+! ---huya---
+m.huya.com##.u-btn-down.header-app-btn
+m.huya.com###js-info-openApp
+m.huya.com##.u-btn-down.start-btn
 
 ! ---iyingdi---
 www.iyingdi.com##.downLoadApp
@@ -330,6 +342,20 @@ music.163.com##.u-ft
 music.163.com##.cmt_more_applink
 music.163.com##.m-moreLists
 
+! ---woozooo---
+up.woozooo.com##.ves
+
+! ---wk.baidu.com---
+wk.baidu.com##.pop-manager-view-containter
+wk.baidu.com###na-dialog-root
+wk.baidu.com##.guidetowkappwg-root
+wk.baidu.com##li.rec-li:nth-of-type(1)
+wk.baidu.com##li.rec-li:nth-of-type(2)
+
+!---xw.qq.com---
+! xw.qq.com##div.ReactModalPortal:nth-of-type(6) //腾讯新闻开启本条规则会导致无法查看全文，故注释掉了
+xw.qq.com##div[data-boss-expo*="dcyhb&modular=hd"]
+
 !---y.qq.com---
 y.qq.com###js_mod_dialog
 y.qq.com##.top_box
@@ -345,6 +371,12 @@ y.qq.com##.related_album
 y.qq.com##.related_info
 y.qq.com##.recommend_mv
 y.qq.com##.mod_lead_flow
+
+! ---zhidao.baidu.com---
+zhidao.baidu.com##.daily-header-download
+zhidao.baidu.com##.singin-bubble
+zhidao.baidu.com##.icon-bdad
+zhidao.baidu.com###feed-recommend
 
 
 
