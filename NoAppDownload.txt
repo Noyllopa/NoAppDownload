@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20200721003
-! Title: NoAppDownload V0.1.16
-! Last modified: 2020/07/21 17:40:00 +0800
+! Version: 20200722001
+! Title: NoAppDownload V0.1.17
+! Last modified: 2020/07/22 15:00:00 +0800
 
 ! ---12306---
 www.12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
@@ -375,6 +375,11 @@ wk.baidu.com##li.rec-li:nth-of-type(2)
 !---xw.qq.com---
 ! xw.qq.com##div.ReactModalPortal:nth-of-type(6) //腾讯新闻开启本条规则会导致无法查看全文，故注释掉了
 xw.qq.com##div[data-boss-expo*="dcyhb&modular=hd"]
+xw.qq.com##div[class*="elevator"]
+||mat1.gtimg.com/rain/bailing20/*.jpg$image
+||mat1.gtimg.com/rain/bailing20/*.*.png$image
+xw.qq.com##div[class*="content-more"]
+xw.qq.com###recommend-modules
 
 !---y.qq.com---
 y.qq.com###js_mod_dialog
