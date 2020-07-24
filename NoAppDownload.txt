@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20200722001
-! Title: NoAppDownload V0.1.17
-! Last modified: 2020/07/22 15:00:00 +0800
+! Version: 20200724001
+! Title: NoAppDownload V0.1.18
+! Last modified: 2020/07/24 15:00:00 +0800
 
 ! ---12306---
 www.12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
@@ -252,6 +252,7 @@ zuimeia.com##.app-ad
 3g.163.com##.js-replylink.reply_count
 3g.163.com##.comment_bot
 3g.163.com##.bottom.widget-slider-article.widget-slider
+3g.163.com##iframe[id*=open_newsapp_iframe]
 
 ! ---baidu---
 m.baidu.com###header > div:last-child
@@ -316,6 +317,13 @@ m.jiemian.com##.download
 m.jiemian.com##.open-app
 m.jiemian.com##.app-open
 
+
+! ---m.smzdm.com---
+m.smzdm.com##.footer-banner
+m.smzdm.com##.new-zone
+m.smzdm.com##.J_copy.btn-open-app
+m.smzdm.com##.see-all
+
 ! ---m.sohu.com---
 m.sohu.com##.topbox.comment-reply__bar.comment-reply__box
 m.sohu.com##.art-rec-news
@@ -372,7 +380,7 @@ wk.baidu.com##.guidetowkappwg-root
 wk.baidu.com##li.rec-li:nth-of-type(1)
 wk.baidu.com##li.rec-li:nth-of-type(2)
 
-!---xw.qq.com---
+! ---xw.qq.com---
 ! xw.qq.com##div.ReactModalPortal:nth-of-type(6) //腾讯新闻开启本条规则会导致无法查看全文，故注释掉了
 xw.qq.com##div[data-boss-expo*="dcyhb&modular=hd"]
 xw.qq.com##div[class*="elevator"]
@@ -380,8 +388,10 @@ xw.qq.com##div[class*="elevator"]
 ||mat1.gtimg.com/rain/bailing20/*.*.png$image
 xw.qq.com##div[class*="content-more"]
 xw.qq.com###recommend-modules
+xw.qq.com##div[class*="follow_top"]
+xw.qq.com###taskTips
 
-!---y.qq.com---
+! ---y.qq.com---
 y.qq.com###js_mod_dialog
 y.qq.com##.top_box
 y.qq.com##.bottom_bar
