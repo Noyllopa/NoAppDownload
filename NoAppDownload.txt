@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20200724001
-! Title: NoAppDownload V0.1.18
-! Last modified: 2020/07/24 15:00:00 +0800
+! Version: 20200808001
+! Title: NoAppDownload V0.1.19
+! Last modified: 2020/08/08 14:20:00 +0800
 
 ! ---12306---
 www.12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
@@ -14,6 +14,8 @@ www.acfun.cn##.app-guide
 
 ! ---Baidu---
 wenku.baidu.com##.clearfix.sb-con > .qrHover
+wenku.baidu.com##.reader-download-app
+baidu.com###s-hotsearch-wrapper
 
 ! ---Bing---
 bing.com###TopApp
@@ -140,6 +142,9 @@ sina.com.cn##.tn-nav > div.tn-title:nth-of-type(4) > .tn-tab > i
 sina.com.cn##.part-a-l > .mod-02
 sina.cn##.j_sax sina_tj_banner
 
+! ---sm.cn---
+sm.cn###index_hot_news
+sm.cn###index_banner
 
 ! ---smzdm---
 smzdm.com###global-search > DIV.search-inner.z-clearfix > DIV.download:last-child
@@ -263,6 +268,7 @@ m.baidu.com##.suggest-hot
 m.baidu.com##.callicon-wrap
 m.baidu.com###navs
 m.baidu.com###page-copyright
+m.baidu.com##.square-banner-bgicon.index-banner
 
 ! ---bilibili---
 www.bilibili.com###header-mobile-app
@@ -347,6 +353,15 @@ wap.sougou.com###sug_wraper
 m.suning.com##.common-right-d
 m.suning.com##.to-login
 
+! ---m.tieba.com---
+m.tieba.com##.top-guide-wrap.top-guide
+m.tieba.com##.open-style
+m.tieba.com###diversBanner
+m.tieba.com##.father-cut-daoliu-normal-box
+m.tieba.com##.father-cut-recommend-normal-box
+tiebac.baidu.com##.top-guide-wrap.top-guide
+tiebac.baidu.com##div[class*="appPromote"]
+
 ! ---m.weathercn.com---
 m.weathercn.com##.red-package
 
@@ -406,6 +421,10 @@ y.qq.com##.related_album
 y.qq.com##.related_info
 y.qq.com##.recommend_mv
 y.qq.com##.mod_lead_flow
+
+! ---m.zhanqi.tv---
+m.zhanqi.tv##.topbarOpenApp.btn-1
+m.zhanqi.tv##.h5-foot-area
 
 ! ---zhidao.baidu.com---
 zhidao.baidu.com##.daily-header-download
