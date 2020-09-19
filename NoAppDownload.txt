@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20200814001
-! Title: NoAppDownload V0.1.20
-! Last modified: 2020/08/14 18:00:00 +0800
+! Version: 20200919001
+! Title: NoAppDownload V0.1.21
+! Last modified: 2020/09/19 09:30:00 +0800
 
 ! ---12306---
 www.12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
@@ -70,8 +70,11 @@ www.gome.com.cn###gome-phone
 www.gome.com.cn###gome-aside-app-code
 www.gome.com.cn###gome-aside-app
 
+! ---gwdang---
+www.gwdang.com###tool-menu > li.fl.item:nth-of-type(2)
+www.gwdang.com##.qr-area
+
 ! ---hujiang---
-||u8.hujiang.com/v2/page?jsonStr=%7B%22g0%22%3A%5B%7B%22b3%22%3A%226c863f57-a991-bba3-6c3a-94805b2c03de%22%2C%22d0%22%3A1283%2C%22d1%22%3A29213%2C%22d2%22%3A113463%2C%22dq%22%3A%22eSQ9IA%252F%252Fq8XA23SIzN4m7w%253D%253D%22%2C%22dz%22%3A1%2C%22e1%22%3Afalse%2C%22e2%22%3A7%7D%5D%2C%22b2%22%3A188%2C%22visitId%22%3A%7B%22b4%22%3A%220f1bce31-c832-a3e6-4988-94b915ee2fc3%22%7D%7D$subdocument
 fr.hujiang.com###regModule
 fr.hujiang.com###uzt-mask
 hujiang.com##.login-modal-mask
@@ -108,6 +111,8 @@ home.jd.com###ttbar-apps > .cw-icon.dt
 
 ! ---jianshu---
 jianshu.com###web-nav-app-download-btn
+jianshu.com##a[href*="/apps?utm_medium=desktop&utm_source=navbar-apps"]
+jianshu.com###index-aside-download-qrbox
 
 ! ---juejin---
 juejin.im##.extension
@@ -229,6 +234,9 @@ you.163.com##[href^="/downloadapp"]
 you.163.com##.m-appDownloadGuide
 you.163.com###j-yx-fixedtoolDownloadlink
 
+! ---note.youdao.com---
+note.youdao.com##.top-btns
+
 ! ---yystv---
 www.yystv.cn##li:nth-of-type(7) > [href="/app/download"]
 
@@ -250,8 +258,6 @@ zhihu.com##.OpenInAppButton
 zhihu.com##.Profile-followButton
 zhihu.com##.TopstoryItem--advertCard
 zhihu.com##.ViewAllInappButton
-
-
 
 ! ---zuimeia---
 zuimeia.com##.app-ad
@@ -290,6 +296,7 @@ m.bilibili.com##.m-home-float-openapp
 m.bilibili.com##.m-video2-openapp
 m.bilibili.com##.m-video2-float-openapp
 m.bilibili.com###relateRecomMore
+m.bilibili.com##.m-space-float-openapp
 
 ! ---coolapk---
 coolapk.com##.mobile-header-content
@@ -334,7 +341,20 @@ m.jiemian.com##.download
 m.jiemian.com##.open-app
 m.jiemian.com##.app-open
 
-! 2020-08-14 https://m.lianjia.com
+! ---m.ke.com---
+m.ke.com##.home-page.main-page > div.lj-track:nth-of-type(1)
+m.ke.com##.conch-ui-ke.conch-ui-app-download
+m.ke.com##.kem__download-app-ad
+m.ke.com##.ershoufang-detail-page__agent-card-bottom.lj-track
+m.ke.com##.lj-track > div.lj-track:nth-of-type(3)
+m.ke.com##.more-box
+m.ke.com##.community-box.community-house > div > .lj-track
+m.ke.com##.ershoufang-detail-page__house-intro > .lj-track
+m.ke.com##div.lj-track:nth-of-type(9)
+m.ke.com##div.lj-track:nth-of-type(12)
+m.ke.com##div.lj-track:nth-of-type(14)
+
+! ---lianjia.com---
 m.lianjia.com##div.mod_download:nth-of-type(1) 
 m.lianjia.com##.fadeDown.download_topfixed.mod_download
 m.lianjia.com##.download_fixed
@@ -342,6 +362,10 @@ m.lianjia.com##.agent_download_head.arrow.agent_download.lazyload_ulog.flexbox.p
 m.lianjia.com##.contact_agent.fixed_bar
 m.lianjia.com##.mod_app.mod_sub_tit.mod_tit
 m.lianjia.com##.download_full_box
+
+! ---m.qidian.com---
+m.qidian.com###footerApp
+m.qidian.com##div.book-detail-btn:nth-of-type(3)
 
 ! ---m.smzdm.com---
 m.smzdm.com##.footer-banner
