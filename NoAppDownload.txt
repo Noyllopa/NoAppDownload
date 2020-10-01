@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20200919001
-! Title: NoAppDownload V0.1.21
-! Last modified: 2020/09/19 09:30:00 +0800
+! Version: 20201001001
+! Title: NoAppDownload V0.1.22
+! Last modified: 2020/10/01 15:00:00 +0800
 
 ! ---12306---
 www.12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
@@ -64,6 +64,32 @@ www.douyu.com##.is-active.UPlayerLotteryEnter
 www.douyu.com##.FudaiGiftToolBarTips
 www.douyu.com##.PrivilegeGiftModalDialog
 www.douyu.com###FansFestival2003Tips
+www.douyu.com##div[class*=LiveRoomDianzan]
+www.douyu.com##.TaskIcon
+www.douyu.com##.FishpondTreasure
+www.douyu.com##.ToolbarActivityArea > div:nth-of-type(1) > div:nth-of-type(1) > div.ActivityItem:nth-of-type(3)
+www.douyu.com##div.Title-row:nth-of-type(3)
+www.douyu.com##div.is-normal.Title-col:nth-of-type(2)
+www.douyu.com###douyu_room_normal_player_danmuDom > .ani-base-hover.DanmuEffectBC.ani-broadcast
+www.douyu.com###douyu_room_normal_player_proxy_box > .PlayerSuspendedBallAd
+www.douyu.com##.PcDiversion
+www.douyu.com##.HeaderGif-right
+www.douyu.com###js-room-activity
+www.douyu.com###js-player-dialog
+www.douyu.com##.Bottom
+www.douyu.com###js-player-guessgame
+www.douyu.com##.HeaderGif-left
+www.douyu.com##.ConfigBroadcast.ani-broadcast
+www.douyu.com##.ChatEffect
+
+! ---egame.qq.com---
+egame.qq.com###inner-container
+egame.qq.com##li.interactive-redenvelope:nth-of-type(2)
+egame.qq.com##.widget-box
+egame.qq.com##.nav-download
+egame.qq.com##.live-list-guess
+egame.qq.com##div.live-review:nth-of-type(6)
+egame.qq.com##.left-menu-footer
 
 ! ---gome---
 www.gome.com.cn###gome-phone
@@ -81,6 +107,9 @@ hujiang.com##.login-modal-mask
 hujiang.com##.login-modal-wrapper
 hujiang.com##.qrcode > [href="javascript:;"]
 hujiang.com##.qrcode
+
+! ---huya---
+www.huya.com###J_duyaHeaderRight > .clearfix.duya-header-control > .hy-nav-download.hy-nav-right
 
 ! ---huxiu---
 www.huxiu.com##li:nth-of-type(1) > .header-top-list__link > .flip-wrap > .flip-up
@@ -128,6 +157,7 @@ www.mi.com##.item-image.item
 
 ! ---oneplusbbs---
 oneplusbbs.com###bbsRegisterGuide
+oneplusbbs.com##li[style*="position: relative; border: 0px;"]
 
 ! ---pingwest---
 www.pingwest.com##.down-app
@@ -237,6 +267,20 @@ you.163.com###j-yx-fixedtoolDownloadlink
 ! ---note.youdao.com---
 note.youdao.com##.top-btns
 
+! ---wenku.baidu.com---
+wenku.baidu.com##.vip-member-pop-content
+wenku.baidu.com##.extension
+wenku.baidu.com##.qricon
+wenku.baidu.com##.browser-label-guide
+wenku.baidu.com##.pay-vip-btn-wrap
+wenku.baidu.com##.inner-vip.vip-pop-wrap
+wenku.baidu.com##.fold-page-tip
+wenku.baidu.com##.docBtns.-VIP_RIGHT.core-btn-wrapper
+wenku.baidu.com##.try-end-fold-page
+wenku.baidu.com##.fix-block.relative-course-wrapper
+wenku.baidu.com##.vip-card-wrap
+wenku.baidu.com##.searchBox.-VIP_RIGHT.core-btn-wrapper
+
 ! ---yystv---
 www.yystv.cn##li:nth-of-type(7) > [href="/app/download"]
 
@@ -258,6 +302,12 @@ zhihu.com##.OpenInAppButton
 zhihu.com##.Profile-followButton
 zhihu.com##.TopstoryItem--advertCard
 zhihu.com##.ViewAllInappButton
+
+! ---zx.sina.cn---
+zx.sina.cn##.z_c2.j_article_relevent_news.s_card
+zx.sina.cn##.hotRank_icon.fl_suspension_template
+zx.sina.cn##.j_wbrecommend_wrap.j_article_relevent.s_card
+zx.sina.cn##.j_relevent_video.s_card
 
 ! ---zuimeia---
 zuimeia.com##.app-ad
@@ -311,6 +361,13 @@ m.douyu.com##.HomeHeader-openAppB
 m.douyu.com##.btn-open-app
 m.douyu.com##.abtest-downloadDialog
 m.douyu.com##.clarity-downDialog
+
+! ---egame.qq.com---
+m.egame.qq.com###installbar
+m.egame.qq.com###gcOfficialWidgetWrapper
+m.egame.qq.com##.widget-wrapper
+m.egame.qq.com###installGameBar
+m.egame.qq.com##.ui-border-b.ui-tab-nav > li:nth-of-type(4)
 
 ! ---h5.m.taobao.com---
 taobao.com##.open-app
