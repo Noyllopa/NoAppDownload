@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20201001001
-! Title: NoAppDownload V0.1.22
-! Last modified: 2020/10/01 15:00:00 +0800
+! Version: 20201111001
+! Title: NoAppDownload V0.1.23
+! Last modified: 2020/11/11 11:00:00 +0800
 
 ! ---12306---
 www.12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
@@ -90,6 +90,7 @@ egame.qq.com##.nav-download
 egame.qq.com##.live-list-guess
 egame.qq.com##div.live-review:nth-of-type(6)
 egame.qq.com##.left-menu-footer
+egame.qq.com##.live-panel-player-bottom
 
 ! ---gome---
 www.gome.com.cn###gome-phone
@@ -110,6 +111,7 @@ hujiang.com##.qrcode
 
 ! ---huya---
 www.huya.com###J_duyaHeaderRight > .clearfix.duya-header-control > .hy-nav-download.hy-nav-right
+www.huya.com##.wrap-income.chat-wrap-panel
 
 ! ---huxiu---
 www.huxiu.com##li:nth-of-type(1) > .header-top-list__link > .flip-wrap > .flip-up
@@ -142,6 +144,10 @@ home.jd.com###ttbar-apps > .cw-icon.dt
 jianshu.com###web-nav-app-download-btn
 jianshu.com##a[href*="/apps?utm_medium=desktop&utm_source=navbar-apps"]
 jianshu.com###index-aside-download-qrbox
+
+! ---jikipedia.com---
+jikipedia.com##.cursor.download-img
+jikipedia.com##[href="/app"]
 
 ! ---juejin---
 juejin.im##.extension
@@ -216,7 +222,6 @@ suning.com##.touch-href.mb-suning.ng-bar-node
 suning.com###sn-sidebar-change-code > IMG.tab-tip-code-warp-img
 suning.com###sn-sidebar-change-code
 suning.com##.tab-icon-code.tab-icon
-
 
 ! ---taobao---
 www.taobao.com##.clearfix.qr-bd
@@ -398,6 +403,11 @@ m.jiemian.com##.download
 m.jiemian.com##.open-app
 m.jiemian.com##.app-open
 
+! ---jikipedia.com---
+jikipedia.com##.download-link
+jikipedia.com##.components-container
+jikipedia.com##.cursor.link.app-link
+
 ! ---m.ke.com---
 m.ke.com##.home-page.main-page > div.lj-track:nth-of-type(1)
 m.ke.com##.conch-ui-ke.conch-ui-app-download
@@ -494,6 +504,16 @@ wk.baidu.com###na-dialog-root
 wk.baidu.com##.guidetowkappwg-root
 wk.baidu.com##li.rec-li:nth-of-type(1)
 wk.baidu.com##li.rec-li:nth-of-type(2)
+wk.baidu.com##.guide-to-univer-app-root
+wk.baidu.com##.sf-edu-gonglve-id-rec-adv-second.rec-adv-second
+wk.baidu.com##.color-e9e9e9.border-1px-tb.related-doc-list-wrap
+wk.baidu.com##.bottom-bar-guid-to-univer.bottom-bar-global
+wk.baidu.com##.lure.btn-download
+wk.baidu.com##.btn-vip
+wk.baidu.com##.reader-pop-manager-view-containter
+wk.baidu.com##.vip-guide-contanier.guidetowkvipwg-root
+wk.baidu.com##.video-rec-inner
+wk.baidu.com##.rec-text-root
 
 ! ---xw.qq.com---
 ! xw.qq.com##div.ReactModalPortal:nth-of-type(6) //腾讯新闻开启本条规则会导致无法查看全文，故注释掉了
@@ -529,6 +549,9 @@ www.yystv.cn##.fixed-container
 ! ---m.zhanqi.tv---
 m.zhanqi.tv##.topbarOpenApp.btn-1
 m.zhanqi.tv##.h5-foot-area
+
+!---zhihu---
+www.zhihu.com##.MobileAppHeader-downloadLink
 
 ! ---zhidao.baidu.com---
 zhidao.baidu.com##.daily-header-download
