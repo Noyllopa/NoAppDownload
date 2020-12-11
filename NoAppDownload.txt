@@ -21,8 +21,7 @@ baidu.com###s-hotsearch-wrapper
 bing.com###TopApp
 
 ! ---Bilibili---
-manga.bilibili.com##a.v-middle.h-100.dp-i-block:nth-of-type(5)
-live.bilibili.com##div.pointer.f-left.p-relative.h-100.shortcut-item:nth-of-type(3)
+bilibili.com##a[href="//app.bilibili.com"]
 bilibili.com###fixed_app_download
 bilibili.com###app > DIV.bili-header-m.report-wrap-module:first-child > DIV.nav-menu:first-child > DIV.nav-wrapper.clearfix.bili-wrapper:last-child > DIV.nav-con.fl:first-child > UL > LI.nav-item.mobile:last-child
 bilibili.com##.index__openAppBtn__src-commonComponent-topArea-
@@ -36,9 +35,6 @@ bilibili.com##.btn-ctnr
 bilibili.com##.bili-app
 bilibili.com###openAppBtn
 bilibili.com##.mobile.nav-item
-bilibili.com##li.nav-link-item:nth-of-type(9) > span > .van-popover__reference.link
-www.biligame.com##li.nav-link-item:nth-of-type(9) > span > .van-popover__reference.link
-bilibili.com##li.nav-link-item:nth-of-type(8)
 
 ! ---dangdang---
 www.cnbeta.com##DIV[style="display:block !important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"]
@@ -198,9 +194,10 @@ smzdm.com###elevator > LI:first-child
 smzdm.com##.logo-download
 smzdm.com##.top-applink
 smzdm.com##.J_ota
-www.smzdm.com##.footer-floating-layer
+smzdm.com##.footer-floating-layer
 www.smzdm.com###index-elevator > li:nth-of-type(1)
-www.smzdm.com###index-elevator > li:nth-of-type(2)
+smzdm.com###index-elevator > li:nth-of-type(2)
+smzdm.com##.footer-new-guide
 
 ! ---sohu---
 sohu.com##.download-app
