@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20201111001
-! Title: NoAppDownload V0.1.23
-! Last modified: 2020/11/11 11:00:00 +0800
+! Version: 20210111001
+! Title: NoAppDownload V0.1.24
+! Last modified: 2021/01/11 14:00:00 +0800
 
 ! ---12306---
 www.12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
@@ -35,6 +35,8 @@ bilibili.com##.btn-ctnr
 bilibili.com##.bili-app
 bilibili.com###openAppBtn
 bilibili.com##.mobile.nav-item
+bilibili.com##.clearfix.h5-download-bar
+bilibili.com##.app-download-link
 
 ! ---dangdang---
 www.cnbeta.com##DIV[style="display:block !important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"]
@@ -46,6 +48,9 @@ www.dangdang.com##.code2s
 search.dangdang.com##.little
 search.dangdang.com###fix_erweima
 search.dangdang.com##.foot_tip_ad
+
+! ---discord---
+discord.com##div[class*=notice]
 
 ! ---douban---
 douban.com##.lnk-doubanapp
@@ -77,6 +82,9 @@ www.douyu.com###js-player-guessgame
 www.douyu.com##.HeaderGif-left
 www.douyu.com##.ConfigBroadcast.ani-broadcast
 www.douyu.com##.ChatEffect
+www.douyu.com##.is-mask.MedalUserGuide
+www.douyu.com##.Header-download-wrap
+www.douyu.com##.ToolbarActivityArea
 
 ! ---egame.qq.com---
 egame.qq.com###inner-container
@@ -144,6 +152,9 @@ jianshu.com###index-aside-download-qrbox
 ! ---jikipedia.com---
 jikipedia.com##.cursor.download-img
 jikipedia.com##[href="/app"]
+jikipedia.com##.download-link
+jikipedia.com##.components-container
+jikipedia.com##.cursor.link.app-link
 
 ! ---juejin---
 juejin.im##.extension
@@ -179,6 +190,12 @@ www.zmz2019.com##.chat-enterbox
 sina.com.cn##.tn-nav > div.tn-title:nth-of-type(4) > .tn-tab > i
 sina.com.cn##.part-a-l > .mod-02
 sina.cn##.j_sax sina_tj_banner
+finance.sina.com.cn##.clearfix.blk-zcapp
+finance.sina.com.cn###tab_related_btn
+finance.sina.com.cn##.clearfix.blk-wxfollow
+finance.sina.com.cn##.first.tool-audio.tool-icon
+finance.sina.com.cn##.fc_s_list
+finance.sina.com.cn##.sina-client-tl
 
 ! ---sm.cn---
 sm.cn###index_hot_news
@@ -250,6 +267,7 @@ tmall.com###J_smartloader
 ! ---userstyles.org---
 userstyles.org###top_android_button
 userstyles.org##.android_button_button
+userstyles.org##.android_button_banner
 
 ! ---v.qq.com---
 v.qq.com##.svg_icon_client.svg_quick_icon > path:nth-of-type(1)
@@ -282,6 +300,10 @@ wenku.baidu.com##.try-end-fold-page
 wenku.baidu.com##.fix-block.relative-course-wrapper
 wenku.baidu.com##.vip-card-wrap
 wenku.baidu.com##.searchBox.-VIP_RIGHT.core-btn-wrapper
+wenku.baidu.com##.vip-activity-wrap
+wenku.baidu.com##.client-download-wrap
+wenku.baidu.com##a:nth-of-type(4)
+wenku.baidu.com##.client-rec-wrapper
 
 ! ---yystv---
 www.yystv.cn##li:nth-of-type(7) > [href="/app/download"]
@@ -313,8 +335,13 @@ zx.sina.cn##.j_relevent_video.s_card
 
 ! ---zuimeia---
 zuimeia.com##.app-ad
+zuimeia.com###rightside_download_zuimei
 
 ! ----------MOBILE----------
+
+! ---36kr.com---
+36kr.com##.slide-in.suction-bottom > .kr-mobile-goapp
+36kr.com##.goapp-wrapper > .kr-mobile-goapp
 
 ! ---3g.163.com---
 3g.163.com##.js-wakeupclient.wakeup_client
@@ -349,6 +376,7 @@ m.bilibili.com##.m-video2-openapp
 m.bilibili.com##.m-video2-float-openapp
 m.bilibili.com###relateRecomMore
 m.bilibili.com##.m-space-float-openapp
+www.bilibili.com##.clearfix.h5-download-bar
 
 ! ---coolapk---
 coolapk.com##.mobile-header-content
