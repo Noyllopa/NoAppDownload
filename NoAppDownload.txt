@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20210111001
-! Title: NoAppDownload V0.1.24
-! Last modified: 2021/01/11 14:00:00 +0800
+! Version: 20210115001
+! Title: NoAppDownload V0.1.25
+! Last modified: 2021/01/15 10:00:00 +0800
 
 ! ---12306---
 www.12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
@@ -342,6 +342,7 @@ zuimeia.com###rightside_download_zuimei
 ! ---36kr.com---
 36kr.com##.slide-in.suction-bottom > .kr-mobile-goapp
 36kr.com##.goapp-wrapper > .kr-mobile-goapp
+36kr.com##.goapp-btn
 
 ! ---3g.163.com---
 3g.163.com##.js-wakeupclient.wakeup_client
@@ -354,6 +355,7 @@ zuimeia.com###rightside_download_zuimei
 3g.163.com##.comment_bot
 3g.163.com##.bottom.widget-slider-article.widget-slider
 3g.163.com##iframe[id*=open_newsapp_iframe]
+3g.163.com##div[class*=hot-news]
 
 ! ---baidu---
 m.baidu.com###header > div:last-child
@@ -366,6 +368,7 @@ m.baidu.com###navs
 m.baidu.com###page-copyright
 m.baidu.com##.square-banner-bgicon.index-banner
 m.baidu.com##.water-container.tab-news-content
+www.baidu.com##div:nth-of-type(6)
 
 ! ---bilibili---
 www.bilibili.com###header-mobile-app
@@ -399,6 +402,12 @@ m.egame.qq.com##.widget-wrapper
 m.egame.qq.com###installGameBar
 m.egame.qq.com##.ui-border-b.ui-tab-nav > li:nth-of-type(4)
 
+! ---m.gome.com.cn---
+m.gome.com.cn##.m-downapp
+
+! ---m.huxiu.com---
+m.huxiu.com###qr_code_pc
+
 ! ---h5.m.taobao.com---
 taobao.com##.open-app
 
@@ -409,12 +418,9 @@ m.huya.com##.u-btn-down.start-btn
 
 ! ---iyingdi---
 www.iyingdi.com##.downLoadApp
-
-! ---m.huxiu.com---
-m.huxiu.com###qr_code_pc
-
-! ---m.gome.com.cn---
-m.gome.com.cn##.m-downapp
+! ---mob.iyingdi.com---
+mob.iyingdi.com##.down-load-app-container
+mob.iyingdi.com##.reply
 
 ! ---m.jd.com---
 m.jd.com###pannelSeat
@@ -433,6 +439,9 @@ jikipedia.com##.download-link
 jikipedia.com##.components-container
 jikipedia.com##.cursor.link.app-link
 
+! ---m.jd.com---
+m.jd.com###imk2FixedSideText
+
 ! ---m.ke.com---
 m.ke.com##.home-page.main-page > div.lj-track:nth-of-type(1)
 m.ke.com##.conch-ui-ke.conch-ui-app-download
@@ -446,6 +455,9 @@ m.ke.com##div.lj-track:nth-of-type(9)
 m.ke.com##div.lj-track:nth-of-type(12)
 m.ke.com##div.lj-track:nth-of-type(14)
 
+! ---meituan.com---
+meituan.com##.banner-download
+
 ! ---lianjia.com---
 m.lianjia.com##div.mod_download:nth-of-type(1) 
 m.lianjia.com##.fadeDown.download_topfixed.mod_download
@@ -458,6 +470,15 @@ m.lianjia.com##.download_full_box
 ! ---m.qidian.com---
 m.qidian.com###footerApp
 m.qidian.com##div.book-detail-btn:nth-of-type(3)
+
+! ---sina.cn---
+sina.cn##.j_relevent_video.s_card
+sina.cn##.z_c2.j_article_relevent_news.s_card
+sina.cn##.j_wbrecommend_wrap.j_article_relevent.s_card
+sina.cn###j_card_miniVideo
+sina.cn##.topLogoBar
+sina.cn##.toFinClientShow.m-client-call
+sinadaxue.cn##.fixed-tips.app-tips
 
 ! ---m.smzdm.com---
 m.smzdm.com##.footer-banner
@@ -483,6 +504,7 @@ wap.sogou.com##.index-carousel
 wap.sogou.com##.index-tab
 wap.sogou.com###indexAppOneClose
 wap.sougou.com###sug_wraper
+m.sogou.com##.recommend-pop.vr-recommend
 
 ! ---m.suning.com---
 m.suning.com##.common-right-d
@@ -520,6 +542,11 @@ music.163.com##.u-ft
 music.163.com##.cmt_more_applink
 music.163.com##.m-moreLists
 
+! ---v.qq.com---
+m.v.qq.com##.mod_app_banner
+m.v.qq.com##.swiper-container-android.swiper-container-horizontal.mod_source_box_fixed.mod_source_box
+m.v.qq.com##.mod_game_rec.mod_box
+
 ! ---woozooo---
 up.woozooo.com##.ves
 
@@ -550,6 +577,9 @@ xw.qq.com##div[class*="content-more"]
 xw.qq.com###recommend-modules
 xw.qq.com##div[class*="follow_top"]
 xw.qq.com###taskTips
+xw.qq.com##section[style="display: block;"]
+xw.qq.com##div[data-boss-expo="&modular=quicknews_m"]
+xw.qq.com##div[class*=pictureBottomBtn]
 
 ! ---y.qq.com---
 y.qq.com###js_mod_dialog
