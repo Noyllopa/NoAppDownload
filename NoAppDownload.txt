@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20210115001
-! Title: NoAppDownload V0.1.25
-! Last modified: 2021/01/15 10:00:00 +0800
+! Version: 20210121001
+! Title: NoAppDownload V0.1.26
+! Last modified: 2021/01/21 21:00:00 +0800
 
 ! ---12306---
 www.12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
@@ -11,6 +11,7 @@ www.12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
 
 ! ---acfun---
 www.acfun.cn##.app-guide
+www.acfun.cn##.download-app
 
 ! ---Baidu---
 wenku.baidu.com##.clearfix.sb-con > .qrHover
@@ -283,6 +284,7 @@ you.163.com###j-yx-cp-m-siteNav > DIV.yx-cp-row > DIV.yx-cp-siteNav-r:last-child
 you.163.com##[href^="/downloadapp"]
 you.163.com##.m-appDownloadGuide
 you.163.com###j-yx-fixedtoolDownloadlink
+you.163.com##.downloadAppBtn.w-button-ghost.w-button-xl.w-button.btn
 
 ! ---note.youdao.com---
 note.youdao.com##.top-btns
@@ -516,8 +518,15 @@ m.tieba.com##.open-style
 m.tieba.com###diversBanner
 m.tieba.com##.father-cut-daoliu-normal-box
 m.tieba.com##.father-cut-recommend-normal-box
-tiebac.baidu.com##.top-guide-wrap.top-guide
-tiebac.baidu.com##div[class*="appPromote"]
+tieba.baidu.com##.top-guide-wrap.top-guide
+tieba.baidu.com##div[class*="appPromote"]
+tieba.baidu.com##div.nav-bar-wrapper:nth-of-type(1)
+tieba.baidu.com##li.tb-share__item:nth-of-type(1)
+tieba.baidu.com##.nav-bar-wrapper.fixed-nav-bar > .nav-bar.w-row-justify-between.w-row-align-center.w-row
+tieba.baidu.com##.img-open-app
+tieba.baidu.com##.post-cut-guide
+tieba.baidu.com##.recommend-list
+tieba.baidu.com##.bottom-guide-box
 
 ! ---m.weathercn.com---
 m.weathercn.com##.red-package
@@ -596,6 +605,12 @@ y.qq.com##.related_album
 y.qq.com##.related_info
 y.qq.com##.recommend_mv
 y.qq.com##.mod_lead_flow
+
+! ---m.yicai.com---
+m.yicai.com##.m-float-appopen
+m.yicai.com##.linkapp
+m.yicai.com###app1
+
 
 ! ---yystv---
 www.yystv.cn##.flex-box.flex.top-nav-download
