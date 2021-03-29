@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20210121001
-! Title: NoAppDownload V0.1.26
-! Last modified: 2021/01/21 21:00:00 +0800
+! Version: 20210329001
+! Title: NoAppDownload V0.1.27
+! Last modified: 2021/03/29 10:30:00 +0800
 
 ! ---12306---
 www.12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
@@ -168,6 +168,8 @@ detail.mall.meizu.com##.app detail
 
 ! ---mi---
 www.mi.com##.item-image.item
+www.mi.com###J_siteDownloadApp
+www.mi.com##span.sep:nth-of-type(10)
 
 ! ---oneplusbbs---
 oneplusbbs.com###bbsRegisterGuide
@@ -246,6 +248,7 @@ taobao.com##.qr-tip
 taobao.com##.show.J_TWeiTaoPopup.weitao-popup
 taobao.com##.J_TWeitaoHover.follow-mobile
 taobao.com##.smartbanner-wrapper
+taobao.com##.rb-op
 
 ! ---tech.sina.com.cn---
 n.sinaimg.cn/tech/zcapp2018/zc_new1x.png$image
@@ -269,6 +272,9 @@ tmall.com###J_smartloader
 userstyles.org###top_android_button
 userstyles.org##.android_button_button
 userstyles.org##.android_button_banner
+
+! ---vivo.com.cn---
+www.vivo.com.cn##.vp-vivo-app
 
 ! ---v.qq.com---
 v.qq.com##.svg_icon_client.svg_quick_icon > path:nth-of-type(1)
@@ -296,7 +302,6 @@ wenku.baidu.com##.qricon
 wenku.baidu.com##.browser-label-guide
 wenku.baidu.com##.pay-vip-btn-wrap
 wenku.baidu.com##.inner-vip.vip-pop-wrap
-wenku.baidu.com##.fold-page-tip
 wenku.baidu.com##.docBtns.-VIP_RIGHT.core-btn-wrapper
 wenku.baidu.com##.try-end-fold-page
 wenku.baidu.com##.fix-block.relative-course-wrapper
@@ -481,6 +486,11 @@ sina.cn###j_card_miniVideo
 sina.cn##.topLogoBar
 sina.cn##.toFinClientShow.m-client-call
 sinadaxue.cn##.fixed-tips.app-tips
+sina.cn##.cm_index_popup
+sina.cn##.zhidi.sw_c0
+sina.cn##.fl_suspension_box
+sina.cn##.sw_c2
+sina.cn##.an.cm_art_push
 
 ! ---m.smzdm.com---
 m.smzdm.com##.footer-banner
@@ -527,6 +537,7 @@ tieba.baidu.com##.img-open-app
 tieba.baidu.com##.post-cut-guide
 tieba.baidu.com##.recommend-list
 tieba.baidu.com##.bottom-guide-box
+tieba.baidu.com##.open-app-guide
 
 ! ---m.weathercn.com---
 m.weathercn.com##.red-package
