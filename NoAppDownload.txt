@@ -1,7 +1,10 @@
 [Adblock Plus 2.1]
 ! Version: 20210329001
-! Title: NoAppDownload V0.1.27
-! Last modified: 2021/03/29 10:30:00 +0800
+! Title: NoAppDownload V0.1.28
+! Last modified: 2021/04/18 16:30:00 +0800
+! Homepage: https://github.com/Noyllopa/NoAppDownload
+
+!-----------------------Desktop-----------------------
 
 ! ---12306---
 www.12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
@@ -133,6 +136,16 @@ ifanr.com##.popup-download-wrapper
 ifanr.com##.popup,.popup-top
 ifanr.com##.popup-download
 ifanr.com##.bottom-clap-scroll-down.js-bottom-clap.bottom-clap-wrapper
+
+! ---ifeng---
+ifeng.com##div[class^="fixSlideBox"]
+ifeng.com##div[class^="bottomSlide"]
+ifeng.com##div[class^="bottom_box"]
+ifeng.com##div[class^="hot_box"]
+ifeng.com##div[class^="silde_box"]
+ifeng.com##div[class^="shareFix"]
+ifeng.com##div[class^="ad_box"]
+ifeng.com##div[class^="share_box"]
 
 ! ---jd---
 jd.com###J_mobile > DIV.dt.mobile_txt:first-child
@@ -344,7 +357,7 @@ zx.sina.cn##.j_relevent_video.s_card
 zuimeia.com##.app-ad
 zuimeia.com###rightside_download_zuimei
 
-! ----------MOBILE----------
+!-----------------------Mobile-----------------------
 
 ! ---36kr.com---
 36kr.com##.slide-in.suction-bottom > .kr-mobile-goapp
