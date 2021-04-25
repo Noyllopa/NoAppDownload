@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20210329001
-! Title: NoAppDownload V0.1.28
-! Last modified: 2021/04/18 16:30:00 +0800
+! Version: 20210425001
+! Title: NoAppDownload V0.1.29
+! Last modified: 2021/04/25 9:30:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -42,16 +42,18 @@ bilibili.com##.mobile.nav-item
 bilibili.com##.clearfix.h5-download-bar
 bilibili.com##.app-download-link
 
-! ---dangdang---
+! ---cnbeta---
 www.cnbeta.com##DIV[style="display:block !important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"]
 
 ! ---dangdang---
-www.dangdang.com##.bottom_fixed
-www.dangdang.com##.panel
-www.dangdang.com##.code2s
-search.dangdang.com##.little
-search.dangdang.com###fix_erweima
-search.dangdang.com##.foot_tip_ad
+dangdang.com##.bottom_fixed
+dangdang.com##.panel
+dangdang.com##.code2s
+dangdang.com##.dangQRCode
+dangdang.com##.little
+dangdang.com###fix_erweima
+dangdang.com##.foot_tip_ad
+dangdang.com##.side_bar_code
 
 ! ---discord---
 discord.com##div[class*=notice]
@@ -162,6 +164,7 @@ home.jd.com###ttbar-apps > .cw-icon.dt
 jianshu.com###web-nav-app-download-btn
 jianshu.com##a[href*="/apps?utm_medium=desktop&utm_source=navbar-apps"]
 jianshu.com###index-aside-download-qrbox
+jianshu.com##div[class$="_0"]
 
 ! ---jikipedia.com---
 jikipedia.com##.cursor.download-img
@@ -268,6 +271,9 @@ n.sinaimg.cn/tech/zcapp2018/zc_new1x.png$image
 tech.sina.com.cn##.zc-app
 tech.sina.com.cn##.zc-app-btn.right-bar-btn
 n.sinaimg.cn/finance/blackcat/pc/blink.gif$image
+
+! ---thepaper---
+www.thepaper.cn##.download
 
 ! ---tmall---
 tmall.com##.sn-mobile
@@ -388,7 +394,7 @@ m.baidu.com###navs
 m.baidu.com###page-copyright
 m.baidu.com##.square-banner-bgicon.index-banner
 m.baidu.com##.water-container.tab-news-content
-www.baidu.com##div:nth-of-type(6)
+m.baidu.com##DIV#se-recommend-word-list-container.se-recommend-word-list-container
 
 ! ---bilibili---
 www.bilibili.com###header-mobile-app
@@ -400,9 +406,17 @@ m.bilibili.com##.m-video2-float-openapp
 m.bilibili.com###relateRecomMore
 m.bilibili.com##.m-space-float-openapp
 www.bilibili.com##.clearfix.h5-download-bar
+m.bilibili.com##div[class*="openapp"]
+m.bilibili.com##.m-video-related
 
 ! ---coolapk---
 coolapk.com##.mobile-header-content
+
+! ---dangdang---
+m.dangdang.com##.app_download
+m.dangdang.com##.redrain-index-i
+m.dangdang.com###zdmad
+m.dangdang.com##.container > a
 
 ! ---douban---
 m.douban.com##.splash-btn
@@ -435,6 +449,15 @@ taobao.com##.open-app
 m.huya.com##.u-btn-down.header-app-btn
 m.huya.com###js-info-openApp
 m.huya.com##.u-btn-down.start-btn
+
+! --iqiyi---
+m.iqiyi.com##.m-iqyGuide-layer
+m.iqiyi.com##.header_app.iqiyi-h5-empty
+m.iqiyi.com##.ChannelHomeBanner_hbd_eiF93
+m.iqiyi.com##.m-user > div > div
+m.iqiyi.com##.m-iqylink-guide
+m.iqiyi.com##.hotWords-wrap
+m.iqiyi.com##.m-iqylink-diversion
 
 ! ---iyingdi---
 www.iyingdi.com##.downLoadApp
@@ -534,13 +557,14 @@ m.sogou.com##.recommend-pop.vr-recommend
 ! ---m.suning.com---
 m.suning.com##.common-right-d
 m.suning.com##.to-login
+m.suning.com##.hide.f-l-o-a-t-s-a-l-e
 
 ! ---m.tieba.com---
-m.tieba.com##.top-guide-wrap.top-guide
-m.tieba.com##.open-style
-m.tieba.com###diversBanner
-m.tieba.com##.father-cut-daoliu-normal-box
-m.tieba.com##.father-cut-recommend-normal-box
+tieba.baidu.com##.top-guide-wrap.top-guide
+tieba.baidu.com##.open-style
+tieba.baidu.com###diversBanner
+tieba.baidu.com##.father-cut-daoliu-normal-box
+tieba.baidu.com##.father-cut-recommend-normal-box
 tieba.baidu.com##.top-guide-wrap.top-guide
 tieba.baidu.com##div[class*="appPromote"]
 tieba.baidu.com##div.nav-bar-wrapper:nth-of-type(1)
@@ -551,6 +575,15 @@ tieba.baidu.com##.post-cut-guide
 tieba.baidu.com##.recommend-list
 tieba.baidu.com##.bottom-guide-box
 tieba.baidu.com##.open-app-guide
+tieba.baidu.com##.banner-wrapper
+
+! ---thepaper---
+m.thepaper.cn##.header_moblink
+m.thepaper.cn##.listen_btn
+m.thepaper.cn###bottomBanner
+m.thepaper.cn###moblink_moreread
+m.thepaper.cn##.moblink_btn-650-white
+m.thepaper.cn##.btn_app
 
 ! ---m.weathercn.com---
 m.weathercn.com##.red-package
@@ -600,9 +633,16 @@ wk.baidu.com##.vip-guide-contanier.guidetowkvipwg-root
 wk.baidu.com##.video-rec-inner
 wk.baidu.com##.rec-text-root
 
+! ---xiaomiyoupin---
+m.xiaomiyoupin.com##.download-bar-container
+m.xiaomiyoupin.com##[src="//m.xiaomiyoupin.com/shopcenter/erised/index.html"]
+m.xiaomiyoupin.com##.lib10-opapp-wrap
+m.xiaomiyoupin.com###download-bar
+
 ! ---xw.qq.com---
 ! xw.qq.com##div.ReactModalPortal:nth-of-type(6) //腾讯新闻开启本条规则会导致无法查看全文，故注释掉了
-xw.qq.com##div[data-boss-expo*="dcyhb&modular=hd"]
+xw.qq.com##.btn-ok
+xw.qq.com##div[data-boss*="modular"]
 xw.qq.com##div[class*="elevator"]
 ||mat1.gtimg.com/rain/bailing20/*.jpg$image
 ||mat1.gtimg.com/rain/bailing20/*.*.png$image
@@ -635,10 +675,13 @@ m.yicai.com##.m-float-appopen
 m.yicai.com##.linkapp
 m.yicai.com###app1
 
+! ---m.youku.com---
+m.youku.com##div[class^="clip"]
+m.youku.com##div[class*="Corner-container"]
 
 ! ---yystv---
-www.yystv.cn##.flex-box.flex.top-nav-download
-www.yystv.cn##.fixed-container
+yystv.cn##.flex-box.flex.top-nav-download
+yystv.cn##.fixed-container
 
 ! ---m.zhanqi.tv---
 m.zhanqi.tv##.topbarOpenApp.btn-1
