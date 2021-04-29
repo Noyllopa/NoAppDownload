@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20210425001
-! Title: NoAppDownload V0.1.29
-! Last modified: 2021/04/25 9:30:00 +0800
+! Version: 20210429001
+! Title: NoAppDownload V0.1.30
+! Last modified: 2021/04/29 16:30:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -395,6 +395,25 @@ m.baidu.com###page-copyright
 m.baidu.com##.square-banner-bgicon.index-banner
 m.baidu.com##.water-container.tab-news-content
 m.baidu.com##DIV#se-recommend-word-list-container.se-recommend-word-list-container
+baidu.com##.square-banner-bgicon.index-banner
+baidu.com###tab_news_1
+www.baidu.com###header > div > div
+
+
+! ---baijiahao.baidu.com---
+baijiahao.baidu.com##.layer-item:-abp-contains(百度)
+baijiahao.baidu.com##.headDeflectorContainer
+baijiahao.baidu.com##.related-news
+baijiahao.baidu.com##div[class^="_"]
+baijiahao.baidu.com##.wxUnfoldText
+baijiahao.baidu.com##span[class*="cm-variable"]
+baijiahao.baidu.com##div[style^="left: calc"]
+baijiahao.baidu.com##.contentPadding.bottomTTSStruct
+baijiahao.baidu.com##div.layer-item:-abp-contains(打开)
+
+! ---baike.baidu.com---
+baike.baidu.com##.squareAni.square.super-layer-promote
+baike.baidu.com##.BK-after-content-wrapper
 
 ! ---bilibili---
 www.bilibili.com###header-mobile-app
@@ -527,6 +546,9 @@ sina.cn##.zhidi.sw_c0
 sina.cn##.fl_suspension_box
 sina.cn##.sw_c2
 sina.cn##.an.cm_art_push
+sina.cn##.an.j_callST.callApp_fl_btn
+sina.cn##.popGo.ok
+sina.cn##.btn_follow.j_article_wbreco
 
 ! ---m.smzdm.com---
 m.smzdm.com##.footer-banner
@@ -567,15 +589,15 @@ tieba.baidu.com##.father-cut-daoliu-normal-box
 tieba.baidu.com##.father-cut-recommend-normal-box
 tieba.baidu.com##.top-guide-wrap.top-guide
 tieba.baidu.com##div[class*="appPromote"]
-tieba.baidu.com##div.nav-bar-wrapper:nth-of-type(1)
 tieba.baidu.com##li.tb-share__item:nth-of-type(1)
-tieba.baidu.com##.nav-bar-wrapper.fixed-nav-bar > .nav-bar.w-row-justify-between.w-row-align-center.w-row
 tieba.baidu.com##.img-open-app
 tieba.baidu.com##.post-cut-guide
 tieba.baidu.com##.recommend-list
 tieba.baidu.com##.bottom-guide-box
 tieba.baidu.com##.open-app-guide
 tieba.baidu.com##.banner-wrapper
+tieba.baidu.com##div[class*="fixed-nav-bar nav-bar-wrapper"]
+tieba.baidu.com##div[class*="nav-bar-wrapper"]
 
 ! ---thepaper---
 m.thepaper.cn##.header_moblink
@@ -620,8 +642,6 @@ up.woozooo.com##.ves
 wk.baidu.com##.pop-manager-view-containter
 wk.baidu.com###na-dialog-root
 wk.baidu.com##.guidetowkappwg-root
-wk.baidu.com##li.rec-li:nth-of-type(1)
-wk.baidu.com##li.rec-li:nth-of-type(2)
 wk.baidu.com##.guide-to-univer-app-root
 wk.baidu.com##.sf-edu-gonglve-id-rec-adv-second.rec-adv-second
 wk.baidu.com##.color-e9e9e9.border-1px-tb.related-doc-list-wrap
@@ -632,6 +652,12 @@ wk.baidu.com##.reader-pop-manager-view-containter
 wk.baidu.com##.vip-guide-contanier.guidetowkvipwg-root
 wk.baidu.com##.video-rec-inner
 wk.baidu.com##.rec-text-root
+wk.baidu.com##.icon-app
+wk.baidu.com##.core-card
+wk.baidu.com##.top-banner-guide
+wk.baidu.com##.card-below-reader.card
+wk.baidu.com##.btn-welfare
+wk.baidu.com##.card-vip.card-wrap
 
 ! ---xiaomiyoupin---
 m.xiaomiyoupin.com##.download-bar-container
@@ -653,6 +679,9 @@ xw.qq.com###taskTips
 xw.qq.com##section[style="display: block;"]
 xw.qq.com##div[data-boss-expo="&modular=quicknews_m"]
 xw.qq.com##div[class*=pictureBottomBtn]
+xw.qq.com##.wrap:-abp-contains(去种树)
+xw.qq.com##.btn-app:-abp-contains(打开)
+xw.qq.com##.comment.follow_top:-abp-contains(热评)
 
 ! ---y.qq.com---
 y.qq.com###js_mod_dialog
