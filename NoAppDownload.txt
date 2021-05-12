@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20210429001
-! Title: NoAppDownload V0.1.30
-! Last modified: 2021/04/29 16:30:00 +0800
+! Version: 20210512001
+! Title: NoAppDownload V0.1.31
+! Last modified: 2021/05/12 11:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -41,6 +41,7 @@ bilibili.com###openAppBtn
 bilibili.com##.mobile.nav-item
 bilibili.com##.clearfix.h5-download-bar
 bilibili.com##.app-download-link
+bilibili.com##.van-popover__reference:-abp-contains(下载)
 
 ! ---cnbeta---
 www.cnbeta.com##DIV[style="display:block !important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"]
@@ -192,9 +193,9 @@ oneplusbbs.com###bbsRegisterGuide
 oneplusbbs.com##li[style*="position: relative; border: 0px;"]
 
 ! ---pingwest---
-www.pingwest.com##.down-app
-www.pingwest.com##.options > [href="https://s.growingio.com/LWqRgA"]
-www.pingwest.com##.download-app-tip
+pingwest.com##.down-app
+pingwest.com##.options > [href="https://s.growingio.com/LWqRgA"]
+pingwest.com##.download-app-tip
 
 ! ---qdaily.com---
 www.qdaily.com##.app
@@ -382,6 +383,7 @@ zuimeia.com###rightside_download_zuimei
 3g.163.com##.bottom.widget-slider-article.widget-slider
 3g.163.com##iframe[id*=open_newsapp_iframe]
 3g.163.com##div[class*=hot-news]
+3g.163.com##article.card-type-news.news-card:-abp-contains(打开APP)
 
 ! ---baidu---
 m.baidu.com###header > div:last-child
@@ -472,7 +474,6 @@ m.huya.com##.u-btn-down.start-btn
 ! --iqiyi---
 m.iqiyi.com##.m-iqyGuide-layer
 m.iqiyi.com##.header_app.iqiyi-h5-empty
-m.iqiyi.com##.ChannelHomeBanner_hbd_eiF93
 m.iqiyi.com##.m-user > div > div
 m.iqiyi.com##.m-iqylink-guide
 m.iqiyi.com##.hotWords-wrap
@@ -480,7 +481,6 @@ m.iqiyi.com##.m-iqylink-diversion
 
 ! ---iyingdi---
 www.iyingdi.com##.downLoadApp
-! ---mob.iyingdi.com---
 mob.iyingdi.com##.down-load-app-container
 mob.iyingdi.com##.reply
 
@@ -488,7 +488,7 @@ mob.iyingdi.com##.reply
 m.jd.com###pannelSeat
 m.jd.com###m_common_tip_div
 
-! ---jiemian---
+! ---m.jiemian.com---
 m.jiemian.com##.box-home
 m.jiemian.com##.download-app
 m.jiemian.com##.open
@@ -517,10 +517,7 @@ m.ke.com##div.lj-track:nth-of-type(9)
 m.ke.com##div.lj-track:nth-of-type(12)
 m.ke.com##div.lj-track:nth-of-type(14)
 
-! ---meituan.com---
-meituan.com##.banner-download
-
-! ---lianjia.com---
+! ---m.lianjia.com---
 m.lianjia.com##div.mod_download:nth-of-type(1) 
 m.lianjia.com##.fadeDown.download_topfixed.mod_download
 m.lianjia.com##.download_fixed
@@ -528,6 +525,15 @@ m.lianjia.com##.agent_download_head.arrow.agent_download.lazyload_ulog.flexbox.p
 m.lianjia.com##.contact_agent.fixed_bar
 m.lianjia.com##.mod_app.mod_sub_tit.mod_tit
 m.lianjia.com##.download_full_box
+
+! ---meituan.com---
+meituan.com##.banner-download
+
+! ---meizu---
+mf.meizu.cn##.guide-suspend.suspend
+
+! ---pingwest---
+pingwest.com###J_newsListModule > article.item.bd:-abp-contains(广告)
 
 ! ---m.qidian.com---
 m.qidian.com###footerApp
@@ -551,10 +557,11 @@ sina.cn##.popGo.ok
 sina.cn##.btn_follow.j_article_wbreco
 
 ! ---m.smzdm.com---
-m.smzdm.com##.footer-banner
-m.smzdm.com##.new-zone
-m.smzdm.com##.J_copy.btn-open-app
-m.smzdm.com##.see-all
+smzdm.com##.footer-banner
+smzdm.com##.new-zone
+smzdm.com##.J_copy.btn-open-app
+smzdm.com##.see-all
+smzdm.com##.btn-open-app-b.btn-open-app
 
 ! ---m.sohu.com---
 m.sohu.com##.topbox.comment-reply__bar.comment-reply__box
@@ -682,6 +689,7 @@ xw.qq.com##div[class*=pictureBottomBtn]
 xw.qq.com##.wrap:-abp-contains(去种树)
 xw.qq.com##.btn-app:-abp-contains(打开)
 xw.qq.com##.comment.follow_top:-abp-contains(热评)
+xw.qq.com##div.showDividingLine.container:-abp-contains(APP专享)
 
 ! ---y.qq.com---
 y.qq.com###js_mod_dialog
