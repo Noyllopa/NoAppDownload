@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20210512001
-! Title: NoAppDownload V0.1.31
-! Last modified: 2021/05/12 11:00:00 +0800
+! Version: 20210513001
+! Title: NoAppDownload V0.1.32
+! Last modified: 2021/05/13 9:30:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -17,8 +17,6 @@ www.acfun.cn##.app-guide
 www.acfun.cn##.download-app
 
 ! ---Baidu---
-wenku.baidu.com##.clearfix.sb-con > .qrHover
-wenku.baidu.com##.reader-download-app
 baidu.com###s-hotsearch-wrapper
 
 ! ---Bing---
@@ -323,14 +321,16 @@ wenku.baidu.com##.browser-label-guide
 wenku.baidu.com##.pay-vip-btn-wrap
 wenku.baidu.com##.inner-vip.vip-pop-wrap
 wenku.baidu.com##.docBtns.-VIP_RIGHT.core-btn-wrapper
-wenku.baidu.com##.try-end-fold-page
 wenku.baidu.com##.fix-block.relative-course-wrapper
 wenku.baidu.com##.vip-card-wrap
 wenku.baidu.com##.searchBox.-VIP_RIGHT.core-btn-wrapper
 wenku.baidu.com##.vip-activity-wrap
 wenku.baidu.com##.client-download-wrap
-wenku.baidu.com##a:nth-of-type(4)
 wenku.baidu.com##.client-rec-wrapper
+wenku.baidu.com##.fold-page-tip
+wenku.baidu.com##.fold-page-btn
+wenku.baidu.com##.clearfix.sb-con > .qrHover
+wenku.baidu.com##.reader-download-app
 
 ! ---yystv---
 www.yystv.cn##li:nth-of-type(7) > [href="/app/download"]
