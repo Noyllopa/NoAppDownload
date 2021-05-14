@@ -1,6 +1,6 @@
 [Adblock Plus 2.1]
 ! Version: 20210513001
-! Title: NoAppDownload V0.1.32
+! Title: NoAppDownload
 ! Last modified: 2021/05/13 9:30:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
@@ -43,6 +43,13 @@ bilibili.com##.van-popover__reference:-abp-contains(下载)
 
 ! ---cnbeta---
 www.cnbeta.com##DIV[style="display:block !important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"]
+
+! ---csdn.net---
+csdn.net##.toolbar-subMenu
+
+! ---ctrip.com---
+ctrip.com##.set-phone.set-list > .nav-myctrip.person-text
+ctrip.com###fl_wrap_default
 
 ! ---dangdang---
 dangdang.com##.bottom_fixed
@@ -331,6 +338,11 @@ wenku.baidu.com##.fold-page-tip
 wenku.baidu.com##.fold-page-btn
 wenku.baidu.com##.clearfix.sb-con > .qrHover
 wenku.baidu.com##.reader-download-app
+wenku.baidu.com##.tool-bar.app-btn.small-btn > .tool-icon
+wenku.baidu.com##.client-btn.small-btn > .tool-icon
+wenku.baidu.com##.pure-tool-btn.tool-btn.full-screen
+wenku.baidu.com##.client-btn.middle-btn
+wenku.baidu.com##.doc-btns-wrap > .app-btn.small-btn
 
 ! ---yystv---
 www.yystv.cn##li:nth-of-type(7) > [href="/app/download"]
@@ -433,6 +445,14 @@ m.bilibili.com##.m-video-related
 ! ---coolapk---
 coolapk.com##.mobile-header-content
 
+! ---csdn.net---
+csdn.net##.wap-shadowbox.weixin-shadowbox
+csdn.net##.feed-Sign-span
+csdn.net##.btn_open_app_prompt_div
+csdn.net###wap_open_app_btn
+csdn.net##li > [href^="//www.csdn.net/apps/download"]
+csdn.net##.m_toolbar_left_app_btn
+
 ! ---dangdang---
 m.dangdang.com##.app_download
 m.dangdang.com##.redrain-index-i
@@ -442,6 +462,7 @@ m.dangdang.com##.container > a
 ! ---douban---
 m.douban.com##.splash-btn
 m.douban.com##.green.btn
+m.douban.com##div:nth-of-type(3)
 
 ! ---douyu---
 m.douyu.com##.btn-open-app.open-btn-more
@@ -673,7 +694,6 @@ m.xiaomiyoupin.com##.lib10-opapp-wrap
 m.xiaomiyoupin.com###download-bar
 
 ! ---xw.qq.com---
-! xw.qq.com##div.ReactModalPortal:nth-of-type(6) //腾讯新闻开启本条规则会导致无法查看全文，故注释掉了
 xw.qq.com##.btn-ok
 xw.qq.com##div[data-boss*="modular"]
 xw.qq.com##div[class*="elevator"]
