@@ -9,4 +9,4 @@
 
 Github：https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt 
 
-码云：https://gitee.com/Noyllopa/NoAppDownload/raw/master/NoAppDownload.txt
+CDN：https://cdn.jsdelivr.net/gh/Noyllopa/NoAppDownload@master/NoAppDownload.txt
