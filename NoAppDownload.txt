@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20210513001
+! Version: 20210521001
 ! Title: NoAppDownload
-! Last modified: 2021/05/13 9:30:00 +0800
+! Last modified: 2021/05/21 11:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -201,10 +201,15 @@ oneplusbbs.com##li[style*="position: relative; border: 0px;"]
 pingwest.com##.down-app
 pingwest.com##.options > [href="https://s.growingio.com/LWqRgA"]
 pingwest.com##.download-app-tip
+pingwest.com###J_newsListModule > article.item.bd:-abp-contains(广告)
+pingwest.com##.article-bottom-bd
 
 ! ---qdaily.com---
 www.qdaily.com##.app
 qdaily.com##.clearfix.com-header-brief
+
+! ---qq---
+qq.com##+js(json-prune, ad)
 
 ! ---rrys---
 www.rrys2019.com##.app_link
@@ -411,7 +416,7 @@ m.baidu.com##.water-container.tab-news-content
 m.baidu.com##DIV#se-recommend-word-list-container.se-recommend-word-list-container
 baidu.com##.square-banner-bgicon.index-banner
 baidu.com###tab_news_1
-www.baidu.com###header > div > div
+baidu.com###header > div > div
 
 
 ! ---baijiahao.baidu.com---
@@ -430,17 +435,22 @@ baike.baidu.com##.squareAni.square.super-layer-promote
 baike.baidu.com##.BK-after-content-wrapper
 
 ! ---bilibili---
-www.bilibili.com###header-mobile-app
-www.bilibili.com##.mobile.nav-item
-m.bilibili.com##.openapp
-m.bilibili.com##.m-home-float-openapp
-m.bilibili.com##.m-video2-openapp
-m.bilibili.com##.m-video2-float-openapp
-m.bilibili.com###relateRecomMore
-m.bilibili.com##.m-space-float-openapp
-www.bilibili.com##.clearfix.h5-download-bar
-m.bilibili.com##div[class*="openapp"]
-m.bilibili.com##.m-video-related
+bilibili.com###header-mobile-app
+bilibili.com##.mobile.nav-item
+bilibili.com##.openapp
+bilibili.com##.m-home-float-openapp
+bilibili.com##.home-float-openapp.open-app-btn
+bilibili.com##.m-video2-openapp
+bilibili.com##.visible-open-app-btn.m-video-main-openapp.open-app-btn
+bilibili.com##.m-video2-float-openapp
+bilibili.com##.m-nav-openapp.open-app-btn
+bilibili.com###relateRecomMore
+bilibili.com##.m-space-float-openapp
+bilibili.com##.clearfix.h5-download-bar
+bilibili.com##div[class*="openapp"]
+bilibili.com##.m-video-related
+bilibili.com##.m-comment-openapp.open-app-btn
+bilibili.com##.report-scroll-module.openapp
 
 ! ---coolapk---
 coolapk.com##.mobile-header-content
@@ -595,6 +605,7 @@ m.sohu.com##.new.fixed.fixed_setto_desktop
 m.sohu.com##.visible.promotion-box
 m.sohu.com##.navbar-icon
 m.sohu.com##.index.new.fixed.fixed-setto-desktop
+m.sohu.com##.cbd-top-bar
 
 ! ---m.sogou.com---
 wap.sogou.com###indexAppOneBtn
@@ -635,6 +646,14 @@ m.thepaper.cn###moblink_moreread
 m.thepaper.cn##.moblink_btn-650-white
 m.thepaper.cn##.btn_app
 
+! ---toutiao---
+m.toutiao.com##.fold-btn-btn
+m.toutiao.com###root > div > div:last-child > div:first-child
+m.toutiao.com###root > div > div.top-banner-container:first-child
+m.toutiao.com###root > div > div.bgwhite.android:nth-child(2) > div.article-container:nth-child(2) > div.fold-btn-container > div.fold-btn:last-child > div.fold-btn-btn:last-child
+m.toutiao.com###root > div > div:nth-child(3) > div:first-child
+m.toutiao.com###root > div > div:nth-child(3)
+
 ! ---m.weathercn.com---
 m.weathercn.com##.red-package
 
@@ -657,6 +676,12 @@ music.163.com##.m-homeft
 music.163.com##.u-ft
 music.163.com##.cmt_more_applink
 music.163.com##.m-moreLists
+
+! ---mparticle.uc.cn---
+mparticle.uc.cn##.UtpAd
+mparticle.uc.cn##.share-import-title
+mparticle.uc.cn##div[class^=recommend]
+mparticle.uc.cn##div[class^=ShowContent__ShowContentButton]
 
 ! ---v.qq.com---
 m.v.qq.com##.mod_app_banner
@@ -745,7 +770,8 @@ m.zhanqi.tv##.topbarOpenApp.btn-1
 m.zhanqi.tv##.h5-foot-area
 
 !---zhihu---
-www.zhihu.com##.MobileAppHeader-downloadLink
+zhihu.com##.MobileAppHeader-downloadLink
+zhihu.com###root > div.App > main.App-main:last-child > div > div.Question-main:nth-child(12) > div.Card.AnswerCard:first-child > div.QuestionAnswer-content > div.ContentItem.AnswerItem > div.ModalWrap:nth-child(10) > div > div.ModalExp-content.ModalExp-modalShow:last-child > div.ModalWrap-content > div.ModalWrap-item:nth-child(2)
 
 ! ---zhidao.baidu.com---
 zhidao.baidu.com##.daily-header-download
