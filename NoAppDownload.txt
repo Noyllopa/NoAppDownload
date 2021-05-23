@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20210521001
+! Version: 20210523001
 ! Title: NoAppDownload
-! Last modified: 2021/05/21 11:00:00 +0800
+! Last modified: 2021/05/23 11:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -178,6 +178,10 @@ jikipedia.com##[href="/app"]
 jikipedia.com##.download-link
 jikipedia.com##.components-container
 jikipedia.com##.cursor.link.app-link
+
+! ---ke.com---
+ke.com##.app_content
+ke.com##.app_daoliu_layer
 
 ! ---juejin---
 juejin.im##.extension
@@ -429,28 +433,17 @@ baijiahao.baidu.com##span[class*="cm-variable"]
 baijiahao.baidu.com##div[style^="left: calc"]
 baijiahao.baidu.com##.contentPadding.bottomTTSStruct
 baijiahao.baidu.com##div.layer-item:-abp-contains(打开)
+baijiahao.baidu.com##.ByGTNZMLOdQ-LzxbSZ-mc
+baijiahao.baidu.com##.openImg
 
 ! ---baike.baidu.com---
 baike.baidu.com##.squareAni.square.super-layer-promote
 baike.baidu.com##.BK-after-content-wrapper
 
 ! ---bilibili---
-bilibili.com###header-mobile-app
-bilibili.com##.mobile.nav-item
-bilibili.com##.openapp
-bilibili.com##.m-home-float-openapp
-bilibili.com##.home-float-openapp.open-app-btn
-bilibili.com##.m-video2-openapp
-bilibili.com##.visible-open-app-btn.m-video-main-openapp.open-app-btn
-bilibili.com##.m-video2-float-openapp
-bilibili.com##.m-nav-openapp.open-app-btn
-bilibili.com###relateRecomMore
-bilibili.com##.m-space-float-openapp
-bilibili.com##.clearfix.h5-download-bar
 bilibili.com##div[class*="openapp"]
-bilibili.com##.m-video-related
-bilibili.com##.m-comment-openapp.open-app-btn
-bilibili.com##.report-scroll-module.openapp
+bilibili.com##div[class^="open-app-btn"]
+
 
 ! ---coolapk---
 coolapk.com##.mobile-header-content
@@ -503,12 +496,19 @@ m.huya.com###js-info-openApp
 m.huya.com##.u-btn-down.start-btn
 
 ! --iqiyi---
-m.iqiyi.com##.m-iqyGuide-layer
-m.iqiyi.com##.header_app.iqiyi-h5-empty
-m.iqiyi.com##.m-user > div > div
-m.iqiyi.com##.m-iqylink-guide
-m.iqiyi.com##.hotWords-wrap
-m.iqiyi.com##.m-iqylink-diversion
+iqiyi.com##.m-iqyGuide-layer
+iqiyi.com##.header_app.iqiyi-h5-empty
+iqiyi.com##.m-user > div > div
+iqiyi.com##.m-iqylink-diversion
+iqiyi.com##.m-iqyGuide-layer
+iqiyi.com##div[class="iqiyi-h5-empty header_app"]
+iqiyi.com##section[class^="ChannelHomeBanner"]
+iqiyi.com##div[class="vue-portal-target "]
+iqiyi.com##div[class="m-iqylink-guide"]
+iqiyi.com##.hotWords-wrap
+iqiyi.com##div[class^=style_appDownload]
+iqiyi.com##div[class^=styles_openApp]
+iqiyi.com##div[class^=style_toApp]
 
 ! ---iyingdi---
 www.iyingdi.com##.downLoadApp
@@ -565,6 +565,8 @@ mf.meizu.cn##.guide-suspend.suspend
 
 ! ---pingwest---
 pingwest.com###J_newsListModule > article.item.bd:-abp-contains(广告)
+pingwest.com##.options
+pingwest.com##.bd.item
 
 ! ---m.qidian.com---
 m.qidian.com###footerApp
@@ -751,6 +753,9 @@ y.qq.com##.related_album
 y.qq.com##.related_info
 y.qq.com##.recommend_mv
 y.qq.com##.mod_lead_flow
+y.qq.com##.qui_dialog
+y.qq.com##.c_bg1.bottom_bar__bd
+y.qq.com##.top_operation_bar__btn
 
 ! ---m.yicai.com---
 m.yicai.com##.m-float-appopen
@@ -760,6 +765,7 @@ m.yicai.com###app1
 ! ---m.youku.com---
 m.youku.com##div[class^="clip"]
 m.youku.com##div[class*="Corner-container"]
+m.youku.com##.ad-banner-wrapper
 
 ! ---yystv---
 yystv.cn##.flex-box.flex.top-nav-download
