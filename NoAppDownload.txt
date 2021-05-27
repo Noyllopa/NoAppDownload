@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20210523001
+! Version: 20210527001
 ! Title: NoAppDownload
-! Last modified: 2021/05/23 11:00:00 +0800
+! Last modified: 2021/05/27 15:30:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -171,6 +171,11 @@ jianshu.com###web-nav-app-download-btn
 jianshu.com##a[href*="/apps?utm_medium=desktop&utm_source=navbar-apps"]
 jianshu.com###index-aside-download-qrbox
 jianshu.com##div[class$="_0"]
+jianshu.com##div[role="button"]:-abp-contains(抽奖)
+jianshu.com##div[aria-label="抽奖关闭"]
+jianshu.com##._27yofX
+jianshu.com##._13lIbp
+jianshu.com##div._1pUUKr:nth-of-type(3)
 
 ! ---jikipedia.com---
 jikipedia.com##.cursor.download-img
@@ -178,6 +183,10 @@ jikipedia.com##[href="/app"]
 jikipedia.com##.download-link
 jikipedia.com##.components-container
 jikipedia.com##.cursor.link.app-link
+
+! ---juejin---
+juejin.cn##.recommend-box
+juejin.cn##.aside.index-aside > .shadow.app-download-sidebar-block.sidebar-block
 
 ! ---ke.com---
 ke.com##.app_content
@@ -203,10 +212,13 @@ oneplusbbs.com##li[style*="position: relative; border: 0px;"]
 
 ! ---pingwest---
 pingwest.com##.down-app
-pingwest.com##.options > [href="https://s.growingio.com/LWqRgA"]
-pingwest.com##.download-app-tip
-pingwest.com###J_newsListModule > article.item.bd:-abp-contains(广告)
+pingwest.com##.download-app
 pingwest.com##.article-bottom-bd
+pingwest.com##.bd-right
+pingwest.com##article[class*="item bd"]
+pingwest.com##section[class*=options]
+pingwest.com##section[class*=download-app-tip]
+pingwest.com##a[href="https://events.pingwest.com/tic-wh-2021"]
 
 ! ---qdaily.com---
 www.qdaily.com##.app
@@ -352,6 +364,8 @@ wenku.baidu.com##.client-btn.small-btn > .tool-icon
 wenku.baidu.com##.pure-tool-btn.tool-btn.full-screen
 wenku.baidu.com##.client-btn.middle-btn
 wenku.baidu.com##.doc-btns-wrap > .app-btn.small-btn
+wenku.baidu.com##.vip-pay-pop-v2-wrap
+wenku.baidu.com##.vip-activity-wrap-new
 
 ! ---yystv---
 www.yystv.cn##li:nth-of-type(7) > [href="/app/download"]
@@ -441,8 +455,17 @@ baike.baidu.com##.squareAni.square.super-layer-promote
 baike.baidu.com##.BK-after-content-wrapper
 
 ! ---bilibili---
-bilibili.com##div[class*="openapp"]
-bilibili.com##div[class^="open-app-btn"]
+m.bilibili.com##.m-home-float-openapp
+m.bilibili.com##div[class*="openapp"]
+m.bilibili.com##.nav-open-app-img
+m.bilibili.com##.m-nav-openapp.open-app-btn
+m.bilibili.com##.home-float-openapp.open-app-btn
+m.bilibili.com##div[class^="open-app-btn"]
+m.bilibili.com##.visible-open-app-btn.m-video-main-openapp.open-app-btn
+m.bilibili.com##.m-video2-float-openapp
+m.bilibili.com##.m-float-openapp.open-app-btn
+m.bilibili.com##.m-comment-openapp.open-app-btn
+
 
 
 ! ---coolapk---
@@ -567,6 +590,7 @@ mf.meizu.cn##.guide-suspend.suspend
 pingwest.com###J_newsListModule > article.item.bd:-abp-contains(广告)
 pingwest.com##.options
 pingwest.com##.bd.item
+pingwest.com##a[href="https://s.growingio.com/LWqRgA"]:-abp-contains(打开APP)
 
 ! ---m.qidian.com---
 m.qidian.com###footerApp
@@ -578,7 +602,6 @@ sina.cn##.z_c2.j_article_relevent_news.s_card
 sina.cn##.j_wbrecommend_wrap.j_article_relevent.s_card
 sina.cn###j_card_miniVideo
 sina.cn##.topLogoBar
-sina.cn##.toFinClientShow.m-client-call
 sinadaxue.cn##.fixed-tips.app-tips
 sina.cn##.cm_index_popup
 sina.cn##.zhidi.sw_c0
@@ -588,6 +611,14 @@ sina.cn##.an.cm_art_push
 sina.cn##.an.j_callST.callApp_fl_btn
 sina.cn##.popGo.ok
 sina.cn##.btn_follow.j_article_wbreco
+sina.cn##div[class^=m-client-call]
+sina.cn##.client-down
+sina.cn##article.single-pic.article:-abp-contains(APP专享)
+sina.cn##a.j_callST.appOnly_card
+sina.cn##.m_f_a_r:-abp-contains(打开APP)
+finance.sina.cn##div[class^=m-client-call]
+finance.sina.cn##.client-down
+finance.sina.cn##article.single-pic.article:-abp-contains(APP专享)
 
 ! ---m.smzdm.com---
 smzdm.com##.footer-banner
