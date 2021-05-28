@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20210527001
+! Version: 20210528001
 ! Title: NoAppDownload
-! Last modified: 2021/05/27 15:30:00 +0800
+! Last modified: 2021/05/28 16:30:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -18,6 +18,8 @@ www.acfun.cn##.download-app
 
 ! ---Baidu---
 baidu.com###s-hotsearch-wrapper
+baike.baidu.com##.appdownload.item
+baike.baidu.com##.wgt-baikeapp-promote-container
 
 ! ---Bing---
 bing.com###TopApp
@@ -200,11 +202,21 @@ juejin.im##.request-health-alert
 bbs.meizu.cn##.download
 detail.mall.meizu.com##.bnr-link
 detail.mall.meizu.com##.app detail
+meizu.com###meizu-header-link-product-download
 
 ! ---mi---
 www.mi.com##.item-image.item
 www.mi.com###J_siteDownloadApp
 www.mi.com##span.sep:nth-of-type(10)
+
+! ---new.qq.com---
+new.qq.com##[href="//new.qq.com/hb_index.htm"]
+new.qq.com##.group-pic-bar
+new.qq.com##.hot-choice-bar
+new.qq.com##.original-bar
+new.qq.com##.tuijian-bar
+new.qq.com###Recomend
+new.qq.com##.cms-bar
 
 ! ---oneplusbbs---
 oneplusbbs.com###bbsRegisterGuide
@@ -242,6 +254,9 @@ finance.sina.com.cn##.clearfix.blk-wxfollow
 finance.sina.com.cn##.first.tool-audio.tool-icon
 finance.sina.com.cn##.fc_s_list
 finance.sina.com.cn##.sina-client-tl
+finance.sina.com.cn##[href^="https://finance.sina.cn/event/2021rili/pcjoin.shtml"]
+finance.sina.com.cn##.appendQr_wrap.clearfix
+finance.sina.com.cn##.app-viplive
 
 ! ---sm.cn---
 sm.cn###index_hot_news
@@ -421,7 +436,7 @@ zuimeia.com###rightside_download_zuimei
 3g.163.com##article.card-type-news.news-card:-abp-contains(打开APP)
 
 ! ---baidu---
-m.baidu.com###header > div:last-child
+baidu.com###header > div:last-child
 m.baidu.com##.ec_wise_ad
 m.baidu.com##.blank-frame
 m.baidu.com###bottom
@@ -435,7 +450,8 @@ m.baidu.com##DIV#se-recommend-word-list-container.se-recommend-word-list-contain
 baidu.com##.square-banner-bgicon.index-banner
 baidu.com###tab_news_1
 baidu.com###header > div > div
-
+baidu.com###tab_news_1 > div.tab-news-content.water-container:nth-child(2)
+baidu.com###login-wraps > a.index-banner.square-banner-bgicon
 
 ! ---baijiahao.baidu.com---
 baijiahao.baidu.com##.layer-item:-abp-contains(百度)
@@ -453,6 +469,9 @@ baijiahao.baidu.com##.openImg
 ! ---baike.baidu.com---
 baike.baidu.com##.squareAni.square.super-layer-promote
 baike.baidu.com##.BK-after-content-wrapper
+baike.baidu.com##div[style="height: 57px;"]
+baike.baidu.com##a[onclick="page.Mixedor.mixedOpen(this,0)"]
+baike.baidu.com##.top-icon.spark-icon
 
 ! ---bilibili---
 m.bilibili.com##.m-home-float-openapp
@@ -541,6 +560,13 @@ mob.iyingdi.com##.reply
 ! ---m.jd.com---
 m.jd.com###pannelSeat
 m.jd.com###m_common_tip_div
+
+! ---jianshu.com---
+www.jianshu.com##.call-app-btn
+www.jianshu.com##.comment-open-app-btn-wrap
+www.jianshu.com##.download
+www.jianshu.com##.border.item
+www.jianshu.com##.app-open
 
 ! ---m.jiemian.com---
 m.jiemian.com##.box-home
