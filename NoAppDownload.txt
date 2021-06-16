@@ -1,25 +1,26 @@
 [Adblock Plus 2.1]
-! Version: 20210528001
+! Version: 20210616001
 ! Title: NoAppDownload
-! Last modified: 2021/05/28 16:30:00 +0800
+! Last modified: 2021/06/16 11:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
 
 ! ---12306---
-www.12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
+12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
 
 ! ---36kr---
 36kr.com##.phone
 
 ! ---acfun---
-www.acfun.cn##.app-guide
-www.acfun.cn##.download-app
+acfun.cn##.app-guide
+acfun.cn##.download-app
 
 ! ---Baidu---
 baidu.com###s-hotsearch-wrapper
 baike.baidu.com##.appdownload.item
 baike.baidu.com##.wgt-baikeapp-promote-container
+baike.baidu.com###J-bds_app
 
 ! ---Bing---
 bing.com###TopApp
@@ -43,8 +44,11 @@ bilibili.com##.clearfix.h5-download-bar
 bilibili.com##.app-download-link
 bilibili.com##.van-popover__reference:-abp-contains(下载)
 
+! ---chinaso---
+chinaso.com###Fixed_app
+
 ! ---cnbeta---
-www.cnbeta.com##DIV[style="display:block !important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"]
+cnbeta.com##DIV[style="display:block !important;position:fixed;bottom:0;margin-top:10px;width:100%;background:#c44;color:#fff;font-size:15px;z-index:99999"]
 
 ! ---csdn.net---
 csdn.net##.toolbar-subMenu
@@ -70,35 +74,35 @@ discord.com##div[class*=notice]
 douban.com##.lnk-doubanapp
 
 ! ---douyu---
-www.douyu.com##li.RightNavigate-item:nth-of-type(1) > [href^="/client"]
-www.douyu.com##li.RightNavigate-item:nth-of-type(1)
-www.douyu.com##li.RightNavigate-item:nth-of-type(2) > [href^="/client"]
-www.douyu.com##li.RightNavigate-item:nth-of-type(2)
-www.douyu.com##.SuperFansGuideTips
-www.douyu.com##.is-active.UPlayerLotteryEnter
-www.douyu.com##.FudaiGiftToolBarTips
-www.douyu.com##.PrivilegeGiftModalDialog
-www.douyu.com###FansFestival2003Tips
-www.douyu.com##div[class*=LiveRoomDianzan]
-www.douyu.com##.TaskIcon
-www.douyu.com##.FishpondTreasure
-www.douyu.com##.ToolbarActivityArea > div:nth-of-type(1) > div:nth-of-type(1) > div.ActivityItem:nth-of-type(3)
-www.douyu.com##div.Title-row:nth-of-type(3)
-www.douyu.com##div.is-normal.Title-col:nth-of-type(2)
-www.douyu.com###douyu_room_normal_player_danmuDom > .ani-base-hover.DanmuEffectBC.ani-broadcast
-www.douyu.com###douyu_room_normal_player_proxy_box > .PlayerSuspendedBallAd
-www.douyu.com##.PcDiversion
-www.douyu.com##.HeaderGif-right
-www.douyu.com###js-room-activity
-www.douyu.com###js-player-dialog
-www.douyu.com##.Bottom
-www.douyu.com###js-player-guessgame
-www.douyu.com##.HeaderGif-left
-www.douyu.com##.ConfigBroadcast.ani-broadcast
-www.douyu.com##.ChatEffect
-www.douyu.com##.is-mask.MedalUserGuide
-www.douyu.com##.Header-download-wrap
-www.douyu.com##.ToolbarActivityArea
+douyu.com##li.RightNavigate-item:nth-of-type(1) > [href^="/client"]
+douyu.com##li.RightNavigate-item:nth-of-type(1)
+douyu.com##li.RightNavigate-item:nth-of-type(2) > [href^="/client"]
+douyu.com##li.RightNavigate-item:nth-of-type(2)
+douyu.com##.SuperFansGuideTips
+douyu.com##.is-active.UPlayerLotteryEnter
+douyu.com##.FudaiGiftToolBarTips
+douyu.com##.PrivilegeGiftModalDialog
+douyu.com###FansFestival2003Tips
+douyu.com##div[class*=LiveRoomDianzan]
+douyu.com##.TaskIcon
+douyu.com##.FishpondTreasure
+douyu.com##.ToolbarActivityArea > div:nth-of-type(1) > div:nth-of-type(1) > div.ActivityItem:nth-of-type(3)
+douyu.com##div.Title-row:nth-of-type(3)
+douyu.com##div.is-normal.Title-col:nth-of-type(2)
+douyu.com###douyu_room_normal_player_danmuDom > .ani-base-hover.DanmuEffectBC.ani-broadcast
+douyu.com###douyu_room_normal_player_proxy_box > .PlayerSuspendedBallAd
+douyu.com##.PcDiversion
+douyu.com##.HeaderGif-right
+douyu.com###js-room-activity
+douyu.com###js-player-dialog
+douyu.com##.Bottom
+douyu.com###js-player-guessgame
+douyu.com##.HeaderGif-left
+douyu.com##.ConfigBroadcast.ani-broadcast
+douyu.com##.ChatEffect
+douyu.com##.is-mask.MedalUserGuide
+douyu.com##.Header-download-wrap
+douyu.com##.ToolbarActivityArea
 
 ! ---egame.qq.com---
 egame.qq.com###inner-container
@@ -111,28 +115,27 @@ egame.qq.com##.left-menu-footer
 egame.qq.com##.live-panel-player-bottom
 
 ! ---gome---
-www.gome.com.cn###gome-phone
-www.gome.com.cn###gome-aside-app-code
-www.gome.com.cn###gome-aside-app
+gome.com.cn###gome-phone
+gome.com.cn###gome-aside-app-code
+gome.com.cn###gome-aside-app
 
 ! ---gwdang---
-www.gwdang.com###tool-menu > li.fl.item:nth-of-type(2)
-www.gwdang.com##.qr-area
+gwdang.com###tool-menu > li.fl.item:nth-of-type(2)
+gwdang.com##.qr-area
 
 ! ---hujiang---
 fr.hujiang.com###regModule
 fr.hujiang.com###uzt-mask
 hujiang.com##.login-modal-mask
 hujiang.com##.login-modal-wrapper
-hujiang.com##.qrcode > [href="javascript:;"]
 hujiang.com##.qrcode
 
 ! ---huya---
-www.huya.com###J_duyaHeaderRight > .clearfix.duya-header-control > .hy-nav-download.hy-nav-right
-www.huya.com##.wrap-income.chat-wrap-panel
+huya.com###J_duyaHeaderRight > .clearfix.duya-header-control > .hy-nav-download.hy-nav-right
+huya.com##.wrap-income.chat-wrap-panel
 
 ! ---huxiu---
-www.huxiu.com##li:nth-of-type(1) > .header-top-list__link > .flip-wrap > .flip-up
+huxiu.com##li:nth-of-type(1) > .header-top-list__link > .flip-wrap > .flip-up
 
 ! ---ifanr---
 ifanr.com##DIV.page-body:first-child > HEADER.c-global-header:nth-child(3) > DIV.c-header-sns:first-child > DIV.c-header-sns__wrapper > DIV.c-header-sns__about:last-child > DIV.c-header-sns__about--hover:first-child > A:first-child
@@ -205,9 +208,9 @@ detail.mall.meizu.com##.app detail
 meizu.com###meizu-header-link-product-download
 
 ! ---mi---
-www.mi.com##.item-image.item
-www.mi.com###J_siteDownloadApp
-www.mi.com##span.sep:nth-of-type(10)
+mi.com##.item-image.item
+mi.com###J_siteDownloadApp
+mi.com##span.sep:nth-of-type(10)
 
 ! ---new.qq.com---
 new.qq.com##[href="//new.qq.com/hb_index.htm"]
@@ -233,16 +236,16 @@ pingwest.com##section[class*=download-app-tip]
 pingwest.com##a[href="https://events.pingwest.com/tic-wh-2021"]
 
 ! ---qdaily.com---
-www.qdaily.com##.app
+qdaily.com##.app
 qdaily.com##.clearfix.com-header-brief
 
 ! ---qq---
 qq.com##+js(json-prune, ad)
 
 ! ---rrys---
-www.rrys2019.com##.app_link
-www.rrys2020.com##.app_link
-www.zmz2019.com##.chat-enterbox
+rrys2019.com##.app_link
+rrys2020.com##.app_link
+zmz2019.com##.chat-enterbox
 
 ! ---sina---
 sina.com.cn##.tn-nav > div.tn-title:nth-of-type(4) > .tn-tab > i
@@ -273,7 +276,7 @@ smzdm.com##.logo-download
 smzdm.com##.top-applink
 smzdm.com##.J_ota
 smzdm.com##.footer-floating-layer
-www.smzdm.com###index-elevator > li:nth-of-type(1)
+smzdm.com###index-elevator > li:nth-of-type(1)
 smzdm.com###index-elevator > li:nth-of-type(2)
 smzdm.com##.footer-new-guide
 
@@ -281,9 +284,9 @@ smzdm.com##.footer-new-guide
 sohu.com##.download-app
 
 !---sogou---
-www.sogou.com##.erwm-box
-www.sogou.com###vl
-www.sogou.com###right
+sogou.com##.erwm-box
+sogou.com###vl
+sogou.com###right
 
 ! ---suning---
 suning.com##DIV.sn-sidebar:nth-child(41) > DIV.sn-sidebar-tabs.sn-sidebar-bottom-tabs:nth-child(3) > DIV.sn-sidebar-tab.sn-sidebar-wider-tab.sn-sidebar-code.sn-sidebar-tab-js:nth-child(3) > A > I.tab-icon.tab-icon-code:last-child
@@ -299,9 +302,9 @@ suning.com###sn-sidebar-change-code
 suning.com##.tab-icon-code.tab-icon
 
 ! ---taobao---
-www.taobao.com##.clearfix.qr-bd
-www.taobao.com##.qr-ft.J_QrFt > .tb-ifont
-www.taobao.com##.qr-ft.J_QrFt
+taobao.com##.clearfix.qr-bd
+taobao.com##.qr-ft.J_QrFt > .tb-ifont
+taobao.com##.qr-ft.J_QrFt
 taobao.com##.qr-tip
 taobao.com##.show.J_TWeiTaoPopup.weitao-popup
 taobao.com##.J_TWeitaoHover.follow-mobile
@@ -315,7 +318,7 @@ tech.sina.com.cn##.zc-app-btn.right-bar-btn
 n.sinaimg.cn/finance/blackcat/pc/blink.gif$image
 
 ! ---thepaper---
-www.thepaper.cn##.download
+thepaper.cn##.download
 
 ! ---tmall---
 tmall.com##.sn-mobile
@@ -335,7 +338,7 @@ userstyles.org##.android_button_button
 userstyles.org##.android_button_banner
 
 ! ---vivo.com.cn---
-www.vivo.com.cn##.vp-vivo-app
+vivo.com.cn##.vp-vivo-app
 
 ! ---v.qq.com---
 v.qq.com##.svg_icon_client.svg_quick_icon > path:nth-of-type(1)
@@ -343,8 +346,8 @@ v.qq.com##.svg_icon_client.svg_quick_icon
 v.qq.com###pc_client > .quick_link
 
 ! ---xiaomiyoupin---
-www.xiaomiyoupin.com##.site-item.m-download.fl
-www.xiaomiyoupin.com##.fixed-nav > li:nth-of-type(2)
+xiaomiyoupin.com##.site-item.m-download.fl
+xiaomiyoupin.com##.fixed-nav > li:nth-of-type(2)
 
 ! ---you.163.com---
 you.163.com###j-yx-cp-m-siteNav > DIV.yx-cp-row > DIV.yx-cp-siteNav-r:last-child > DIV.yx-cp-siteNavItem:last-child > DIV.yx-cp-siteNavItemHd.pipe:first-child
@@ -383,7 +386,7 @@ wenku.baidu.com##.vip-pay-pop-v2-wrap
 wenku.baidu.com##.vip-activity-wrap-new
 
 ! ---yystv---
-www.yystv.cn##li:nth-of-type(7) > [href="/app/download"]
+yystv.cn##li:nth-of-type(7) > [href="/app/download"]
 
 !---zhihu---
 daily.zhihu.com##.active
@@ -404,6 +407,10 @@ zhihu.com##.Profile-followButton
 zhihu.com##.TopstoryItem--advertCard
 zhihu.com##.ViewAllInappButton
 
+! ---zhipin.com---
+zhipin.com##.siderbar-app
+zhipin.com##.jconfirm-white.jconfirm
+
 ! ---zx.sina.cn---
 zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 zx.sina.cn##.hotRank_icon.fl_suspension_template
@@ -420,6 +427,7 @@ zuimeia.com###rightside_download_zuimei
 36kr.com##.slide-in.suction-bottom > .kr-mobile-goapp
 36kr.com##.goapp-wrapper > .kr-mobile-goapp
 36kr.com##.goapp-btn
+36kr.com##.open-app-fixed
 
 ! ---3g.163.com---
 3g.163.com##.js-wakeupclient.wakeup_client
@@ -434,6 +442,18 @@ zuimeia.com###rightside_download_zuimei
 3g.163.com##iframe[id*=open_newsapp_iframe]
 3g.163.com##div[class*=hot-news]
 3g.163.com##article.card-type-news.news-card:-abp-contains(打开APP)
+
+! ---9game.cn---
+a.9game.cn##.bannerson
+a.9game.cn##.downApp
+a.9game.cn##.DownBox
+a.9game.cn##.downUnder
+a.9game.cn##.gameInformation
+a.9game.cn##section.normal-module:nth-of-type(2)
+a.9game.cn##.newGame.normal-module
+a.9game.cn##.JS_xlyx_down.down-app
+a.9game.cn##.JS_xlyx_down.zq-down-box
+a.9game.cn##.biubiu-recommend-box
 
 ! ---baidu---
 baidu.com###header > div:last-child
@@ -485,7 +505,9 @@ m.bilibili.com##.m-video2-float-openapp
 m.bilibili.com##.m-float-openapp.open-app-btn
 m.bilibili.com##.m-comment-openapp.open-app-btn
 
-
+! ---chinaso---
+m.chinaso.com##.chinaso_weixin
+m.chinaso.com##.wrap-layout > .wrap-toolbar
 
 ! ---coolapk---
 coolapk.com##.mobile-header-content
@@ -531,6 +553,7 @@ m.huxiu.com###qr_code_pc
 
 ! ---h5.m.taobao.com---
 taobao.com##.open-app
+taobao.com##button:-abp-contains(打开手机淘宝)
 
 ! ---huya---
 m.huya.com##.u-btn-down.header-app-btn
@@ -553,20 +576,29 @@ iqiyi.com##div[class^=styles_openApp]
 iqiyi.com##div[class^=style_toApp]
 
 ! ---iyingdi---
-www.iyingdi.com##.downLoadApp
+iyingdi.com##.downLoadApp
 mob.iyingdi.com##.down-load-app-container
 mob.iyingdi.com##.reply
 
 ! ---m.jd.com---
 m.jd.com###pannelSeat
 m.jd.com###m_common_tip_div
+item.m.jd.com###imk2FixedBottom
+item.m.jd.com###jdLive > .icon
+item.m.jd.com##.J_ping.mhistory-layer__btn
 
 ! ---jianshu.com---
-www.jianshu.com##.call-app-btn
-www.jianshu.com##.comment-open-app-btn-wrap
-www.jianshu.com##.download
-www.jianshu.com##.border.item
-www.jianshu.com##.app-open
+jianshu.com##.call-app-btn
+jianshu.com##.comment-open-app-btn-wrap
+jianshu.com##.download
+jianshu.com##.border.item
+jianshu.com##.app-open
+jianshu.com##.header-download
+jianshu.com###recommended-notes
+jianshu.com##.index_call-app-btn
+jianshu.com##div.download-app-guidance:last-child > div.guidance-content > div.guidance-wrap-conetnt > div.guidance-wrap-item:nth-child(2)
+jianshu.com###recommended-notes
+jianshu.com##.note-graceful-button
 
 ! ---m.jiemian.com---
 m.jiemian.com##.box-home
@@ -835,6 +867,8 @@ m.zhanqi.tv##.h5-foot-area
 !---zhihu---
 zhihu.com##.MobileAppHeader-downloadLink
 zhihu.com###root > div.App > main.App-main:last-child > div > div.Question-main:nth-child(12) > div.Card.AnswerCard:first-child > div.QuestionAnswer-content > div.ContentItem.AnswerItem > div.ModalWrap:nth-child(10) > div > div.ModalExp-content.ModalExp-modalShow:last-child > div.ModalWrap-content > div.ModalWrap-item:nth-child(2)
+zhihu.com##.RelatedReadings.Card
+zhihu.com##.Post-Sub
 
 ! ---zhidao.baidu.com---
 zhidao.baidu.com##.daily-header-download
