@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20210616001
+! Version: 20210626001
 ! Title: NoAppDownload
-! Last modified: 2021/06/16 11:00:00 +0800
+! Last modified: 2021/06/26 15:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -560,6 +560,10 @@ m.huya.com##.u-btn-down.header-app-btn
 m.huya.com###js-info-openApp
 m.huya.com##.u-btn-down.start-btn
 
+! ---ifeng---
+i.ifeng.com##div[class^=content-]>div[class^=link-]
+i.ifeng.com##div[class^=list-]:-abp-contains(APP)
+
 ! --iqiyi---
 iqiyi.com##.m-iqyGuide-layer
 iqiyi.com##.header_app.iqiyi-h5-empty
@@ -673,10 +677,12 @@ sina.cn##div[class^=m-client-call]
 sina.cn##.client-down
 sina.cn##article.single-pic.article:-abp-contains(APP专享)
 sina.cn##a.j_callST.appOnly_card
+sina.cn##span[class*=callApp]
 sina.cn##.m_f_a_r:-abp-contains(打开APP)
-finance.sina.cn##div[class^=m-client-call]
-finance.sina.cn##.client-down
-finance.sina.cn##article.single-pic.article:-abp-contains(APP专享)
+sina.cn##div[class^=m-client-call]
+sina.cn##.client-down
+sina.cn##article.single-pic.article:-abp-contains(APP专享)
+sina.cn##.s_card.cj_24
 
 ! ---m.smzdm.com---
 smzdm.com##.footer-banner
@@ -736,6 +742,9 @@ m.thepaper.cn###bottomBanner
 m.thepaper.cn###moblink_moreread
 m.thepaper.cn##.moblink_btn-650-white
 m.thepaper.cn##.btn_app
+m.thepaper.cn##li.icon_openapp
+m.thepaper.cn###recommend
+m.thepaper.cn###newDetailHotRecommend
 
 ! ---toutiao---
 m.toutiao.com##.fold-btn-btn
@@ -866,15 +875,19 @@ m.zhanqi.tv##.h5-foot-area
 
 !---zhihu---
 zhihu.com##.MobileAppHeader-downloadLink
-zhihu.com###root > div.App > main.App-main:last-child > div > div.Question-main:nth-child(12) > div.Card.AnswerCard:first-child > div.QuestionAnswer-content > div.ContentItem.AnswerItem > div.ModalWrap:nth-child(10) > div > div.ModalExp-content.ModalExp-modalShow:last-child > div.ModalWrap-content > div.ModalWrap-item:nth-child(2)
 zhihu.com##.RelatedReadings.Card
 zhihu.com##.Post-Sub
+zhihu.com##.Button--blue.Button--primary.css-mqjss2.Button
+zhihu.com##div.ModalWrap-item:nth-of-type(2)
+zhihu.com##.ZVideo-sideColumn
+zhihu.com##button:-abp-contains(App)
 
 ! ---zhidao.baidu.com---
 zhidao.baidu.com##.daily-header-download
 zhidao.baidu.com##.singin-bubble
 zhidao.baidu.com##.icon-bdad
 zhidao.baidu.com###feed-recommend
+
 
 
 
