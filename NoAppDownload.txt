@@ -9,6 +9,10 @@
 ! ---12306---
 12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
 
+! ---www.360doc.com---
+www.360doc.com##.ul-similar
+www.360doc.com##div.str_border:nth-of-type(5)
+
 ! ---36kr---
 36kr.com##.phone
 
@@ -260,6 +264,7 @@ finance.sina.com.cn##.sina-client-tl
 finance.sina.com.cn##[href^="https://finance.sina.cn/event/2021rili/pcjoin.shtml"]
 finance.sina.com.cn##.appendQr_wrap.clearfix
 finance.sina.com.cn##.app-viplive
+finance.sina.cn##.s_card.cj_24
 
 ! ---sm.cn---
 sm.cn###index_hot_news
@@ -811,6 +816,14 @@ wk.baidu.com##.top-banner-guide
 wk.baidu.com##.card-below-reader.card
 wk.baidu.com##.btn-welfare
 wk.baidu.com##.card-vip.card-wrap
+
+! ---www.xiaohongshu.com---
+www.xiaohongshu.com##.fixed
+www.xiaohongshu.com##.bottom-bar.button-bottom-bar.cube-z-bottom-bar
+www.xiaohongshu.com##.wx-open-launch-app-container
+www.xiaohongshu.com##.more-image-desc
+www.xiaohongshu.com##.android.all-comment
+www.xiaohongshu.com##.section.related-notes
 
 ! ---xiaomiyoupin---
 m.xiaomiyoupin.com##.download-bar-container
