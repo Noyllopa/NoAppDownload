@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20210626001
+! Version: 20210819001
 ! Title: NoAppDownload
-! Last modified: 2021/06/26 15:00:00 +0800
+! Last modified: 2021/08/19 09:30:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -265,6 +265,9 @@ finance.sina.com.cn##[href^="https://finance.sina.cn/event/2021rili/pcjoin.shtml
 finance.sina.com.cn##.appendQr_wrap.clearfix
 finance.sina.com.cn##.app-viplive
 finance.sina.cn##.s_card.cj_24
+finance.sina.com.cn##.hqPart_bot
+finance.sina.com.cn##.zc-app-btn.right-bar-btn
+finance.sina.com.cn##.clearfix.tech-quotation:-abp-contains(下载客户端)
 
 ! ---sm.cn---
 sm.cn###index_hot_news
@@ -398,7 +401,7 @@ daily.zhihu.com##.active
 daily.zhihu.com##.Daily
 zhihu.com##.Card Banner
 zhihu.com##.CommentsForOia > .Button--blue.Button--primary.Button
-hihu.com##OpenInAppButton OpenInApp is-shown
+zhihu.com##OpenInAppButton OpenInApp is-shown
 zhihu.com##.ContentItem-more
 zhihu.com##.DownloadGuide
 zhihu.com##.HotQuestions
@@ -411,6 +414,7 @@ zhihu.com##.OpenInAppButton
 zhihu.com##.Profile-followButton
 zhihu.com##.TopstoryItem--advertCard
 zhihu.com##.ViewAllInappButton
+zhuanlan.zhihu.com###root > div.App > main.App-main:nth-child(2) > div.Post-content > div.Post-Sub.Post-NormalSub:last-child > div.Recommendations-Main:first-child
 
 ! ---zhipin.com---
 zhipin.com##.siderbar-app
@@ -889,7 +893,6 @@ m.zhanqi.tv##.h5-foot-area
 !---zhihu---
 zhihu.com##.MobileAppHeader-downloadLink
 zhihu.com##.RelatedReadings.Card
-zhihu.com##.Post-Sub
 zhihu.com##.Button--blue.Button--primary.css-mqjss2.Button
 zhihu.com##div.ModalWrap-item:nth-of-type(2)
 zhihu.com##.ZVideo-sideColumn
