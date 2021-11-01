@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20210819001
+! Version: 20211101001
 ! Title: NoAppDownload
-! Last modified: 2021/08/19 09:30:00 +0800
+! Last modified: 2021/11/01 09:30:00 +0900
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -56,6 +56,7 @@ cnbeta.com##DIV[style="display:block !important;position:fixed;bottom:0;margin-t
 
 ! ---csdn.net---
 csdn.net##.toolbar-subMenu
+csdn.net###csdn-toolbar > div.toolbar-advert:first-child > a.toolbar-advert-default:first-child
 
 ! ---ctrip.com---
 ctrip.com##.set-phone.set-list > .nav-myctrip.person-text
@@ -137,6 +138,7 @@ hujiang.com##.qrcode
 ! ---huya---
 huya.com###J_duyaHeaderRight > .clearfix.duya-header-control > .hy-nav-download.hy-nav-right
 huya.com##.wrap-income.chat-wrap-panel
+huya.com##div[class*="NavDownload"]
 
 ! ---huxiu---
 huxiu.com##li:nth-of-type(1) > .header-top-list__link > .flip-wrap > .flip-up
@@ -163,6 +165,9 @@ ifeng.com##div[class^="silde_box"]
 ifeng.com##div[class^="shareFix"]
 ifeng.com##div[class^="ad_box"]
 ifeng.com##div[class^="share_box"]
+
+! ---ishare----
+ishare.iask.sina.com.cn##.loginRedPacket-dialog
 
 ! ---jd---
 jd.com###J_mobile > DIV.dt.mobile_txt:first-child
@@ -204,6 +209,9 @@ ke.com##.app_daoliu_layer
 ! ---juejin---
 juejin.im##.extension
 juejin.im##.request-health-alert
+
+! ---mbalib---
+doc.mbalib.com###viewer > div.doc-ad
 
 ! ---meizu---
 bbs.meizu.cn##.download
@@ -668,30 +676,30 @@ m.qidian.com###footerApp
 m.qidian.com##div.book-detail-btn:nth-of-type(3)
 
 ! ---sina.cn---
-sina.cn##.j_relevent_video.s_card
-sina.cn##.z_c2.j_article_relevent_news.s_card
-sina.cn##.j_wbrecommend_wrap.j_article_relevent.s_card
-sina.cn###j_card_miniVideo
-sina.cn##.topLogoBar
-sinadaxue.cn##.fixed-tips.app-tips
-sina.cn##.cm_index_popup
-sina.cn##.zhidi.sw_c0
-sina.cn##.fl_suspension_box
-sina.cn##.sw_c2
+sina.cn##a.j_callST.appOnly_card
+sina.cn##article.single-pic.article:-abp-contains(APP专享)
+sina.cn##article.single-pic.article:-abp-contains(APP专享)
 sina.cn##.an.cm_art_push
 sina.cn##.an.j_callST.callApp_fl_btn
-sina.cn##.popGo.ok
 sina.cn##.btn_follow.j_article_wbreco
-sina.cn##div[class^=m-client-call]
 sina.cn##.client-down
-sina.cn##article.single-pic.article:-abp-contains(APP专享)
-sina.cn##a.j_callST.appOnly_card
-sina.cn##span[class*=callApp]
+sina.cn##.cm_index_popup
+sina.cn##div[class^=m-client-call]
+sinadaxue.cn##.fixed-tips.app-tips
+sina.cn##.fl_suspension_box
+sina.cn##.j_relevent_video.s_card
+sina.cn##.j_wbrecommend_wrap.j_article_relevent.s_card
+sina.cn###j_card_miniVideo
+sina.cn##.look_more_a, .j_callST
 sina.cn##.m_f_a_r:-abp-contains(打开APP)
-sina.cn##div[class^=m-client-call]
-sina.cn##.client-down
-sina.cn##article.single-pic.article:-abp-contains(APP专享)
+sina.cn##.plague_Card, .index
+sina.cn##.popGo.ok
+sina.cn##.sw_c2
 sina.cn##.s_card.cj_24
+sina.cn##span[class*=callApp]
+sina.cn##.topLogoBar
+sina.cn##.zhidi.sw_c0
+sina.cn##.z_c2.j_article_relevent_news.s_card
 
 ! ---m.smzdm.com---
 smzdm.com##.footer-banner
