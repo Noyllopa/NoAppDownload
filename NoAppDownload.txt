@@ -1,13 +1,17 @@
 [Adblock Plus 2.1]
-! Version: 20211101001
+! Version: 20211201001
 ! Title: NoAppDownload
-! Last modified: 2021/11/01 09:30:00 +0900
+! Last modified: 2021/12/01 16:00:00 +0900
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
 
 ! ---12306---
 12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
+
+! ---163---
+163.com##.ns_side_qrcode
+163.com##.newsapp-qrcode
 
 ! ---www.360doc.com---
 www.360doc.com##.ul-similar
@@ -25,6 +29,8 @@ baidu.com###s-hotsearch-wrapper
 baike.baidu.com##.appdownload.item
 baike.baidu.com##.wgt-baikeapp-promote-container
 baike.baidu.com###J-bds_app
+jingyan.baidu.com##.task-panel-entrance
+jingyan.baidu.com##.fresh-share-exp-e
 
 ! ---Bing---
 bing.com###TopApp
@@ -459,6 +465,7 @@ zuimeia.com###rightside_download_zuimei
 3g.163.com##iframe[id*=open_newsapp_iframe]
 3g.163.com##div[class*=hot-news]
 3g.163.com##article.card-type-news.news-card:-abp-contains(打开APP)
+3g.163.com##.js-new-relative-doc.new_relative_doc
 
 ! ---9game.cn---
 a.9game.cn##.bannerson
