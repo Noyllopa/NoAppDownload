@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20211201001
+! Version: 20211210001
 ! Title: NoAppDownload
-! Last modified: 2021/12/01 16:00:00 +0900
+! Last modified: 2021/12/10 15:00:00 +0900
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -53,6 +53,7 @@ bilibili.com##.mobile.nav-item
 bilibili.com##.clearfix.h5-download-bar
 bilibili.com##.app-download-link
 bilibili.com##.van-popover__reference:-abp-contains(下载)
+manga.bilibili.com##.app-button.download-app
 
 ! ---chinaso---
 chinaso.com###Fixed_app
@@ -83,6 +84,7 @@ discord.com##div[class*=notice]
 
 ! ---douban---
 douban.com##.lnk-doubanapp
+fm.douban.com##.left
 
 ! ---douyu---
 douyu.com##li.RightNavigate-item:nth-of-type(1) > [href^="/client"]
@@ -269,6 +271,7 @@ zmz2019.com##.chat-enterbox
 sina.com.cn##.tn-nav > div.tn-title:nth-of-type(4) > .tn-tab > i
 sina.com.cn##.part-a-l > .mod-02
 sina.cn##.j_sax sina_tj_banner
+sina.cn###j_card_searchHotwords > section.s_card > a:last-child > ins.most
 finance.sina.com.cn##.clearfix.blk-zcapp
 finance.sina.com.cn###tab_related_btn
 finance.sina.com.cn##.clearfix.blk-wxfollow
@@ -282,6 +285,7 @@ finance.sina.cn##.s_card.cj_24
 finance.sina.com.cn##.hqPart_bot
 finance.sina.com.cn##.zc-app-btn.right-bar-btn
 finance.sina.com.cn##.clearfix.tech-quotation:-abp-contains(下载客户端)
+finance.sina.com.cn###most_read
 
 ! ---sm.cn---
 sm.cn###index_hot_news
@@ -313,6 +317,8 @@ sogou.com###right
 ! ---suning---
 suning.com##DIV.sn-sidebar:nth-child(41) > DIV.sn-sidebar-tabs.sn-sidebar-bottom-tabs:nth-child(3) > DIV.sn-sidebar-tab.sn-sidebar-wider-tab.sn-sidebar-code.sn-sidebar-tab-js:nth-child(3) > A > I.tab-icon.tab-icon-code:last-child
 suning.com##DIV.sn-sidebar:nth-child(41) > DIV.sn-sidebar-tabs.sn-sidebar-bottom-tabs:nth-child(3) > DIV.sn-sidebar-tab.sn-sidebar-wider-tab.sn-sidebar-code.sn-sidebar-tab-js.sn-sidebar-tab-hover:nth-child(3)
+suning.com###sn-sidebar-change-redpacket
+suning.com##.sn-sidebar-tab-js.sn-sidebar-redpacket.sn-sidebar-wider-tab.sn-sidebar-tab
 suning.com##.tab-icon-code.tab-icon
 suning.com##.ng-bar-node mb-suning touch-href
 suning.com##.ng-bar-node-box app-down-box
@@ -358,6 +364,10 @@ tmall.com###J_smartloader
 userstyles.org###top_android_button
 userstyles.org##.android_button_button
 userstyles.org##.android_button_banner
+
+! ---vip.com---
+vip.com##.sidebarcom-qrcode
+vip.com##.wp-phone
 
 ! ---vivo.com.cn---
 vivo.com.cn##.vp-vivo-app
@@ -525,9 +535,13 @@ m.bilibili.com##.m-nav-openapp.open-app-btn
 m.bilibili.com##.home-float-openapp.open-app-btn
 m.bilibili.com##div[class^="open-app-btn"]
 m.bilibili.com##.visible-open-app-btn.m-video-main-openapp.open-app-btn
+m.bilibili.com##.visible-open-app-btn.m-video-main-launchapp.launch-app-btn
 m.bilibili.com##.m-video2-float-openapp
 m.bilibili.com##.m-float-openapp.open-app-btn
 m.bilibili.com##.m-comment-openapp.open-app-btn
+m.bilibili.com##.v-switcher__content__wrap
+m.bilibili.com##div[class*="mplayer-control-btn mplayer-control-btn-callapp mplayer-control-btn-speed"]
+m.bilibili.com##div[class*="mplayer-widescreen-callapp"]
 
 ! ---chinaso---
 m.chinaso.com##.chinaso_weixin
@@ -561,6 +575,8 @@ m.douyu.com##.HomeHeader-openAppB
 m.douyu.com##.btn-open-app
 m.douyu.com##.abtest-downloadDialog
 m.douyu.com##.clarity-downDialog
+m.douyu.com##.DownloadBtn
+
 
 ! ---egame.qq.com---
 m.egame.qq.com###installbar
@@ -583,6 +599,9 @@ taobao.com##button:-abp-contains(打开手机淘宝)
 m.huya.com##.u-btn-down.header-app-btn
 m.huya.com###js-info-openApp
 m.huya.com##.u-btn-down.start-btn
+m.huya.com##.header-app-btn
+m.huya.com##.pop-download
+m.huya.com##.start-btn
 
 ! ---ifeng---
 i.ifeng.com##div[class^=content-]>div[class^=link-]
@@ -892,10 +911,10 @@ m.yicai.com##.m-float-appopen
 m.yicai.com##.linkapp
 m.yicai.com###app1
 
-! ---m.youku.com---
-m.youku.com##div[class^="clip"]
-m.youku.com##div[class*="Corner-container"]
-m.youku.com##.ad-banner-wrapper
+! ---youku---
+youku.com##div[class^="clip"]
+youku.com##div[class*="Corner-container"]
+youku.com##.ad-banner-wrapper
 
 ! ---yystv---
 yystv.cn##.flex-box.flex.top-nav-download
