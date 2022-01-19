@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20211210001
+! Version: 20220119001
 ! Title: NoAppDownload
-! Last modified: 2021/12/10 15:00:00 +0900
+! Last modified: 2022/01/19 13:30:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -19,6 +19,10 @@ www.360doc.com##div.str_border:nth-of-type(5)
 
 ! ---36kr---
 36kr.com##.phone
+
+! ---www.360kuai.com---
+www.360kuai.com##.side-wrapper
+www.360kuai.com##.float--left.right_aside_wrapper
 
 ! ---acfun---
 acfun.cn##.app-guide
@@ -286,6 +290,7 @@ finance.sina.com.cn##.hqPart_bot
 finance.sina.com.cn##.zc-app-btn.right-bar-btn
 finance.sina.com.cn##.clearfix.tech-quotation:-abp-contains(下载客户端)
 finance.sina.com.cn###most_read
+super.sina.cn##.call_up_banner
 
 ! ---sm.cn---
 sm.cn###index_hot_news
@@ -542,6 +547,8 @@ m.bilibili.com##.m-comment-openapp.open-app-btn
 m.bilibili.com##.v-switcher__content__wrap
 m.bilibili.com##div[class*="mplayer-control-btn mplayer-control-btn-callapp mplayer-control-btn-speed"]
 m.bilibili.com##div[class*="mplayer-widescreen-callapp"]
+m.bilibili.com##.v-switcher__content__wrap
+m.bilibili.com##.visible-open-app-btn.m-video-main-launchapp.launch-app-btn
 
 ! ---chinaso---
 m.chinaso.com##.chinaso_weixin
@@ -646,6 +653,7 @@ jianshu.com##.index_call-app-btn
 jianshu.com##div.download-app-guidance:last-child > div.guidance-content > div.guidance-wrap-conetnt > div.guidance-wrap-item:nth-child(2)
 jianshu.com###recommended-notes
 jianshu.com##.note-graceful-button
+www.jianshu.com##div[class^=baidu-app-download]
 
 ! ---m.jiemian.com---
 m.jiemian.com##.box-home
@@ -662,6 +670,7 @@ jikipedia.com##.cursor.link.app-link
 
 ! ---m.jd.com---
 m.jd.com###imk2FixedSideText
+m.jd.com###imk2FixedBottom
 
 ! ---m.ke.com---
 m.ke.com##.home-page.main-page > div.lj-track:nth-of-type(1)
@@ -684,6 +693,10 @@ m.lianjia.com##.agent_download_head.arrow.agent_download.lazyload_ulog.flexbox.p
 m.lianjia.com##.contact_agent.fixed_bar
 m.lianjia.com##.mod_app.mod_sub_tit.mod_tit
 m.lianjia.com##.download_full_box
+
+! ---wiki.mbalib.com---
+wiki.mbalib.com##.app-ad
+wiki.mbalib.com##.download_app.news-banner-container
 
 ! ---meituan.com---
 meituan.com##.banner-download
@@ -746,6 +759,8 @@ m.sohu.com##.visible.promotion-box
 m.sohu.com##.navbar-icon
 m.sohu.com##.index.new.fixed.fixed-setto-desktop
 m.sohu.com##.cbd-top-bar
+m.tv.sohu.com##.btn-xz-app
+m.tv.sohu.com##.js-app-topbanner.actv-banner
 
 ! ---m.sogou.com---
 wap.sogou.com###indexAppOneBtn
@@ -759,6 +774,9 @@ m.sogou.com##.recommend-pop.vr-recommend
 m.suning.com##.common-right-d
 m.suning.com##.to-login
 m.suning.com##.hide.f-l-o-a-t-s-a-l-e
+
+! ---m.taobao.com---
+main.m.taobao.com##button
 
 ! ---m.tieba.com---
 tieba.baidu.com##.top-guide-wrap.top-guide
@@ -831,29 +849,36 @@ m.v.qq.com##.mod_app_banner
 m.v.qq.com##.swiper-container-android.swiper-container-horizontal.mod_source_box_fixed.mod_source_box
 m.v.qq.com##.mod_game_rec.mod_box
 
+! ---m.weibo.cn---
+m.weibo.cn##.wrap
+
 ! ---woozooo---
 up.woozooo.com##.ves
 
 ! ---wk.baidu.com---
-wk.baidu.com##.pop-manager-view-containter
-wk.baidu.com###na-dialog-root
-wk.baidu.com##.guidetowkappwg-root
-wk.baidu.com##.guide-to-univer-app-root
-wk.baidu.com##.sf-edu-gonglve-id-rec-adv-second.rec-adv-second
-wk.baidu.com##.color-e9e9e9.border-1px-tb.related-doc-list-wrap
 wk.baidu.com##.bottom-bar-guid-to-univer.bottom-bar-global
-wk.baidu.com##.lure.btn-download
+wk.baidu.com##.btn-welfare
 wk.baidu.com##.btn-vip
+wk.baidu.com##.card-below-reader.card
+wk.baidu.com##.card-vip.card-wrap
+wk.baidu.com##.color-e9e9e9.border-1px-tb.related-doc-list-wrap
+wk.baidu.com##.core-card
+wk.baidu.com##.fc-ad-contain
+wk.baidu.com##.guess-rec-text-root > .w-container.rec-head > .rec-go-search-guide
+wk.baidu.com##.guide-to-univer-app-root
+wk.baidu.com##.guidetowkappwg-root
+wk.baidu.com##.icon-app
+wk.baidu.com##.lure.btn-download
+wk.baidu.com###na-dialog-root
+wk.baidu.com##.open-app-btn
+wk.baidu.com##.pay-doc-marquee
+wk.baidu.com##.pop-manager-view-containter
 wk.baidu.com##.reader-pop-manager-view-containter
+wk.baidu.com##.sf-edu-gonglve-id-rec-adv-second.rec-adv-second
+wk.baidu.com##.top-banner-guide
 wk.baidu.com##.vip-guide-contanier.guidetowkvipwg-root
 wk.baidu.com##.video-rec-inner
 wk.baidu.com##.rec-text-root
-wk.baidu.com##.icon-app
-wk.baidu.com##.core-card
-wk.baidu.com##.top-banner-guide
-wk.baidu.com##.card-below-reader.card
-wk.baidu.com##.btn-welfare
-wk.baidu.com##.card-vip.card-wrap
 
 ! ---www.xiaohongshu.com---
 www.xiaohongshu.com##.fixed
