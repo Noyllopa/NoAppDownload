@@ -572,9 +572,21 @@ m.dangdang.com###zdmad
 m.dangdang.com##.container > a
 
 ! ---douban---
-m.douban.com##.splash-btn
 m.douban.com##.green.btn
-m.douban.com##div:nth-of-type(3)
+m.douban.com##.icon-wrap
+m.douban.com##.TalionNav-static > .info
+m.douban.com##h2 > [href^="https://www.douban.com/doubanapp/card/get_app"]
+m.douban.com###comment-list > div > .show-all
+m.douban.com##.movie-reviews.bd > .show-all
+m.douban.com##.write-review
+m.douban.com##[href^="https://erebor.douban.com/monitor/"]
+m.douban.com##div.center > div
+m.douban.com##.score-write
+m.douban.com##.write-comment
+m.douban.com##.sub-vendor > [href^="https://www.douban.com/doubanapp/card/get_app"]
+m.douban.com##.oia-wrap
+m.douban.com#?#div:matches-css(width:68px)
+m.douban.com##.show-all
 
 ! ---douyu---
 m.douyu.com##.btn-open-app.open-btn-more
@@ -613,6 +625,13 @@ m.huya.com##.start-btn
 ! ---ifeng---
 i.ifeng.com##div[class^=content-]>div[class^=link-]
 i.ifeng.com##div[class^=list-]:-abp-contains(APP)
+ishare.ifeng.com##header
+ishare.ifeng.com##section[class^="bottom"]
+ishare.ifeng.com##div[class^="callup"]
+ishare.ifeng.com##.callUpBox
+ishare.ifeng.com##section[class^="allLook"]
+ishare.ifeng.com##section[class^="relateVideo"]
+ishare.ifeng.com##div[class^="more_box"]
 
 ! --iqiyi---
 iqiyi.com##.m-iqyGuide-layer
