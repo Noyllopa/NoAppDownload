@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20220119001
+! Version: 20220225001
 ! Title: NoAppDownload
-! Last modified: 2022/01/19 13:30:00 +0800
+! Last modified: 2022/02/25 14:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -587,6 +587,7 @@ m.douban.com##.sub-vendor > [href^="https://www.douban.com/doubanapp/card/get_ap
 m.douban.com##.oia-wrap
 m.douban.com#?#div:matches-css(width:68px)
 m.douban.com##.show-all
+m.douban.com##a:-abp-contains(用App看更多)
 
 ! ---douyu---
 m.douyu.com##.btn-open-app.open-btn-more
@@ -867,6 +868,11 @@ mparticle.uc.cn##div[class^=ShowContent__ShowContentButton]
 m.v.qq.com##.mod_app_banner
 m.v.qq.com##.swiper-container-android.swiper-container-horizontal.mod_source_box_fixed.mod_source_box
 m.v.qq.com##.mod_game_rec.mod_box
+m.v.qq.com##.mod_open
+m.v.qq.com##.mod_end__btn
+m.v.qq.com##.mod_rec__animate.mod_rec
+m.v.qq.com##.mod_more
+m.v.qq.com##.mod_rec
 
 ! ---m.weibo.cn---
 m.weibo.cn##.wrap
