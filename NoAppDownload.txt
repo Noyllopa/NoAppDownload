@@ -177,6 +177,7 @@ ifeng.com##div[class^="silde_box"]
 ifeng.com##div[class^="shareFix"]
 ifeng.com##div[class^="ad_box"]
 ifeng.com##div[class^="share_box"]
+ifeng.com##div[class^="qr_box"]
 
 ! ---ishare----
 ishare.iask.sina.com.cn##.loginRedPacket-dialog
@@ -299,9 +300,7 @@ sm.cn###index_banner
 ! ---smzdm---
 smzdm.com###global-search > DIV.search-inner.z-clearfix > DIV.download:last-child
 smzdm.com###index-elevator > LI:nth-child(3)
-search.smzdm.com###elevator > LI:first-child > SPAN:first-child
 search.smzdm.com###elevator > LI:first-child
-smzdm.com###elevator > LI:first-child > SPAN:first-child
 smzdm.com###elevator > LI:first-child
 smzdm.com##.logo-download
 smzdm.com##.top-applink
@@ -421,6 +420,8 @@ wenku.baidu.com##.client-btn.middle-btn
 wenku.baidu.com##.doc-btns-wrap > .app-btn.small-btn
 wenku.baidu.com##.vip-pay-pop-v2-wrap
 wenku.baidu.com##.vip-activity-wrap-new
+wenku.baidu.com##.bottom-theme-select-wrap
+wenku.baidu.com##.bottom-theme-wrap-mask
 
 ! ---yystv---
 yystv.cn##li:nth-of-type(7) > [href="/app/download"]
@@ -508,7 +509,6 @@ m.baidu.com##.water-container.tab-news-content
 m.baidu.com##DIV#se-recommend-word-list-container.se-recommend-word-list-container
 baidu.com##.square-banner-bgicon.index-banner
 baidu.com###tab_news_1
-baidu.com###header > div > div
 baidu.com###tab_news_1 > div.tab-news-content.water-container:nth-child(2)
 baidu.com###login-wraps > a.index-banner.square-banner-bgicon
 
@@ -873,6 +873,11 @@ m.v.qq.com##.mod_end__btn
 m.v.qq.com##.mod_rec__animate.mod_rec
 m.v.qq.com##.mod_more
 m.v.qq.com##.mod_rec
+m.v.qq.com##.at-app-banner
+m.v.qq.com##.site-top__open-app
+m.v.qq.com##.js_open_app.btn_user_hd
+m.v.qq.com##.mod_source
+m.v.qq.com##.btn_sharpness
 
 ! ---m.weibo.cn---
 m.weibo.cn##.wrap
@@ -987,7 +992,7 @@ zhidao.baidu.com##.daily-header-download
 zhidao.baidu.com##.singin-bubble
 zhidao.baidu.com##.icon-bdad
 zhidao.baidu.com###feed-recommend
-
+zhidao.baidu.com##.zhidao-app.menu-right-list-item
 
 
 
