@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20220615001
+! Version: 20220809001
 ! Title: NoAppDownload
-! Last modified: 2022/06/15 17:00:00 +0800
+! Last modified: 2022/08/09 16:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -58,6 +58,7 @@ bilibili.com##.clearfix.h5-download-bar
 bilibili.com##.app-download-link
 bilibili.com##.van-popover__reference:-abp-contains(下载)
 manga.bilibili.com##.app-button.download-app
+bilibili.com##.bili-dialog-m
 
 ! ---chinaso---
 chinaso.com###Fixed_app
@@ -151,6 +152,8 @@ hujiang.com##.qrcode
 huya.com###J_duyaHeaderRight > .clearfix.duya-header-control > .hy-nav-download.hy-nav-right
 huya.com##.wrap-income.chat-wrap-panel
 huya.com##div[class*="NavDownload"]
+www.huya.com##.tip-bg-common-new.diy-activity-icon-bubble-tips
+www.huya.com###player-download-guide-tip
 
 ! ---huxiu---
 huxiu.com##li:nth-of-type(1) > .header-top-list__link > .flip-wrap > .flip-up
@@ -181,6 +184,9 @@ ifeng.com##div[class^="qr_box"]
 
 ! ---ishare----
 ishare.iask.sina.com.cn##.loginRedPacket-dialog
+
+! ---ithome---
+www.ithome.com##.down_app
 
 ! ---jd---
 jd.com###J_mobile > DIV.dt.mobile_txt:first-child
@@ -236,6 +242,9 @@ meizu.com###meizu-header-link-product-download
 mi.com##.item-image.item
 mi.com###J_siteDownloadApp
 mi.com##span.sep:nth-of-type(10)
+
+! ---moegirl---
+zh.moegirl.org.cn##.moe-dropdown.moe-downloadapp
 
 ! ---new.qq.com---
 new.qq.com##[href="//new.qq.com/hb_index.htm"]
@@ -622,6 +631,10 @@ m.huya.com##.u-btn-down.start-btn
 m.huya.com##.header-app-btn
 m.huya.com##.pop-download
 m.huya.com##.start-btn
+m.huya.com###template
+m.huya.com##.app_flag
+m.huya.com##.dtip
+m.huya.com##.blue_btn
 
 ! ---ifeng---
 i.ifeng.com##div[class^=content-]>div[class^=link-]
@@ -723,6 +736,10 @@ meituan.com##.banner-download
 
 ! ---meizu---
 mf.meizu.cn##.guide-suspend.suspend
+
+! ---moegirl---
+mzh.moegirl.org.cn##.download-app
+mzh.moegirl.org.cn##.open-in-app-wrapper
 
 ! ---pingwest---
 pingwest.com###J_newsListModule > article.item.bd:-abp-contains(广告)
