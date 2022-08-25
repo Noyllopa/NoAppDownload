@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20220809001
+! Version: 20220825001
 ! Title: NoAppDownload
-! Last modified: 2022/08/09 16:00:00 +0800
+! Last modified: 2022/08/25 15:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -486,6 +486,12 @@ zuimeia.com###rightside_download_zuimei
 3g.163.com##div[class*=hot-news]
 3g.163.com##article.card-type-news.news-card:-abp-contains(打开APP)
 3g.163.com##.js-new-relative-doc.new_relative_doc
+3g.163.com##.js-open-app.backflow-floating
+3g.163.com##.js-recommend-wrap
+3g.163.com##.js-open-app.s-tip
+3g.163.com##.js-open-app.main-openApp
+3g.163.com##.comment-link > .js-open-app
+3g.163.com##.js-open-app.sec-more-link
 
 ! ---9game.cn---
 a.9game.cn##.bannerson
@@ -935,6 +941,9 @@ wk.baidu.com##.top-banner-guide
 wk.baidu.com##.vip-guide-contanier.guidetowkvipwg-root
 wk.baidu.com##.video-rec-inner
 wk.baidu.com##.rec-text-root
+
+! ---wuzhuiso.com---
+www.wuzhuiso.com##.download-app
 
 ! ---www.xiaohongshu.com---
 www.xiaohongshu.com##.fixed
