@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20220825001
+! Version: 20221218001
 ! Title: NoAppDownload
-! Last modified: 2022/08/25 15:00:00 +0800
+! Last modified: 2022/12/18 15:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -14,15 +14,15 @@
 163.com##.newsapp-qrcode
 
 ! ---www.360doc.com---
-www.360doc.com##.ul-similar
-www.360doc.com##div.str_border:nth-of-type(5)
+360doc.com##.ul-similar
+360doc.com##div.str_border:nth-of-type(5)
 
 ! ---36kr---
 36kr.com##.phone
 
 ! ---www.360kuai.com---
-www.360kuai.com##.side-wrapper
-www.360kuai.com##.float--left.right_aside_wrapper
+360kuai.com##.side-wrapper
+360kuai.com##.float--left.right_aside_wrapper
 
 ! ---acfun---
 acfun.cn##.app-guide
@@ -152,8 +152,8 @@ hujiang.com##.qrcode
 huya.com###J_duyaHeaderRight > .clearfix.duya-header-control > .hy-nav-download.hy-nav-right
 huya.com##.wrap-income.chat-wrap-panel
 huya.com##div[class*="NavDownload"]
-www.huya.com##.tip-bg-common-new.diy-activity-icon-bubble-tips
-www.huya.com###player-download-guide-tip
+huya.com##.tip-bg-common-new.diy-activity-icon-bubble-tips
+huya.com###player-download-guide-tip
 
 ! ---huxiu---
 huxiu.com##li:nth-of-type(1) > .header-top-list__link > .flip-wrap > .flip-up
@@ -186,7 +186,7 @@ ifeng.com##div[class^="qr_box"]
 ishare.iask.sina.com.cn##.loginRedPacket-dialog
 
 ! ---ithome---
-www.ithome.com##.down_app
+ithome.com##.down_app
 
 ! ---jd---
 jd.com###J_mobile > DIV.dt.mobile_txt:first-child
@@ -492,6 +492,10 @@ zuimeia.com###rightside_download_zuimei
 3g.163.com##.js-open-app.main-openApp
 3g.163.com##.comment-link > .js-open-app
 3g.163.com##.js-open-app.sec-more-link
+3g.163.com##.widget-floatMenu
+3g.163.com##.js-open-app.open-btn
+3g.163.com##.s-openApp
+3g.163.com##footer > span
 
 ! ---9game.cn---
 a.9game.cn##.bannerson
@@ -560,6 +564,10 @@ m.bilibili.com##div[class*="mplayer-widescreen-callapp"]
 m.bilibili.com##.v-switcher__content__wrap
 m.bilibili.com##.visible-open-app-btn.m-video-main-launchapp.launch-app-btn
 
+! ---cn.bing.com
+cn.bing.com##.bnp_rich_div_visible.top
+cn.bing.com##.bnp_rich_div_visible.bottom
+
 ! ---chinaso---
 m.chinaso.com##.chinaso_weixin
 m.chinaso.com##.wrap-layout > .wrap-toolbar
@@ -574,6 +582,7 @@ csdn.net##.btn_open_app_prompt_div
 csdn.net###wap_open_app_btn
 csdn.net##li > [href^="//www.csdn.net/apps/download"]
 csdn.net##.m_toolbar_left_app_btn
+csdn.net##.openApp
 
 ! ---dangdang---
 m.dangdang.com##.app_download
@@ -680,6 +689,10 @@ item.m.jd.com###imk2FixedBottom
 item.m.jd.com###jdLive > .icon
 item.m.jd.com##.J_ping.mhistory-layer__btn
 
+! ---m.ithome.com---
+m.ithome.com##.open-app-a
+m.ithome.com##.hot-app
+
 ! ---jianshu.com---
 jianshu.com##.call-app-btn
 jianshu.com##.comment-open-app-btn-wrap
@@ -692,7 +705,7 @@ jianshu.com##.index_call-app-btn
 jianshu.com##div.download-app-guidance:last-child > div.guidance-content > div.guidance-wrap-conetnt > div.guidance-wrap-item:nth-child(2)
 jianshu.com###recommended-notes
 jianshu.com##.note-graceful-button
-www.jianshu.com##div[class^=baidu-app-download]
+jianshu.com##div[class^=baidu-app-download]
 
 ! ---m.jiemian.com---
 m.jiemian.com##.box-home
@@ -822,7 +835,7 @@ m.suning.com##.hide.f-l-o-a-t-s-a-l-e
 main.m.taobao.com##button
 
 ! ---taptap---
-www.taptap.com##.open-app-button
+taptap.com##.open-app-button
 
 ! ---m.tieba.com---
 tieba.baidu.com##.top-guide-wrap.top-guide
@@ -943,15 +956,15 @@ wk.baidu.com##.video-rec-inner
 wk.baidu.com##.rec-text-root
 
 ! ---wuzhuiso.com---
-www.wuzhuiso.com##.download-app
+wuzhuiso.com##.download-app
 
 ! ---www.xiaohongshu.com---
-www.xiaohongshu.com##.fixed
-www.xiaohongshu.com##.bottom-bar.button-bottom-bar.cube-z-bottom-bar
-www.xiaohongshu.com##.wx-open-launch-app-container
-www.xiaohongshu.com##.more-image-desc
-www.xiaohongshu.com##.android.all-comment
-www.xiaohongshu.com##.section.related-notes
+xiaohongshu.com##.fixed
+xiaohongshu.com##.bottom-bar.button-bottom-bar.cube-z-bottom-bar
+xiaohongshu.com##.wx-open-launch-app-container
+xiaohongshu.com##.more-image-desc
+xiaohongshu.com##.android.all-comment
+xiaohongshu.com##.section.related-notes
 
 ! ---xiaomiyoupin---
 m.xiaomiyoupin.com##.download-bar-container
@@ -976,6 +989,9 @@ xw.qq.com##.wrap:-abp-contains(去种树)
 xw.qq.com##.btn-app:-abp-contains(打开)
 xw.qq.com##.comment.follow_top:-abp-contains(热评)
 xw.qq.com##div.showDividingLine.container:-abp-contains(APP专享)
+view.inews.qq.com##div[class^="slider-top-bar_sliderWrapper"]
+view.inews.qq.com##div[class^="normal_buttonWrap"]
+view.inews.qq.com##div[class^="new-hot-comment_subText"]
 
 ! ---y.qq.com---
 y.qq.com###js_mod_dialog
@@ -1005,6 +1021,9 @@ m.yicai.com###app1
 youku.com##div[class^="clip"]
 youku.com##div[class*="Corner-container"]
 youku.com##.ad-banner-wrapper
+youku.com##.callEnd_content
+youku.com###download_btn
+youku.com##.downloadApp.icon
 
 ! ---yystv---
 yystv.cn##.flex-box.flex.top-nav-download
