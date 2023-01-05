@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20221218001
+! Version: 20230105001
 ! Title: NoAppDownload
-! Last modified: 2022/12/18 15:00:00 +0800
+! Last modified: 2023/01/05 17:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -530,14 +530,14 @@ baidu.com###login-wraps > a.index-banner.square-banner-bgicon
 baijiahao.baidu.com##.layer-item:-abp-contains(百度)
 baijiahao.baidu.com##.headDeflectorContainer
 baijiahao.baidu.com##.related-news
-baijiahao.baidu.com##div[class^="_"]
 baijiahao.baidu.com##.wxUnfoldText
 baijiahao.baidu.com##span[class*="cm-variable"]
 baijiahao.baidu.com##div[style^="left: calc"]
 baijiahao.baidu.com##.contentPadding.bottomTTSStruct
 baijiahao.baidu.com##div.layer-item:-abp-contains(打开)
-baijiahao.baidu.com##.ByGTNZMLOdQ-LzxbSZ-mc
 baijiahao.baidu.com##.openImg
+baijiahao.baidu.com##span:-abp-contains(打开百度APP)
+baijiahao.baidu.com##span:-abp-contains(打开APP)
 
 ! ---baike.baidu.com---
 baike.baidu.com##.squareAni.square.super-layer-promote
