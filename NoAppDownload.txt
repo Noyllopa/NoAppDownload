@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20230105001
+! Version: 20230109001
 ! Title: NoAppDownload
-! Last modified: 2023/01/05 17:00:00 +0800
+! Last modified: 2023/01/09 13:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -471,6 +471,9 @@ zuimeia.com###rightside_download_zuimei
 36kr.com##.goapp-wrapper > .kr-mobile-goapp
 36kr.com##.goapp-btn
 36kr.com##.open-app-fixed
+36kr.com##.app-track-banner-outer
+36kr.com##.float-app-button-wrp
+36kr.com##.show.article-top-swiper-goapp
 
 ! ---3g.163.com---
 3g.163.com##.js-wakeupclient.wakeup_client
@@ -802,6 +805,7 @@ smzdm.com##.new-zone
 smzdm.com##.J_copy.btn-open-app
 smzdm.com##.see-all
 smzdm.com##.btn-open-app-b.btn-open-app
+smzdm.com##a[class^="fixed-logo"]
 
 ! ---m.sohu.com---
 m.sohu.com##.topbox.comment-reply__bar.comment-reply__box
@@ -1024,6 +1028,7 @@ youku.com##.ad-banner-wrapper
 youku.com##.callEnd_content
 youku.com###download_btn
 youku.com##.downloadApp.icon
+youku.com##.callEnd_fixed_box
 
 ! ---yystv---
 yystv.cn##.flex-box.flex.top-nav-download
