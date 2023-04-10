@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20230113001
+! Version: 20230410001
 ! Title: NoAppDownload
-! Last modified: 2023/01/13 10:30:00 +0800
+! Last modified: 2023/04/10 08:30:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -13,14 +13,14 @@
 163.com##.ns_side_qrcode
 163.com##.newsapp-qrcode
 
-! ---www.360doc.com---
+! ---360doc---
 360doc.com##.ul-similar
 360doc.com##div.str_border:nth-of-type(5)
 
 ! ---36kr---
 36kr.com##.phone
 
-! ---www.360kuai.com---
+! ---360kuai---
 360kuai.com##.side-wrapper
 360kuai.com##.float--left.right_aside_wrapper
 
@@ -39,7 +39,7 @@ jingyan.baidu.com##.fresh-share-exp-e
 ! ---Bing---
 bing.com###TopApp
 
-! ---Bilibili---
+! ---bilibili---
 bilibili.com##a[href="//app.bilibili.com"]
 bilibili.com###fixed_app_download
 bilibili.com###app > DIV.bili-header-m.report-wrap-module:first-child > DIV.nav-menu:first-child > DIV.nav-wrapper.clearfix.bili-wrapper:last-child > DIV.nav-con.fl:first-child > UL > LI.nav-item.mobile:last-child
@@ -154,6 +154,7 @@ huya.com##.wrap-income.chat-wrap-panel
 huya.com##div[class*="NavDownload"]
 huya.com##.tip-bg-common-new.diy-activity-icon-bubble-tips
 huya.com###player-download-guide-tip
+huya.com##.jump-to-phone
 
 ! ---huxiu---
 huxiu.com##li:nth-of-type(1) > .header-top-list__link > .flip-wrap > .flip-up
@@ -210,7 +211,7 @@ jianshu.com##._27yofX
 jianshu.com##._13lIbp
 jianshu.com##div._1pUUKr:nth-of-type(3)
 
-! ---jikipedia.com---
+! ---jikipedia---
 jikipedia.com##.cursor.download-img
 jikipedia.com##[href="/app"]
 jikipedia.com##.download-link
@@ -368,7 +369,7 @@ tmall.com##.mui-mbar-tab-qrcode.mui-mbar-tab
 tmall.com##div[style*="z-index: 99999; display: block;"]
 tmall.com###J_smartloader
 
-! ---userstyles.org---
+! ---userstyles---
 userstyles.org###top_android_button
 userstyles.org##.android_button_button
 userstyles.org##.android_button_banner
@@ -377,7 +378,7 @@ userstyles.org##.android_button_banner
 vip.com##.sidebarcom-qrcode
 vip.com##.wp-phone
 
-! ---vivo.com.cn---
+! ---vivo---
 vivo.com.cn##.vp-vivo-app
 
 ! ---v.qq.com---
@@ -511,6 +512,11 @@ a.9game.cn##.newGame.normal-module
 a.9game.cn##.JS_xlyx_down.down-app
 a.9game.cn##.JS_xlyx_down.zq-down-box
 a.9game.cn##.biubiu-recommend-box
+
+! ---m.acfun.cn---
+m.acfun.cn##.shown.open-app-btn
+m.acfun.cn##.header-ico
+m.acfun.cn##.flex-center.down-app-button
 
 ! ---baidu---
 baidu.com###header > div:last-child
