@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
 ! Version: 20230410001
 ! Title: NoAppDownload
-! Last modified: 2023/04/10 08:30:00 +0800
+! Last modified: 2023/04/14 23:30:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -58,7 +58,6 @@ bilibili.com##.clearfix.h5-download-bar
 bilibili.com##.app-download-link
 bilibili.com##.van-popover__reference:-abp-contains(下载)
 manga.bilibili.com##.app-button.download-app
-bilibili.com##.bili-dialog-m
 
 ! ---chinaso---
 chinaso.com###Fixed_app
