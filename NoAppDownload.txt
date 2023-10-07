@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20230504001
+! Version: 20231007001
 ! Title: NoAppDownload
-! Last modified: 2023/05/04 20:00:00 +0800
+! Last modified: 2023/10/07 13:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -41,22 +41,23 @@ bing.com###TopApp
 
 ! ---bilibili---
 bilibili.com##a[href="//app.bilibili.com"]
+bilibili.com##.app-download-link
+bilibili.com##.bili-app
+bilibili.com##.bili-app-link-container
+bilibili.com##.btn-ctnr
+bilibili.com##.clearfix.h5-download-bar
+bilibili.com##.download-client-trigger.download-entry
 bilibili.com###fixed_app_download
-bilibili.com###app > DIV.bili-header-m.report-wrap-module:first-child > DIV.nav-menu:first-child > DIV.nav-wrapper.clearfix.bili-wrapper:last-child > DIV.nav-con.fl:first-child > UL > LI.nav-item.mobile:last-child
 bilibili.com##.index__openAppBtn__src-commonComponent-topArea-
 bilibili.com##.index__container__src-commonComponent-bottomOpenApp-
 bilibili.com##.index__openApp__src-videoPage-related2Col-videoItem-
 bilibili.com##.index__floatOpenBtn__src-videoPage-floatOpenBtn-
 bilibili.com##.index__downLoadBtn__src-videoPage-commentArea-
-bilibili.com##.bili-app-link-container
-bilibili.com##.open-app-bar
-bilibili.com##.btn-ctnr
-bilibili.com##.bili-app
-bilibili.com###openAppBtn
 bilibili.com##.mobile.nav-item
-bilibili.com##.clearfix.h5-download-bar
-bilibili.com##.app-download-link
+bilibili.com##.open-app-bar
+bilibili.com###openAppBtn
 bilibili.com#?#.van-popover__reference:-abp-contains(下载)
+bilibili.com###app > DIV.bili-header-m.report-wrap-module:first-child > DIV.nav-menu:first-child > DIV.nav-wrapper.clearfix.bili-wrapper:last-child > DIV.nav-con.fl:first-child > UL > LI.nav-item.mobile:last-child
 manga.bilibili.com##.app-button.download-app
 
 ! ---chinaso---
@@ -279,8 +280,11 @@ qq.com##+js(json-prune, ad)
 ! ---sina---
 sina.com.cn##.tn-nav > div.tn-title:nth-of-type(4) > .tn-tab > i
 sina.com.cn##.part-a-l > .mod-02
+sina.cn##.callup-component
 sina.cn##.j_sax sina_tj_banner
+sina.cn##.j_callST.ldy_art_bottom_button_box
 sina.cn###j_card_searchHotwords > section.s_card > a:last-child > ins.most
+sina.cn##.qr_box
 finance.sina.com.cn##.clearfix.blk-zcapp
 finance.sina.com.cn###tab_related_btn
 finance.sina.com.cn##.clearfix.blk-wxfollow
@@ -776,7 +780,6 @@ m.qidian.com##div.book-detail-btn:nth-of-type(3)
 ! ---sina.cn---
 sina.cn##a.j_callST.appOnly_card
 sina.cn#?#article.single-pic.article:-abp-contains(APP专享)
-sina.cn#?#article.single-pic.article:-abp-contains(APP专享)
 sina.cn##.an.cm_art_push
 sina.cn##.an.j_callST.callApp_fl_btn
 sina.cn##.btn_follow.j_article_wbreco
@@ -788,7 +791,6 @@ sina.cn##.fl_suspension_box
 sina.cn##.j_relevent_video.s_card
 sina.cn##.j_wbrecommend_wrap.j_article_relevent.s_card
 sina.cn###j_card_miniVideo
-sina.cn##.look_more_a, .j_callST
 sina.cn#?#.m_f_a_r:-abp-contains(打开APP)
 sina.cn##.plague_Card, .index
 sina.cn##.popGo.ok
