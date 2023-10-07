@@ -788,7 +788,6 @@ sina.cn##.fl_suspension_box
 sina.cn##.j_relevent_video.s_card
 sina.cn##.j_wbrecommend_wrap.j_article_relevent.s_card
 sina.cn###j_card_miniVideo
-sina.cn##.look_more_a, .j_callST
 sina.cn#?#.m_f_a_r:-abp-contains(打开APP)
 sina.cn##.plague_Card, .index
 sina.cn##.popGo.ok
