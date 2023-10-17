@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
 ! Version: 20231007001
 ! Title: NoAppDownload
-! Last modified: 2023/10/07 13:00:00 +0800
+! Last modified: 2023/10/17 09:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -280,11 +280,6 @@ qq.com##+js(json-prune, ad)
 ! ---sina---
 sina.com.cn##.tn-nav > div.tn-title:nth-of-type(4) > .tn-tab > i
 sina.com.cn##.part-a-l > .mod-02
-sina.cn##.callup-component
-sina.cn##.j_sax sina_tj_banner
-sina.cn##.j_callST.ldy_art_bottom_button_box
-sina.cn###j_card_searchHotwords > section.s_card > a:last-child > ins.most
-sina.cn##.qr_box
 finance.sina.com.cn##.clearfix.blk-zcapp
 finance.sina.com.cn###tab_related_btn
 finance.sina.com.cn##.clearfix.blk-wxfollow
@@ -800,6 +795,11 @@ sina.cn##span[class*=callApp]
 sina.cn##.topLogoBar
 sina.cn##.zhidi.sw_c0
 sina.cn##.z_c2.j_article_relevent_news.s_card
+sina.cn##.callup-component
+sina.cn##.j_sax sina_tj_banner
+sina.cn##.j_callST.ldy_art_bottom_button_box
+sina.cn###j_card_searchHotwords > section.s_card > a:last-child > ins.most
+sina.cn##.qr_box
 
 ! ---m.smzdm.com---
 smzdm.com##.footer-banner
@@ -1005,6 +1005,10 @@ xw.qq.com#?#div.showDividingLine.container:-abp-contains(APP专享)
 view.inews.qq.com##div[class^="slider-top-bar_sliderWrapper"]
 view.inews.qq.com##div[class^="normal_buttonWrap"]
 view.inews.qq.com##div[class^="new-hot-comment_subText"]
+view.inews.qq.com##div[class^="main-video_"]
+view.inews.qq.com##div[class^="new-recommend_wrapper"]
+view.inews.qq.com##div[class^="infinite-comment-list_subText"]
+view.inews.qq.com##div[class^="interaction-bottom_interaction"]
 
 ! ---y.qq.com---
 y.qq.com###js_mod_dialog
