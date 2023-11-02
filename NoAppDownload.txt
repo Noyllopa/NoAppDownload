@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20231018001
+! Version: 20231102001
 ! Title: NoAppDownload
-! Last modified: 2023/10/18 09:30:00 +0800
+! Last modified: 2023/11/02 09:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -528,6 +528,8 @@ baidu.com##.square-banner-bgicon.index-banner
 baidu.com###tab_news_1
 baidu.com###tab_news_1 > div.tab-news-content.water-container:nth-child(2)
 baidu.com###login-wraps > a.index-banner.square-banner-bgicon
+tiku.baidu.com##.wap-bottom-op
+tiku.baidu.com##.to-app
 
 ! ---baijiahao.baidu.com---
 baijiahao.baidu.com##.headDeflectorContainer
