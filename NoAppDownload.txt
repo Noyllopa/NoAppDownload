@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20231201001
+! Version: 20230116001
 ! Title: NoAppDownload
-! Last modified: 2023/12/01 12:00:00 +0800
+! Last modified: 2024/01/16 19:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -573,6 +573,8 @@ m.bilibili.com##div[class*="mplayer-control-btn mplayer-control-btn-callapp mpla
 m.bilibili.com##div[class*="mplayer-widescreen-callapp"]
 m.bilibili.com##.v-switcher__content__wrap
 m.bilibili.com##.visible-open-app-btn.m-video-main-launchapp.launch-app-btn
+manga.bilibili.com##.download-hinter
+manga.bilibili.com##.p-absolute.download-tip
 
 ! ---cn.bing.com
 cn.bing.com##.bnp_rich_div_visible.top
@@ -749,6 +751,10 @@ m.ke.com##div.lj-track:nth-of-type(9)
 m.ke.com##div.lj-track:nth-of-type(12)
 m.ke.com##div.lj-track:nth-of-type(14)
 
+! ---lenovo---
+m.lenovo.com.cn##.downloadBar
+m.lenovo.com.cn##.bottomOpenAppBtn
+
 ! ---m.lianjia.com---
 m.lianjia.com##div.mod_download:nth-of-type(1) 
 m.lianjia.com##.fadeDown.download_topfixed.mod_download
@@ -772,6 +778,9 @@ mf.meizu.cn##.guide-suspend.suspend
 mzh.moegirl.org.cn##.download-app
 mzh.moegirl.org.cn##.open-in-app-wrapper
 mzh.moegirl.org.cn##.n-button__content:contains(在App内打开)
+
+! ---nubia---
+m.nubia.com###topofwap
 
 ! ---pingwest---
 pingwest.com##.options
@@ -852,6 +861,8 @@ m.suning.com##.hide.f-l-o-a-t-s-a-l-e
 ! ---m.taobao.com---
 main.m.taobao.com##button
 m.taobao.com###tcodeSideBar
+new.m.taobao.com##[style*="top: 0px"]
+h5.m.taobao.com##[style*="top: 0rem"]
 
 ! ---taptap---
 taptap.com##.open-app-button
@@ -879,6 +890,7 @@ tieba.baidu.com##.more-image-desc
 tieba.baidu.com##.hot-recommend-title.recommend-title
 tieba.baidu.com##.only-lz
 tieba.baidu.com##.comment-box
+tieba.baidu.com##.post-page-entry-btn
 
 ! ---thepaper---
 m.thepaper.cn##.header_moblink
