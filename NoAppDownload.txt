@@ -56,7 +56,7 @@ bilibili.com##.index__downLoadBtn__src-videoPage-commentArea-
 bilibili.com##.mobile.nav-item
 bilibili.com##.open-app-bar
 bilibili.com###openAppBtn
-bilibili.com#?#.van-popover__reference:-abp-contains(下载)
+bilibili.com#?#.van-popover__reference:contains(下载)
 bilibili.com###app > DIV.bili-header-m.report-wrap-module:first-child > DIV.nav-menu:first-child > DIV.nav-wrapper.clearfix.bili-wrapper:last-child > DIV.nav-con.fl:first-child > UL > LI.nav-item.mobile:last-child
 manga.bilibili.com##.app-button.download-app
 
@@ -205,7 +205,7 @@ jianshu.com###web-nav-app-download-btn
 jianshu.com##a[href*="/apps?utm_medium=desktop&utm_source=navbar-apps"]
 jianshu.com###index-aside-download-qrbox
 jianshu.com##div[class$="_0"]
-jianshu.com#?#div[role="button"]:-abp-contains(抽奖)
+jianshu.com#?#div[role="button"]:contains(抽奖)
 jianshu.com##div[aria-label="抽奖关闭"]
 jianshu.com##._27yofX
 jianshu.com##._13lIbp
@@ -292,7 +292,7 @@ finance.sina.com.cn##.app-viplive
 finance.sina.cn##.s_card.cj_24
 finance.sina.com.cn##.hqPart_bot
 finance.sina.com.cn##.zc-app-btn.right-bar-btn
-finance.sina.com.cn#?#.clearfix.tech-quotation:-abp-contains(下载客户端)
+finance.sina.com.cn#?#.clearfix.tech-quotation:contains(下载客户端)
 finance.sina.com.cn###most_read
 super.sina.cn##.call_up_banner
 
@@ -488,7 +488,7 @@ zuimeia.com###rightside_download_zuimei
 3g.163.com##.bottom.widget-slider-article.widget-slider
 3g.163.com##iframe[id*=open_newsapp_iframe]
 3g.163.com##div[class*=hot-news]
-3g.163.com#?#article.card-type-news.news-card:-abp-contains(打开APP)
+3g.163.com#?#article.card-type-news.news-card:contains(打开APP)
 3g.163.com##.js-new-relative-doc.new_relative_doc
 3g.163.com##.js-recommend-wrap
 3g.163.com##.widget-floatMenu
@@ -544,10 +544,10 @@ baijiahao.baidu.com##span[class*="cm-variable"]
 baijiahao.baidu.com##div[style^="left: calc"]
 baijiahao.baidu.com##.contentPadding.bottomTTSStruct
 baijiahao.baidu.com##.openImg
-baijiahao.baidu.com#?#div.layer-item:-abp-contains(打开)
-baijiahao.baidu.com#?#span:-abp-contains(打开百度APP)
-baijiahao.baidu.com#?#span:-abp-contains(打开APP)
-baijiahao.baidu.com#?#.layer-item:-abp-contains(百度)
+baijiahao.baidu.com#?#div.layer-item:contains(打开)
+baijiahao.baidu.com#?#span:contains(打开百度APP)
+baijiahao.baidu.com#?#span:contains(打开APP)
+baijiahao.baidu.com#?#.layer-item:contains(百度)
 
 ! ---baike.baidu.com---
 baike.baidu.com##.squareAni.square.super-layer-promote
@@ -616,7 +616,7 @@ m.douban.com##.sub-vendor > [href^="https://www.douban.com/doubanapp/card/get_ap
 m.douban.com##.oia-wrap
 m.douban.com#?#div:matches-css(width:68px)
 m.douban.com##.show-all
-m.douban.com#?#a:-abp-contains(用App看更多)
+m.douban.com#?#a:contains(用App看更多)
 
 ! ---douyu---
 m.douyu.com##.btn-open-app.open-btn-more
@@ -647,7 +647,7 @@ m.huxiu.com###qr_code_pc
 
 ! ---h5.m.taobao.com---
 taobao.com##.open-app
-taobao.com#?#button:-abp-contains(打开手机淘宝)
+taobao.com#?#button:contains(打开手机淘宝)
 
 ! ---huya---
 m.huya.com##.u-btn-down.header-app-btn
@@ -663,7 +663,7 @@ m.huya.com##.blue_btn
 
 ! ---ifeng---
 i.ifeng.com##div[class^=content-]>div[class^=link-]
-i.ifeng.com#?#div[class^=list-]:-abp-contains(APP)
+i.ifeng.com#?#div[class^=list-]:contains(APP)
 ishare.ifeng.com##header
 ishare.ifeng.com##section[class^="bottom"]
 ishare.ifeng.com##div[class^="callup"]
@@ -771,11 +771,12 @@ mf.meizu.cn##.guide-suspend.suspend
 ! ---moegirl---
 mzh.moegirl.org.cn##.download-app
 mzh.moegirl.org.cn##.open-in-app-wrapper
+mzh.moegirl.org.cn##.n-button__content:contains(在App内打开)
 
 ! ---pingwest---
 pingwest.com##.options
 pingwest.com##.bd.item
-pingwest.com#?#a[href="https://s.growingio.com/LWqRgA"]:-abp-contains(打开APP)
+pingwest.com#?#a[href="https://s.growingio.com/LWqRgA"]:contains(打开APP)
 
 ! ---m.qidian.com---
 m.qidian.com###footerApp
@@ -783,7 +784,7 @@ m.qidian.com##div.book-detail-btn:nth-of-type(3)
 
 ! ---sina.cn---
 sina.cn##.appOnly_card
-sina.cn#?#article.single-pic.article:-abp-contains(APP专享)
+sina.cn#?#article.single-pic.article:contains(APP专享)
 sina.cn##.art_img_callUp
 sina.cn##.an.cm_art_push
 sina.cn##.callApp_fl_btn
@@ -796,7 +797,7 @@ sina.cn##.fl_suspension_box
 sina.cn##.j_relevent_video.s_card
 sina.cn##.j_wbrecommend_wrap.j_article_relevent.s_card
 sina.cn###j_card_miniVideo
-sina.cn#?#.m_f_a_r:-abp-contains(打开APP)
+sina.cn#?#.m_f_a_r:contains(打开APP)
 sina.cn##.plague_Card, .index
 sina.cn##.popGo.ok
 sina.cn##.sw_c2
@@ -1013,10 +1014,10 @@ xw.qq.com###opeApp
 xw.qq.com##section[style="display: block;"]
 xw.qq.com##div[data-boss-expo="&modular=quicknews_m"]
 xw.qq.com##div[class*=pictureBottomBtn]
-xw.qq.com#?#.wrap:-abp-contains(去种树)
-xw.qq.com#?#.btn-app:-abp-contains(打开)
-xw.qq.com#?#.comment.follow_top:-abp-contains(热评)
-xw.qq.com#?#div.showDividingLine.container:-abp-contains(APP专享)
+xw.qq.com#?#.wrap:contains(去种树)
+xw.qq.com#?#.btn-app:contains(打开)
+xw.qq.com#?#.comment.follow_top:contains(热评)
+xw.qq.com#?#div.showDividingLine.container:contains(APP专享)
 view.inews.qq.com##div[class^="slider-top-bar_sliderWrapper"]
 view.inews.qq.com##div[class^="normal_buttonWrap"]
 view.inews.qq.com##div[class^="new-hot-comment_subText"]
@@ -1073,7 +1074,7 @@ zhihu.com##.RelatedReadings.Card
 zhihu.com##.Button--blue.Button--primary.css-mqjss2.Button
 zhihu.com##div.ModalWrap-item:nth-of-type(2)
 zhihu.com##.ZVideo-sideColumn
-zhihu.com#?#button:-abp-contains(App)
+zhihu.com#?#button:contains(App)
 
 ! ---zhidao.baidu.com---
 zhidao.baidu.com##.daily-header-download
