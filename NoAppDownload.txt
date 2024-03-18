@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20240304001
+! Version: 20240318001
 ! Title: NoAppDownload
-! Last modified: 2024/03/04 08:30:00 +0800
+! Last modified: 2024/03/18 10:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -248,13 +248,14 @@ mi.com##span.sep:nth-of-type(10)
 zh.moegirl.org.cn##.moe-dropdown.moe-downloadapp
 
 ! ---new.qq.com---
+new.qq.com###Recomend
 new.qq.com##[href="//new.qq.com/hb_index.htm"]
+new.qq.com##.cms-bar
 new.qq.com##.group-pic-bar
+new.qq.com##.godown.qqcom_fb-item
 new.qq.com##.hot-choice-bar
 new.qq.com##.original-bar
 new.qq.com##.tuijian-bar
-new.qq.com###Recomend
-new.qq.com##.cms-bar
 
 ! ---oneplusbbs---
 oneplusbbs.com###bbsRegisterGuide
@@ -1014,31 +1015,33 @@ m.xiaomiyoupin.com##.lib10-opapp-wrap
 m.xiaomiyoupin.com###download-bar
 
 ! ---xw.qq.com---
-xw.qq.com##.btn-ok
-xw.qq.com##div[data-boss*="modular"]
-xw.qq.com##div[class*="elevator"]
 ||mat1.gtimg.com/rain/bailing20/*.jpg$image
 ||mat1.gtimg.com/rain/bailing20/*.*.png$image
-xw.qq.com##div[class*="content-more"]
-xw.qq.com###recommend-modules
+xw.qq.com##.btn-ok
 xw.qq.com##div[class*="follow_top"]
-xw.qq.com###taskTips
-xw.qq.com###opeApp
-xw.qq.com##section[style="display: block;"]
-xw.qq.com##div[data-boss-expo="&modular=quicknews_m"]
+xw.qq.com##div[class*="content-more"]
+xw.qq.com##div[class*="elevator"]
 xw.qq.com##div[class*=pictureBottomBtn]
+xw.qq.com##div[data-boss*="modular"]
+xw.qq.com##div[data-boss-expo="&modular=quicknews_m"]
+xw.qq.com##section[style="display: block;"]
+xw.qq.com###opeApp
+xw.qq.com###recommend-modules
+xw.qq.com###taskTips
 xw.qq.com#?#.wrap:contains(去种树)
 xw.qq.com#?#.btn-app:contains(打开)
 xw.qq.com#?#.comment.follow_top:contains(热评)
 xw.qq.com#?#div.showDividingLine.container:contains(APP专享)
-view.inews.qq.com##div[class^="slider-top-bar_sliderWrapper"]
-view.inews.qq.com##div[class^="normal_buttonWrap"]
-view.inews.qq.com##div[class^="new-hot-comment_subText"]
-view.inews.qq.com##div[class^="main-video_"]
-view.inews.qq.com##div[class^="new-recommend_wrapper"]
+view.inews.qq.com##div[class^="bottom-bar_buttonWrap"]
 view.inews.qq.com##div[class^="infinite-comment-list_subText"]
 view.inews.qq.com##div[class^="interaction-bottom_interaction"]
 view.inews.qq.com##div[class^="justify-text_showMore"]
+view.inews.qq.com##div[class^="main-video_"]
+view.inews.qq.com##div[class^="new-hot-comment_subText"]
+view.inews.qq.com##div[class^="new-recommend_wrapper"]
+view.inews.qq.com##div[class^="normal_buttonWrap"]
+view.inews.qq.com##div[class^="slider-top-bar_newSliderWrapper"]
+view.inews.qq.com##div[class^="slider-top-bar_sliderWrapper"]
 
 ! ---y.qq.com---
 y.qq.com###js_mod_dialog
