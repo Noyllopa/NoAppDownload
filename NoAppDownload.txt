@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20240324001
+! Version: 20240325001
 ! Title: NoAppDownload
-! Last modified: 2024/03/24 14:00:00 +0800
+! Last modified: 2024/03/25 10:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -251,12 +251,14 @@ zh.moegirl.org.cn##.moe-dropdown.moe-downloadapp
 ! ---new.qq.com---
 new.qq.com###Recomend
 new.qq.com##[href="//new.qq.com/hb_index.htm"]
+new.qq.com##[href="https://new.qq.com/mobile"]
 new.qq.com##.cms-bar
 new.qq.com##.group-pic-bar
 new.qq.com##.godown.qqcom_fb-item
 new.qq.com##.hot-choice-bar
 new.qq.com##.original-bar
 new.qq.com##.tuijian-bar
+
 
 ! ---oneplusbbs---
 oneplusbbs.com###bbsRegisterGuide
