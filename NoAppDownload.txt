@@ -59,6 +59,7 @@ bilibili.com##.open-app-bar
 bilibili.com###openAppBtn
 bilibili.com#?#.van-popover__reference:contains(下载)
 bilibili.com###app > DIV.bili-header-m.report-wrap-module:first-child > DIV.nav-menu:first-child > DIV.nav-wrapper.clearfix.bili-wrapper:last-child > DIV.nav-con.fl:first-child > UL > LI.nav-item.mobile:last-child
+live.bilibili.com##div.pointer:contains(下载客户端)
 manga.bilibili.com##.app-button.download-app
 
 ! ---chinaso---
