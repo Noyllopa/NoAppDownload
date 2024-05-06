@@ -480,8 +480,9 @@ zuimeia.com###rightside_download_zuimei
 36kr.com##.show.article-top-swiper-goapp
 
 ! ---163---
-163.com##.s-openApp
 163.com##.js-open-app
+163.com##.m-download
+163.com##.s-openApp
 3g.163.com##.js-wakeupclient.wakeup_client
 3g.163.com##.hotSearch-box
 3g.163.com##.open-modal-mask
