@@ -320,6 +320,7 @@ smzdm.com##.footer-new-guide
 
 ! ---sohu---
 sohu.com##.download-app
+sohu.com##.phone-scan
 
 !---sogou---
 sogou.com##.erwm-box
