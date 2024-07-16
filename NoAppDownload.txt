@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20240509001
+! Version: 20240716001
 ! Title: NoAppDownload
-! Last modified: 2024/05/09 22:00:00 +0800
+! Last modified: 2024/07/16 10:30:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -259,7 +259,10 @@ new.qq.com##.godown.qqcom_fb-item
 new.qq.com##.hot-choice-bar
 new.qq.com##.original-bar
 new.qq.com##.tuijian-bar
-
+new.qq.com#?#div.operation:contains(手机看)
+news.qq.com##.download-banner-wrap
+news.qq.com##.download-content.mr28.download-wrapper
+news.qq.com##.godown.qqcom_fb-item
 
 ! ---oneplusbbs---
 oneplusbbs.com###bbsRegisterGuide
@@ -1049,6 +1052,7 @@ xw.qq.com#?#.wrap:contains(去种树)
 xw.qq.com#?#.btn-app:contains(打开)
 xw.qq.com#?#.comment.follow_top:contains(热评)
 xw.qq.com#?#div.showDividingLine.container:contains(APP专享)
+view.inews.qq.com##div[class^="article-recommend_wrapper"]
 view.inews.qq.com##div[class^="bottom-bar_buttonWrap"]
 view.inews.qq.com##div[class^="infinite-comment-list_subText"]
 view.inews.qq.com##div[class^="interaction-bottom_interaction"]
@@ -1059,6 +1063,7 @@ view.inews.qq.com##div[class^="new-recommend_wrapper"]
 view.inews.qq.com##div[class^="normal_buttonWrap"]
 view.inews.qq.com##div[class^="slider-top-bar_newSliderWrapper"]
 view.inews.qq.com##div[class^="slider-top-bar_sliderWrapper"]
+
 
 ! ---y.qq.com---
 y.qq.com###js_mod_dialog
