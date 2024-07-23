@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20240716001
+! Version: 20240723001
 ! Title: NoAppDownload
-! Last modified: 2024/07/16 10:30:00 +0800
+! Last modified: 2024/07/23 10:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -27,6 +27,10 @@
 ! ---acfun---
 acfun.cn##.app-guide
 acfun.cn##.download-app
+
+! ---amap---
+amap.com##.app_download_box
+amap.com##.app-download-panel
 
 ! ---Baidu---
 baidu.com###s-hotsearch-wrapper
@@ -1064,7 +1068,6 @@ view.inews.qq.com##div[class^="normal_buttonWrap"]
 view.inews.qq.com##div[class^="slider-top-bar_newSliderWrapper"]
 view.inews.qq.com##div[class^="slider-top-bar_sliderWrapper"]
 
-
 ! ---y.qq.com---
 y.qq.com###js_mod_dialog
 y.qq.com##.top_box
@@ -1098,6 +1101,15 @@ youku.com###download_btn
 youku.com##.downloadApp.icon
 youku.com##.callEnd_fixed_box
 
+! ---youku---
+wap.gamersky.com##.countHitSql.countHit.gsTgAppConCommentBtn
+wap.gamersky.com##.gsTgWapConBdshareTopBox
+wap.gamersky.com##.ymw-app-open
+wap.gamersky.com##.ymw-footer
+wap.gamersky.com##.ymw-header2021.ymwBootDownload
+wap.gamersky.com##.ymw-rel-list.ymw-aside-box
+wap.gamersky.com##section.ymw-rel-list
+
 ! ---yystv---
 yystv.cn##.flex-box.flex.top-nav-download
 yystv.cn##.fixed-container
@@ -1120,31 +1132,3 @@ zhidao.baidu.com##.singin-bubble
 zhidao.baidu.com##.icon-bdad
 zhidao.baidu.com###feed-recommend
 zhidao.baidu.com##.zhidao-app.menu-right-list-item
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
