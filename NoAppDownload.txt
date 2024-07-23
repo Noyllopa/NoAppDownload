@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20240723001
+! Version: 20240723002
 ! Title: NoAppDownload
-! Last modified: 2024/07/23 10:00:00 +0800
+! Last modified: 2024/07/23 10:05:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -650,13 +650,21 @@ m.douyu.com##.abtest-downloadDialog
 m.douyu.com##.clarity-downDialog
 m.douyu.com##.DownloadBtn
 
-
 ! ---egame.qq.com---
 m.egame.qq.com###installbar
 m.egame.qq.com###gcOfficialWidgetWrapper
 m.egame.qq.com##.widget-wrapper
 m.egame.qq.com###installGameBar
 m.egame.qq.com##.ui-border-b.ui-tab-nav > li:nth-of-type(4)
+
+! ---gamersky---
+wap.gamersky.com##.countHitSql.countHit.gsTgAppConCommentBtn
+wap.gamersky.com##.gsTgWapConBdshareTopBox
+wap.gamersky.com##.ymw-app-open
+wap.gamersky.com##.ymw-footer
+wap.gamersky.com##.ymw-header2021.ymwBootDownload
+wap.gamersky.com##.ymw-rel-list.ymw-aside-box
+wap.gamersky.com##section.ymw-rel-list
 
 ! ---m.gome.com.cn---
 m.gome.com.cn##.m-downapp
@@ -1100,15 +1108,6 @@ youku.com##.callEnd_content
 youku.com###download_btn
 youku.com##.downloadApp.icon
 youku.com##.callEnd_fixed_box
-
-! ---youku---
-wap.gamersky.com##.countHitSql.countHit.gsTgAppConCommentBtn
-wap.gamersky.com##.gsTgWapConBdshareTopBox
-wap.gamersky.com##.ymw-app-open
-wap.gamersky.com##.ymw-footer
-wap.gamersky.com##.ymw-header2021.ymwBootDownload
-wap.gamersky.com##.ymw-rel-list.ymw-aside-box
-wap.gamersky.com##section.ymw-rel-list
 
 ! ---yystv---
 yystv.cn##.flex-box.flex.top-nav-download
