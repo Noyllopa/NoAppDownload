@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20240724001
+! Version: 20240724002
 ! Title: NoAppDownload
-! Last modified: 2024/07/24 10:00:00 +0800
+! Last modified: 2024/07/24 23:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -98,35 +98,12 @@ douban.com##.lnk-doubanapp
 fm.douban.com##.left
 
 ! ---douyu---
-douyu.com##li.RightNavigate-item:nth-of-type(1) > [href^="/client"]
-douyu.com##li.RightNavigate-item:nth-of-type(1)
-douyu.com##li.RightNavigate-item:nth-of-type(2) > [href^="/client"]
-douyu.com##li.RightNavigate-item:nth-of-type(2)
-douyu.com##.SuperFansGuideTips
-douyu.com##.is-active.UPlayerLotteryEnter
-douyu.com##.FudaiGiftToolBarTips
-douyu.com##.PrivilegeGiftModalDialog
-douyu.com###FansFestival2003Tips
+douyu.com##div[class^="code_box"]
 douyu.com##div[class*=LiveRoomDianzan]
-douyu.com##.TaskIcon
-douyu.com##.FishpondTreasure
-douyu.com##.ToolbarActivityArea > div:nth-of-type(1) > div:nth-of-type(1) > div.ActivityItem:nth-of-type(3)
-douyu.com##div.Title-row:nth-of-type(3)
-douyu.com##div.is-normal.Title-col:nth-of-type(2)
-douyu.com###douyu_room_normal_player_danmuDom > .ani-base-hover.DanmuEffectBC.ani-broadcast
-douyu.com###douyu_room_normal_player_proxy_box > .PlayerSuspendedBallAd
-douyu.com##.PcDiversion
-douyu.com##.HeaderGif-right
-douyu.com###js-room-activity
-douyu.com###js-player-dialog
-douyu.com##.Bottom
-douyu.com###js-player-guessgame
-douyu.com##.HeaderGif-left
-douyu.com##.ConfigBroadcast.ani-broadcast
-douyu.com##.ChatEffect
-douyu.com##.is-mask.MedalUserGuide
+douyu.com##.ClientJump
+douyu.com##.Download
 douyu.com##.Header-download-wrap
-douyu.com##.ToolbarActivityArea
+douyu.com##.is-mask.MedalUserGuide
 
 ! ---egame.qq.com---
 egame.qq.com###inner-container
