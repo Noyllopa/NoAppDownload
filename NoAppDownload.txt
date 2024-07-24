@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20240723002
+! Version: 20240724001
 ! Title: NoAppDownload
-! Last modified: 2024/07/23 10:05:00 +0800
+! Last modified: 2024/07/24 10:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -231,6 +231,8 @@ juejin.cn##.aside.index-aside > .shadow.app-download-sidebar-block.sidebar-block
 ! ---ke.com---
 ke.com##.app_content
 ke.com##.app_daoliu_layer
+ke.com##.app-down
+ke.com##.download
 
 ! ---juejin---
 juejin.im##.extension
@@ -367,6 +369,7 @@ n.sinaimg.cn/finance/blackcat/pc/blink.gif$image
 
 ! ---thepaper---
 thepaper.cn##.download
+thepaper.cn###QRcode
 
 ! ---tmall---
 tmall.com##.sn-mobile
