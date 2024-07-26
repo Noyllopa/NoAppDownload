@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20240724003
+! Version: 20240726001
 ! Title: NoAppDownload
-! Last modified: 2024/07/24 23:05:00 +0800
+! Last modified: 2024/07/26 13:30:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -41,6 +41,7 @@ jingyan.baidu.com##.task-panel-entrance
 jingyan.baidu.com##.fresh-share-exp-e
 
 ! ---Bing---
+bing.com###id_mobile
 bing.com###TopApp
 
 ! ---bilibili---
