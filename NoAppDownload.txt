@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20240726001
+! Version: 20240729001
 ! Title: NoAppDownload
-! Last modified: 2024/07/26 13:30:00 +0800
+! Last modified: 2024/07/29 13:30:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -863,6 +863,7 @@ m.sogou.com##.recommend-pop.vr-recommend
 m.suning.com##.common-right-d
 m.suning.com##.to-login
 m.suning.com##.hide.f-l-o-a-t-s-a-l-e
+suning.com##.headDom
 
 ! ---m.taobao.com---
 main.m.taobao.com##button
