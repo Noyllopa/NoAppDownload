@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20240729002
+! Version: 20240730001
 ! Title: NoAppDownload
-! Last modified: 2024/07/29 14:00:00 +0800
+! Last modified: 2024/07/30 08:30:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -564,10 +564,8 @@ m.bilibili.com##.visible-open-app-btn.m-video-main-launchapp.launch-app-btn
 m.bilibili.com##.m-video2-float-openapp
 m.bilibili.com##.m-float-openapp.open-app-btn
 m.bilibili.com##.m-comment-openapp.open-app-btn
-m.bilibili.com##.v-switcher__content__wrap
 m.bilibili.com##div[class*="mplayer-control-btn mplayer-control-btn-callapp mplayer-control-btn-speed"]
 m.bilibili.com##div[class*="mplayer-widescreen-callapp"]
-m.bilibili.com##.v-switcher__content__wrap
 m.bilibili.com##.visible-open-app-btn.m-video-main-launchapp.launch-app-btn
 manga.bilibili.com##.download-hinter
 manga.bilibili.com##.p-absolute.download-tip
