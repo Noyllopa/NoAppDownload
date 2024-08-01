@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20240730001
+! Version: 20240801001
 ! Title: NoAppDownload
-! Last modified: 2024/07/30 08:30:00 +0800
+! Last modified: 2024/08/01 15:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -553,20 +553,22 @@ baike.baidu.com##a[onclick="page.Mixedor.mixedOpen(this,0)"]
 baike.baidu.com##.top-icon.spark-icon
 
 ! ---bilibili---
+bilibili.com##.open-btn
 m.bilibili.com##.m-home-float-openapp
-m.bilibili.com##div[class*="openapp"]
-m.bilibili.com##.nav-open-app-img
-m.bilibili.com##.m-nav-openapp.open-app-btn
-m.bilibili.com##.home-float-openapp.open-app-btn
-m.bilibili.com##div[class^="open-app-btn"]
-m.bilibili.com##.visible-open-app-btn.m-video-main-openapp.open-app-btn
-m.bilibili.com##.visible-open-app-btn.m-video-main-launchapp.launch-app-btn
+m.bilibili.com##.m-video2-awaken-btn
 m.bilibili.com##.m-video2-float-openapp
-m.bilibili.com##.m-float-openapp.open-app-btn
-m.bilibili.com##.m-comment-openapp.open-app-btn
+m.bilibili.com##.natural-margin.visible-open-app-btn.m-video-main-launchapp.launch-app-btn
+m.bilibili.com##.nav-open-app-img
+bilibili.com##.float-btn:contains(打开App)
+m.bilibili.com##.bottom-tab:contains(App)
+m.bilibili.com##.container:contains(打开App)
+m.bilibili.com##.launch-app-btn:contains(打开APP)
+m.bilibili.com##.launch-app-btn > a:contains(App)
 m.bilibili.com##div[class*="mplayer-control-btn mplayer-control-btn-callapp mplayer-control-btn-speed"]
 m.bilibili.com##div[class*="mplayer-widescreen-callapp"]
-m.bilibili.com##.visible-open-app-btn.m-video-main-launchapp.launch-app-btn
+m.bilibili.com##div[class^="open-app-btn"]
+m.bilibili.com##div[class*="openapp"]
+
 manga.bilibili.com##.download-hinter
 manga.bilibili.com##.p-absolute.download-tip
 
