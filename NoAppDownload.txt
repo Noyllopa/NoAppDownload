@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20240809001
+! Version: 20240809002
 ! Title: NoAppDownload
-! Last modified: 2024/08/09 10:00:00 +0800
+! Last modified: 2024/08/09 20:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -1006,19 +1006,18 @@ wk.baidu.com##.rec-text-root
 wuzhuiso.com##.download-app
 
 ! ---www.xiaohongshu.com---
-xiaohongshu.com##.fixed
-xiaohongshu.com##.bottom-bar.button-bottom-bar.cube-z-bottom-bar
-xiaohongshu.com##.wx-open-launch-app-container
-xiaohongshu.com##.more-image-desc
 xiaohongshu.com##.android.all-comment
-xiaohongshu.com##.section.related-notes
+xiaohongshu.com##.bottom-bar.button-bottom-bar.cube-z-bottom-bar
 xiaohongshu.com##.bottom-button-box
 xiaohongshu.com##.comment-items > .button-launch
-xiaohongshu.com##.user-notes-clo-layout-container.user-notes-box > .button-launch
-xiaohongshu.com##.recommend-box
-xiaohongshu.com##.user-notes-clo-layout-container.user-notes-box
+xiaohongshu.com##.fixed
+xiaohongshu.com##.hotlist-container
+xiaohongshu.com##.more-image-desc
 xiaohongshu.com##.nav-bar-box
-xiaohongshu.com##.reds-modal-open.reds-modal
+xiaohongshu.com##.recommend-box
+xiaohongshu.com##.section.related-notes
+xiaohongshu.com##.user-notes-clo-layout-container.user-notes-box
+xiaohongshu.com##.wx-open-launch-app-container
 
 ! ---xiaomiyoupin---
 m.xiaomiyoupin.com##.download-bar-container
