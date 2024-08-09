@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20240801001
+! Version: 20240809001
 ! Title: NoAppDownload
-! Last modified: 2024/08/01 15:00:00 +0800
+! Last modified: 2024/08/09 10:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -670,16 +670,18 @@ m.huya.com##.dtip
 m.huya.com##.blue_btn
 
 ! ---ifeng---
+ifeng.com##header:contains(立即打开)
+ifeng.com##header[class*="headerIn"]
+ifeng.com##div[class*="callupBtn"]
+ifeng.com##div[class^="index_link"]:contains(app)
 i.ifeng.com##div[class^=content-]>div[class^=link-]
 i.ifeng.com#?#div[class^=list-]:contains(APP)
-ifeng.com##header:contains(立即打开)
-ifeng.com##div[class^="index_link"]:contains(app)
-ishare.ifeng.com##section[class^="bottom"]
-ishare.ifeng.com##div[class^="callup"]
 ishare.ifeng.com##.callUpBox
-ishare.ifeng.com##section[class^="allLook"]
-ishare.ifeng.com##section[class^="relateVideo"]
+ishare.ifeng.com##div[class^="callup"]
 ishare.ifeng.com##div[class^="more_box"]
+ishare.ifeng.com##section[class^="allLook"]
+ishare.ifeng.com##section[class^="bottom"]
+ishare.ifeng.com##section[class^="relateVideo"]
 
 ! --iqiyi---
 iqiyi.com##.m-iqyGuide-layer
