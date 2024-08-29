@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20240819001
+! Version: 20240829001
 ! Title: NoAppDownload
-! Last modified: 2024/08/19 16:30:00 +0800
+! Last modified: 2024/08/29 09:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -534,17 +534,19 @@ tiku.baidu.com##.wap-bottom-op
 tiku.baidu.com##.to-app
 
 ! ---baijiahao.baidu.com---
+baijiahao.baidu.com##.contentPadding.bottomTTSStruct
 baijiahao.baidu.com##.headDeflectorContainer
+baijiahao.baidu.com#?#.layer-item:contains(百度)
+baijiahao.baidu.com##.newHeadDeflectorContainer
+baijiahao.baidu.com##.openImg
 baijiahao.baidu.com##.related-news
 baijiahao.baidu.com##.wxUnfoldText
-baijiahao.baidu.com##span[class*="cm-variable"]
-baijiahao.baidu.com##div[style^="left: calc"]
-baijiahao.baidu.com##.contentPadding.bottomTTSStruct
-baijiahao.baidu.com##.openImg
 baijiahao.baidu.com#?#div.layer-item:contains(打开)
 baijiahao.baidu.com#?#span:contains(打开百度APP)
 baijiahao.baidu.com#?#span:contains(打开APP)
-baijiahao.baidu.com#?#.layer-item:contains(百度)
+baijiahao.baidu.com##div[id="bdrainrwDragButton"]
+baijiahao.baidu.com##div[style^="left: calc"]
+baijiahao.baidu.com##span[class*="cm-variable"]
 
 ! ---baike.baidu.com---
 baike.baidu.com##.squareAni.square.super-layer-promote
