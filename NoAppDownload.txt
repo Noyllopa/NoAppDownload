@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20240829001
+! Version: 20240901001
 ! Title: NoAppDownload
-! Last modified: 2024/08/29 09:00:00 +0800
+! Last modified: 2024/09/01 21:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -1007,6 +1007,14 @@ wk.baidu.com##.rec-text-root
 
 ! ---wuzhuiso.com---
 wuzhuiso.com##.download-app
+
+! ---xiachufang---
+m.xiachufang.com##.bottom-fixed-open-btn
+m.xiachufang.com##.open-app-btn-wrap
+m.xiachufang.com##.open-app-wrap.open-app-button
+m.xiachufang.com##.swiper-container-android
+m.xiachufang.com##.tc.dib
+m.xiachufang.com##[href="https://jumpapp.xiachufang.com/"]
 
 ! ---www.xiaohongshu.com---
 xiaohongshu.com##.android.all-comment
