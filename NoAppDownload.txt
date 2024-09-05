@@ -881,30 +881,33 @@ h5.m.taobao.com##[style*="top: 0rem"]
 taptap.com##.open-app-button
 
 ! ---m.tieba.com---
-tieba.baidu.com###diversBanner
 tieba.baidu.com##.banner-wrapper
 tieba.baidu.com##.bottom-guide-box
 tieba.baidu.com##.comment-box
-tieba.baidu.com##div[class*="appPromote"]
 tieba.baidu.com##.father-cut-daoliu-normal-box
 tieba.baidu.com##.father-cut-recommend-normal-box
 tieba.baidu.com##.feed-cut
 tieba.baidu.com##.hot-recommend-title.recommend-title
 tieba.baidu.com##.img-open-app
+tieba.baidu.com##.load-more.wake-app
 tieba.baidu.com##.more-btn-desc
 tieba.baidu.com##.more-image-desc
 tieba.baidu.com##.nav-bar-bottom
 tieba.baidu.com##.open-app-guide
 tieba.baidu.com##.open-style
+tieba.baidu.com##.operate-btn
+tieba.baidu.com##.operation-chat.wake-app
 tieba.baidu.com##.only-lz
 tieba.baidu.com##.post-cut-guide
 tieba.baidu.com##.post-page-entry-btn
 tieba.baidu.com##.recommend-list
 tieba.baidu.com##.recommend-title
 tieba.baidu.com##.top-guide-wrap.top-guide
+tieba.baidu.com###diversBanner
+tieba.baidu.com##li.tb-share__item:nth-of-type(1)
+tieba.baidu.com##div[class*="appPromote"]
 tieba.baidu.com##div[class*="fixed-nav-bar nav-bar-wrapper"]
 tieba.baidu.com##div[class*="nav-bar-wrapper"]
-tieba.baidu.com##li.tb-share__item:nth-of-type(1)
 
 ! ---thepaper---
 m.thepaper.cn##.header_moblink
@@ -1004,9 +1007,6 @@ wk.baidu.com##.top-banner-guide
 wk.baidu.com##.vip-guide-contanier.guidetowkvipwg-root
 wk.baidu.com##.video-rec-inner
 wk.baidu.com##.rec-text-root
-
-! ---wuzhuiso.com---
-wuzhuiso.com##.download-app
 
 ! ---xiachufang---
 m.xiachufang.com##.bottom-fixed-open-btn
