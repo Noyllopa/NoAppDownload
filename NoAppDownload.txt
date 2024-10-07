@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20240901001
+! Version: 20241007001
 ! Title: NoAppDownload
-! Last modified: 2024/09/01 21:00:00 +0800
+! Last modified: 2024/10/07 12:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -600,6 +600,13 @@ m.dangdang.com##.app_download
 m.dangdang.com##.redrain-index-i
 m.dangdang.com###zdmad
 m.dangdang.com##.container > a
+
+! ---dongchedi---
+m.dongchedi.com##.float-open-app-btn.float-open-app
+m.dongchedi.com##.mui-dialog__no-spacing.mui-dialog
+m.dongchedi.com##.open-app
+m.dongchedi.com##.tw-flex:contains(App内打开)
+m.dongchedi.com##div[style="width: 84px; height: 38px; background: rgb(255, 204, 50);"]
 
 ! ---douban---
 m.douban.com###comment-list > div > .show-all
