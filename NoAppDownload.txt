@@ -897,7 +897,7 @@ tieba.baidu.com##.feed-cut
 tieba.baidu.com##.hot-recommend-title.recommend-title
 tieba.baidu.com##.img-open-app
 tieba.baidu.com##.load-more.wake-app
-tieba.baidu.com##.more-btn-desc
+tieba.baidu.com##.more-btn-desc:contains(打开APP)
 tieba.baidu.com##.more-image-desc
 tieba.baidu.com##.nav-bar-bottom
 tieba.baidu.com##.open-app-guide
