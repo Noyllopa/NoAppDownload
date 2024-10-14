@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20241007001
+! Version: 20241014001
 ! Title: NoAppDownload
-! Last modified: 2024/10/07 12:00:00 +0800
+! Last modified: 2024/10/14 09:30:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -194,13 +194,6 @@ jianshu.com##div[aria-label="抽奖关闭"]
 jianshu.com##._27yofX
 jianshu.com##._13lIbp
 jianshu.com##div._1pUUKr:nth-of-type(3)
-
-! ---jikipedia---
-jikipedia.com##.cursor.download-img
-jikipedia.com##[href="/app"]
-jikipedia.com##.download-link
-jikipedia.com##.components-container
-jikipedia.com##.cursor.link.app-link
 
 ! ---juejin---
 juejin.cn##.recommend-box
@@ -635,13 +628,6 @@ m.douban.com#?#div:matches-css(width:68px)
 
 ! ---douyu---
 m.douyu.com##div[class*="OpenAppBtn"]
-
-! ---egame.qq.com---
-m.egame.qq.com###installbar
-m.egame.qq.com###gcOfficialWidgetWrapper
-m.egame.qq.com##.widget-wrapper
-m.egame.qq.com###installGameBar
-m.egame.qq.com##.ui-border-b.ui-tab-nav > li:nth-of-type(4)
 
 ! ---gamersky---
 wap.gamersky.com##.countHitSql.countHit.gsTgAppConCommentBtn
