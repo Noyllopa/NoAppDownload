@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20241016001
+! Version: 20241019001
 ! Title: NoAppDownload
-! Last modified: 2024/10/16 15:30:00 +0800
+! Last modified: 2024/10/19 15:30:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -918,12 +918,9 @@ m.thepaper.cn##a[data-statclick="downloadApp"]
 m.thepaper.cn##div[class^="index_footer_banner"]
 
 ! ---toutiao---
-m.toutiao.com##.fold-btn-btn
-m.toutiao.com###root > div > div:last-child > div:first-child
-m.toutiao.com###root > div > div.top-banner-container:first-child
-m.toutiao.com###root > div > div.bgwhite.android:nth-child(2) > div.article-container:nth-child(2) > div.fold-btn-container > div.fold-btn:last-child > div.fold-btn-btn:last-child
-m.toutiao.com###root > div > div:nth-child(3) > div:first-child
-m.toutiao.com###root > div > div:nth-child(3)
+m.toutiao.com##.open
+m.toutiao.com##.m-bottom-container
+m.toutiao.com##.m-index-tag
 
 ! ---m.weathercn.com---
 m.weathercn.com##.red-package
