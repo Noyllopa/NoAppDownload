@@ -1,7 +1,7 @@
 [Adblock Plus 2.1]
-! Version: 20241207001
+! Version: 20250124001
 ! Title: NoAppDownload
-! Last modified: 2024/12/07 20:30:00 +0800
+! Last modified: 2025/01/24 17:30:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -265,20 +265,21 @@ qq.com##+js(json-prune, ad)
 ! ---sina---
 sina.com.cn##.tn-nav > div.tn-title:nth-of-type(4) > .tn-tab > i
 sina.com.cn##.part-a-l > .mod-02
-finance.sina.com.cn##.clearfix.blk-zcapp
-finance.sina.com.cn###tab_related_btn
-finance.sina.com.cn##.clearfix.blk-wxfollow
-finance.sina.com.cn##.first.tool-audio.tool-icon
-finance.sina.com.cn##.fc_s_list
-finance.sina.com.cn##.sina-client-tl
-finance.sina.com.cn##[href^="https://finance.sina.cn/event/2021rili/pcjoin.shtml"]
 finance.sina.com.cn##.appendQr_wrap.clearfix
 finance.sina.com.cn##.app-viplive
-finance.sina.cn##.s_card.cj_24
+finance.sina.com.cn##.clearfix.blk-zcapp
+finance.sina.com.cn##.clearfix.blk-wxfollow
+finance.sina.com.cn##.fc_s_list
+finance.sina.com.cn##.first.tool-audio.tool-icon
 finance.sina.com.cn##.hqPart_bot
-finance.sina.com.cn##.zc-app-btn.right-bar-btn
-finance.sina.com.cn#?#.clearfix.tech-quotation:contains(下载客户端)
 finance.sina.com.cn###most_read
+finance.sina.com.cn##.sina-client-tl
+finance.sina.com.cn##.zc-app-btn.right-bar-btn
+finance.sina.cn##.s_card.cj_24
+finance.sina.com.cn###SFA_NV_POP_ZW
+finance.sina.com.cn###tab_related_btn
+finance.sina.com.cn##[href^="https://finance.sina.cn/event/2021rili/pcjoin.shtml"]
+finance.sina.com.cn#?#.clearfix.tech-quotation:contains(下载客户端)
 super.sina.cn##.call_up_banner
 
 ! ---sm.cn---
@@ -551,6 +552,7 @@ baike.baidu.com##.top-icon.spark-icon
 ! ---bilibili---
 bilibili.com##.open-btn
 m.bilibili.com##.m-home-float-openapp
+m.bilibili.com##.m-nav-openapp.m-open-app
 m.bilibili.com##.m-video2-awaken-btn
 m.bilibili.com##.m-video2-float-openapp
 m.bilibili.com##.natural-margin.visible-open-app-btn.m-video-main-launchapp.launch-app-btn
