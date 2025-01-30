@@ -1,7 +1,7 @@
-[Adblock Plus 2.1]
-! Version: 20250124001
+[Adblock Plus 2.0]
+! Version: 20250130001
 ! Title: NoAppDownload
-! Last modified: 2025/01/24 17:30:00 +0800
+! Last modified: 2025/01/30 23:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
