@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 20250130001
+! Version: 20250131001
 ! Title: NoAppDownload
-! Last modified: 2025/01/30 23:00:00 +0800
+! Last modified: 2025/01/31 13:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -90,6 +90,10 @@ dangdang.com##.little
 dangdang.com###fix_erweima
 dangdang.com##.foot_tip_ad
 dangdang.com##.side_bar_code
+
+! ---deepseek---
+chat.deepseek.com##div:has(> .ds-icon + span)
+chat.deepseek.com##div:has(> .ds-icon[style*="width: 28px"][style*="height: 28px"])
 
 ! ---discord---
 discord.com##div[class*=notice]
@@ -355,6 +359,9 @@ tmall.com##.mui-mbar-tab-qrcode.mui-mbar-tab
 tmall.com##div[style*="z-index: 99999; display: block;"]
 tmall.com###J_smartloader
 
+! ---tongyi---
+tongyi.aliyun.com##li:has(> i > svg[data-spm-anchor-id])
+
 ! ---userstyles---
 userstyles.org###top_android_button
 userstyles.org##.android_button_button
@@ -371,20 +378,6 @@ vivo.com.cn##.vp-vivo-app
 v.qq.com##.svg_icon_client.svg_quick_icon > path:nth-of-type(1)
 v.qq.com##.svg_icon_client.svg_quick_icon
 v.qq.com###pc_client > .quick_link
-
-! ---xiaomiyoupin---
-xiaomiyoupin.com##.site-item.m-download.fl
-xiaomiyoupin.com##.fixed-nav > li:nth-of-type(2)
-
-! ---you.163.com---
-you.163.com###j-yx-cp-m-siteNav > DIV.yx-cp-row > DIV.yx-cp-siteNav-r:last-child > DIV.yx-cp-siteNavItem:last-child > DIV.yx-cp-siteNavItemHd.pipe:first-child
-you.163.com##[href^="/downloadapp"]
-you.163.com##.m-appDownloadGuide
-you.163.com###j-yx-fixedtoolDownloadlink
-you.163.com##.downloadAppBtn.w-button-ghost.w-button-xl.w-button.btn
-
-! ---note.youdao.com---
-note.youdao.com##.top-btns
 
 ! ---wenku.baidu.com---
 wenku.baidu.com##.vip-member-pop-content
@@ -413,6 +406,26 @@ wenku.baidu.com##.vip-pay-pop-v2-wrap
 wenku.baidu.com##.vip-activity-wrap-new
 wenku.baidu.com##.bottom-theme-select-wrap
 wenku.baidu.com##.bottom-theme-wrap-mask
+
+! ---xiaomiyoupin---
+xiaomiyoupin.com##.site-item.m-download.fl
+xiaomiyoupin.com##.fixed-nav > li:nth-of-type(2)
+
+! --xinghuo.xfyun.cn---
+xinghuo.xfyun.cn##div[class*="download_btn"]
+
+! ---you.163.com---
+you.163.com###j-yx-cp-m-siteNav > DIV.yx-cp-row > DIV.yx-cp-siteNav-r:last-child > DIV.yx-cp-siteNavItem:last-child > DIV.yx-cp-siteNavItemHd.pipe:first-child
+you.163.com##[href^="/downloadapp"]
+you.163.com##.m-appDownloadGuide
+you.163.com###j-yx-fixedtoolDownloadlink
+you.163.com##.downloadAppBtn.w-button-ghost.w-button-xl.w-button.btn
+
+! ---note.youdao.com---
+note.youdao.com##.top-btns
+
+! ---yuanbao.tencent.com---
+yuanbao.tencent.com##.icon-yb-downapp
 
 ! ---yystv---
 yystv.cn##li:nth-of-type(7) > [href="/app/download"]
@@ -738,11 +751,6 @@ m.jiemian.com##.download
 m.jiemian.com##.open-app
 m.jiemian.com##.app-open
 
-! ---jikipedia.com---
-jikipedia.com##.download-link
-jikipedia.com##.components-container
-jikipedia.com##.cursor.link.app-link
-
 ! ---m.jd.com---
 m.jd.com###imk2FixedSideText
 m.jd.com###imk2FixedBottom
@@ -759,6 +767,9 @@ m.ke.com##.ershoufang-detail-page__house-intro > .lj-track
 m.ke.com##div.lj-track:nth-of-type(9)
 m.ke.com##div.lj-track:nth-of-type(12)
 m.ke.com##div.lj-track:nth-of-type(14)
+
+! ---kimi---
+kimi.moonshot.cn##.app-download
 
 ! ---lenovo---
 m.lenovo.com.cn##.downloadBar
@@ -919,6 +930,9 @@ m.thepaper.cn###newDetailHotRecommend
 m.thepaper.cn##a[data-statclick="downloadApp"]
 m.thepaper.cn##div[class^="index_footer_banner"]
 
+! ---tongyi---
+tongyi.aliyun.com##div[class^="downloadWrap"]
+
 ! ---toutiao---
 m.toutiao.com##.open
 m.toutiao.com##.m-bottom-container
@@ -1030,6 +1044,9 @@ m.xiaomiyoupin.com##.download-bar-container
 m.xiaomiyoupin.com##[src="//m.xiaomiyoupin.com/shopcenter/erised/index.html"]
 m.xiaomiyoupin.com##.lib10-opapp-wrap
 m.xiaomiyoupin.com###download-bar
+
+! --xinghuo.xfyun.cn---
+xinghuo.xfyun.cn##div[class*="jump_btn"]:contains(下载APP)
 
 ! ---xw.qq.com---
 ||mat1.gtimg.com/rain/bailing20/*.jpg$image
