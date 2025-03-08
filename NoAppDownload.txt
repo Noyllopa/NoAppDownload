@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 20250308002
+! Version: 20250308003
 ! Title: NoAppDownload
-! Last modified: 2025/03/08 00:15:00 +0800
+! Last modified: 2025/03/08 15:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -10,10 +10,13 @@
 12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
 
 ! ---163---
-163.com##.ns_side_qrcode
 163.com##.newsapp-qrcode
+163.com##.ns_side_qrcode
+163.com##.ntes-nav-mobile-title
 
 ! ---360doc---
+360doc.com##.index_app2d
+360doc.com##.index_app2dclose
 360doc.com##.ul-similar
 360doc.com##div.str_border:nth-of-type(5)
 
@@ -242,8 +245,8 @@ new.qq.com##.hot-choice-bar
 new.qq.com##.original-bar
 new.qq.com##.tuijian-bar
 new.qq.com#?#div.operation:contains(手机看)
+news.qq.com##.download-content
 news.qq.com##.download-banner-wrap
-news.qq.com##.download-content.mr28.download-wrapper
 news.qq.com##.godown.qqcom_fb-item
 
 ! ---oneplusbbs---
@@ -381,32 +384,15 @@ v.qq.com##.svg_icon_client.svg_quick_icon
 v.qq.com###pc_client > .quick_link
 
 ! ---wenku.baidu.com---
+cuttlefish.baidu.com##.link-pc-client
+wenku.baidu.com##.foot-client
+wenku.baidu.com##.install-pwa
+wenku.baidu.com##.pwa-toast
+wenku.baidu.com##.pwaInstall.btn
 wenku.baidu.com##.vip-member-pop-content
-wenku.baidu.com##.extension
-wenku.baidu.com##.qricon
-wenku.baidu.com##.browser-label-guide
-wenku.baidu.com##.pay-vip-btn-wrap
-wenku.baidu.com##.inner-vip.vip-pop-wrap
-wenku.baidu.com##.docBtns.-VIP_RIGHT.core-btn-wrapper
-wenku.baidu.com##.fix-block.relative-course-wrapper
-wenku.baidu.com##.vip-card-wrap
-wenku.baidu.com##.searchBox.-VIP_RIGHT.core-btn-wrapper
 wenku.baidu.com##.vip-activity-wrap
-wenku.baidu.com##.client-download-wrap
-wenku.baidu.com##.client-rec-wrapper
-wenku.baidu.com##.fold-page-tip
-wenku.baidu.com##.fold-page-btn
-wenku.baidu.com##.clearfix.sb-con > .qrHover
-wenku.baidu.com##.reader-download-app
-wenku.baidu.com##.tool-bar.app-btn.small-btn > .tool-icon
-wenku.baidu.com##.client-btn.small-btn > .tool-icon
-wenku.baidu.com##.pure-tool-btn.tool-btn.full-screen
-wenku.baidu.com##.client-btn.middle-btn
-wenku.baidu.com##.doc-btns-wrap > .app-btn.small-btn
-wenku.baidu.com##.vip-pay-pop-v2-wrap
 wenku.baidu.com##.vip-activity-wrap-new
-wenku.baidu.com##.bottom-theme-select-wrap
-wenku.baidu.com##.bottom-theme-wrap-mask
+wenku.baidu.com##.vip-center
 
 ! ---xiaomiyoupin---
 xiaomiyoupin.com##.site-item.m-download.fl
@@ -1004,6 +990,7 @@ wk.baidu.com##.card-vip.card-wrap
 wk.baidu.com##.color-e9e9e9.border-1px-tb.related-doc-list-wrap
 wk.baidu.com##.core-card
 wk.baidu.com##.fc-ad-contain
+wk.baidu.com##.guide-bottom-btn-wrap
 wk.baidu.com##.guess-rec-text-root > .w-container.rec-head > .rec-go-search-guide
 wk.baidu.com##.guide-to-univer-app-root
 wk.baidu.com##.guidetowkappwg-root
