@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 20250308003
+! Version: 20250309001
 ! Title: NoAppDownload
-! Last modified: 2025/03/08 15:00:00 +0800
+! Last modified: 2025/03/09 15:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -350,6 +350,9 @@ n.sinaimg.cn/finance/blackcat/pc/blink.gif$image
 ! ---thepaper---
 thepaper.cn##.download
 thepaper.cn###QRcode
+
+! ---tieba.baidu.com---
+tieba.baidu.com##.tbui_fbar_down.tbui_aside_fbar_button
 
 ! ---tmall---
 tmall.com##.sn-mobile
@@ -877,7 +880,7 @@ h5.m.taobao.com##[style*="top: 0rem"]
 ! ---taptap---
 taptap.com##.open-app-button
 
-! ---m.tieba.com---
+! ---m.tieba.baidu.com---
 tieba.baidu.com##.banner-wrapper
 tieba.baidu.com##.bottom-guide-box
 tieba.baidu.com##.comment-box
