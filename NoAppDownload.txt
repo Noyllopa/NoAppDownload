@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 20250309001
+! Version: 20250330001
 ! Title: NoAppDownload
-! Last modified: 2025/03/09 15:00:00 +0800
+! Last modified: 2025/03/30 13:30:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -68,7 +68,7 @@ bilibili.com##.open-app-bar
 bilibili.com###openAppBtn
 bilibili.com#?#.van-popover__reference:contains(下载)
 bilibili.com###app > DIV.bili-header-m.report-wrap-module:first-child > DIV.nav-menu:first-child > DIV.nav-wrapper.clearfix.bili-wrapper:last-child > DIV.nav-con.fl:first-child > UL > LI.nav-item.mobile:last-child
-live.bilibili.com##div.pointer:contains(下载客户端)
+live.bilibili.com#?#div.pointer:contains(下载客户端)
 manga.bilibili.com##.app-button.download-app
 
 ! ---chinaso---
@@ -367,7 +367,7 @@ tmall.com##div[style*="z-index: 99999; display: block;"]
 tmall.com###J_smartloader
 
 ! ---tongyi.aliyun.com---
-tongyi.aliyun.com##ul > li:nth-child(2):not(:contains("效率"))
+tongyi.aliyun.com#?#ul > li:nth-child(2):not(:contains("效率"))
 
 ! ---userstyles---
 userstyles.org###top_android_button
@@ -562,11 +562,11 @@ m.bilibili.com##.m-video2-awaken-btn
 m.bilibili.com##.m-video2-float-openapp
 m.bilibili.com##.natural-margin.visible-open-app-btn.m-video-main-launchapp.launch-app-btn
 m.bilibili.com##.nav-open-app-img
-bilibili.com##.float-btn:contains(打开App)
-m.bilibili.com##.bottom-tab:contains(App)
-m.bilibili.com##.container:contains(打开App)
-m.bilibili.com##.launch-app-btn:contains(打开APP)
-m.bilibili.com##.launch-app-btn > a:contains(App)
+bilibili.com#?#.float-btn:contains(打开App)
+m.bilibili.com#?#.bottom-tab:contains(App)
+m.bilibili.com#?#.container:contains(打开App)
+m.bilibili.com#?#.launch-app-btn:contains(打开APP)
+m.bilibili.com#?#.launch-app-btn > a:contains(App)
 m.bilibili.com##div[class*="mplayer-control-btn mplayer-control-btn-callapp mplayer-control-btn-speed"]
 m.bilibili.com##div[class*="mplayer-widescreen-callapp"]
 m.bilibili.com##div[class^="open-app-btn"]
@@ -605,7 +605,7 @@ m.dangdang.com##.container > a
 m.dongchedi.com##.float-open-app-btn.float-open-app
 m.dongchedi.com##.mui-dialog__no-spacing.mui-dialog
 m.dongchedi.com##.open-app
-m.dongchedi.com##.tw-flex:contains(App内打开)
+m.dongchedi.com#?#.tw-flex:contains(App内打开)
 m.dongchedi.com##div[style="width: 84px; height: 38px; background: rgb(255, 204, 50);"]
 
 ! ---douban---
@@ -673,10 +673,10 @@ m.huya.com##.dtip
 m.huya.com##.blue_btn
 
 ! ---ifeng---
-ifeng.com##header:contains(立即打开)
+ifeng.com#?#header:contains(立即打开)
 ifeng.com##header[class*="headerIn"]
 ifeng.com##div[class*="callupBtn"]
-ifeng.com##div[class^="index_link"]:contains(app)
+ifeng.com#?#div[class^="index_link"]:contains(app)
 i.ifeng.com##div[class^=content-]>div[class^=link-]
 i.ifeng.com#?#div[class^=list-]:contains(APP)
 ishare.ifeng.com##.callUpBox
@@ -789,7 +789,7 @@ mf.meizu.cn##.guide-suspend.suspend
 ! ---moegirl---
 mzh.moegirl.org.cn##.download-app
 mzh.moegirl.org.cn##.open-in-app-wrapper
-mzh.moegirl.org.cn##.n-button__content:contains(在App内打开)
+mzh.moegirl.org.cn#?#.n-button__content:contains(在App内打开)
 
 ! ---nubia---
 m.nubia.com###topofwap
@@ -890,7 +890,7 @@ tieba.baidu.com##.feed-cut
 tieba.baidu.com##.hot-recommend-title.recommend-title
 tieba.baidu.com##.img-open-app
 tieba.baidu.com##.load-more.wake-app
-tieba.baidu.com##.more-btn-desc:contains(打开APP)
+tieba.baidu.com#?#.more-btn-desc:contains(打开APP)
 tieba.baidu.com##.more-image-desc
 tieba.baidu.com##.nav-bar-bottom
 tieba.baidu.com##.open-app-guide
@@ -1039,7 +1039,7 @@ m.xiaomiyoupin.com##.lib10-opapp-wrap
 m.xiaomiyoupin.com###download-bar
 
 ! --xinghuo.xfyun.cn---
-xinghuo.xfyun.cn##div[class*="jump_btn"]:contains(下载APP)
+xinghuo.xfyun.cn#?#div[class*="jump_btn"]:contains(下载APP)
 
 ! ---xw.qq.com---
 ||mat1.gtimg.com/rain/bailing20/*.jpg$image
