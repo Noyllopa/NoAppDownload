@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 20250404001
+! Version: 20250405001
 ! Title: NoAppDownload
-! Last modified: 2025/04/04 21:00:00 +0800
+! Last modified: 2025/04/05 14:30:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -21,6 +21,8 @@
 360doc.com##div.str_border:nth-of-type(5)
 
 ! ---36kr---
+36kr.com##.float-home-button-wrp
+36kr.com##.interact-area
 36kr.com##.phone
 
 ! ---360kuai---
