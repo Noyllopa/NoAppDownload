@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 20250405001
+! Version: 20250502001
 ! Title: NoAppDownload
-! Last modified: 2025/04/05 14:30:00 +0800
+! Last modified: 2025/05/02 14:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -769,7 +769,7 @@ m.ke.com##div.lj-track:nth-of-type(14)
 kimi.moonshot.cn##.app-download
 
 ! ---lenovo---
-m.lenovo.com.cn##.downloadBar
+lenovo.com.cn##.downloadBar
 m.lenovo.com.cn##.bottomOpenAppBtn
 
 ! ---m.lianjia.com---
@@ -798,6 +798,12 @@ mzh.moegirl.org.cn#?#.n-button__content:contains(在App内打开)
 
 ! ---nubia---
 m.nubia.com###topofwap
+
+! ---oneplus---
+bbs.oneplus.com##.oneplus-app
+
+! ---opposhop.cn---
+opposhop.cn##.oc-hairline--bottom.welcome-wrapper
 
 ! ---pingwest---
 pingwest.com##.options
