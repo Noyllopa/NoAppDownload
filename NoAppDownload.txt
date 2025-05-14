@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 20250502001
+! Version: 20250514001
 ! Title: NoAppDownload
-! Last modified: 2025/05/02 14:00:00 +0800
+! Last modified: 2025/05/14 22:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -300,17 +300,13 @@ sm.cn###index_hot_news
 sm.cn###index_banner
 
 ! ---smzdm---
+smzdm.com#?#li:has(i.icon-mobile)
 smzdm.com###global-search > DIV.search-inner.z-clearfix > DIV.download:last-child
-smzdm.com###index-elevator > LI:nth-child(3)
-search.smzdm.com###elevator > LI:first-child
-smzdm.com###elevator > LI:first-child
 smzdm.com##.logo-download
 smzdm.com##.top-applink
-smzdm.com##.J_ota
 smzdm.com##.footer-floating-layer
-smzdm.com###index-elevator > li:nth-of-type(1)
-smzdm.com###index-elevator > li:nth-of-type(2)
 smzdm.com##.footer-new-guide
+smzdm.com##.J_ota
 
 ! ---sohu---
 sohu.com##.download-app
