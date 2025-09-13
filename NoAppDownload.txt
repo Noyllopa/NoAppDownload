@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 20250912001
+! Version: 20250913001
 ! Title: NoAppDownload
-! Last modified: 2025/09/12 22:40:00 +0800
+! Last modified: 2025/09/13 22:40:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -845,11 +845,12 @@ sina.cn###j_card_searchHotwords > section.s_card > a:last-child > ins.most
 sina.cn##.qr_box
 
 ! ---m.smzdm.com---
+smzdm.com##.btn-open-app
+smzdm.com##.damo-footer-open-app__fixed-logo
 smzdm.com##.footer-banner
-smzdm.com##.new-zone
 smzdm.com##.J_copy.btn-open-app
+smzdm.com##.new-zone
 smzdm.com##.see-all
-smzdm.com##.btn-open-app-b.btn-open-app
 smzdm.com##a[class^="fixed-logo"]
 
 ! ---m.sohu.com---
