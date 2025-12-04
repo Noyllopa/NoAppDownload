@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 20251029001
+! Version: 20251204002
 ! Title: NoAppDownload
-! Last modified: 2025/12/04 19:30:00 +0800
+! Last modified: 2025/12/04 19:35:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -278,6 +278,7 @@ qdaily.com##.clearfix.com-header-brief
 
 ! ---qq---
 qq.com##.home-download-btn
+qq.com###download-btn-wrapid
 qq.com##+js(json-prune, ad)
 
 ! ---sina---
