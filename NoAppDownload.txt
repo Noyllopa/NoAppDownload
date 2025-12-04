@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Version: 20251029001
 ! Title: NoAppDownload
-! Last modified: 2025/10/29 12:00:00 +0800
+! Last modified: 2025/12/04 19:30:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -254,6 +254,7 @@ new.qq.com#?#div.operation:contains(手机看)
 news.qq.com##.download-content
 news.qq.com##.download-banner-wrap
 news.qq.com##.godown.qqcom_fb-item
+news.qq.com##.slider-list.swiper-horizontal.swiper-initialized.swiper
 news.qq.com##div[id="download-btn-wrapid"]
 news.qq.com#?#div:has(> div[dt-eid="em_rec_app"])
 
