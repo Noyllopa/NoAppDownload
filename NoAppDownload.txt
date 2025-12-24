@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 20251224001
+! Version: 20251224002
 ! Title: NoAppDownload
-! Last modified: 2025/12/24 16:30:00 +0800
+! Last modified: 2025/12/24 16:40:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -99,8 +99,8 @@ dangdang.com##.foot_tip_ad
 dangdang.com##.side_bar_code
 
 ! ---deepseek---
-chat.deepseek.com##.ds-dropdown-menu-option:has-text(下载手机应用)
-chat.deepseek.com##button:has(span:contains(下载应用))
+chat.deepseek.com#?#.ds-dropdown-menu-option:has-text(下载手机应用)
+chat.deepseek.com#?#button:has(span:contains(下载应用))
 
 ! ---discord---
 discord.com##div[class*=notice]
