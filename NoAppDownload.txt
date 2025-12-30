@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 20251224002
+! Version: 20251230001
 ! Title: NoAppDownload
-! Last modified: 2025/12/24 16:40:00 +0800
+! Last modified: 2025/12/30 10:30:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -108,6 +108,9 @@ discord.com##div[class*=notice]
 ! ---douban---
 douban.com##.lnk-doubanapp
 fm.douban.com##.left
+
+! ---doubao---
+doubao.com##.group\/download
 
 ! ---douyu---
 douyu.com##div[class^="code_box"]
