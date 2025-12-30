@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 20251230001
+! Version: 20251230002
 ! Title: NoAppDownload
-! Last modified: 2025/12/30 10:30:00 +0800
+! Last modified: 2025/12/30 10:45:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -375,9 +375,6 @@ tmall.com##.mui-mbarp-qrcode-hd-d.mui-mbarp-qrcode-hd
 tmall.com##.mui-mbar-tab-qrcode.mui-mbar-tab
 tmall.com##div[style*="z-index: 99999; display: block;"]
 tmall.com###J_smartloader
-
-! ---tongyi.aliyun.com---
-tongyi.aliyun.com#?#ul > li:nth-child(2):not(:contains("效率"))
 
 ! ---userstyles---
 userstyles.org###top_android_button
@@ -815,6 +812,9 @@ pingwest.com##.options
 pingwest.com##.bd.item
 pingwest.com#?#a[href="https://s.growingio.com/LWqRgA"]:contains(打开APP)
 
+! ---qianwen---
+www.qianwen.com##.bg-weaken
+
 ! ---m.qidian.com---
 m.qidian.com###footerApp
 m.qidian.com##div.book-detail-btn:nth-of-type(3)
@@ -938,9 +938,6 @@ m.thepaper.cn###recommend
 m.thepaper.cn###newDetailHotRecommend
 m.thepaper.cn##a[data-statclick="downloadApp"]
 m.thepaper.cn##div[class^="index_footer_banner"]
-
-! ---tongyi---
-tongyi.aliyun.com##div[class^="downloadWrap"]
 
 ! ---toutiao---
 m.toutiao.com##.open
