@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 20251230002
+! Version: 20260108001
 ! Title: NoAppDownload
-! Last modified: 2025/12/30 10:45:00 +0800
+! Last modified: 2026/01/08 08:40:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -813,7 +813,7 @@ pingwest.com##.bd.item
 pingwest.com#?#a[href="https://s.growingio.com/LWqRgA"]:contains(打开APP)
 
 ! ---qianwen---
-www.qianwen.com##.bg-weaken
+www.qianwen.com##.leading-7.text-center.w-16.h-7.rounded-8.text-theme.text-12.bg-weaken
 
 ! ---m.qidian.com---
 m.qidian.com###footerApp
