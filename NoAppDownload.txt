@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 20260115001
+! Version: 20260202001
 ! Title: NoAppDownload
-! Last modified: 2026/01/15 13:00:00 +0800
+! Last modified: 2026/02/02 13:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -218,6 +218,9 @@ ke.com##.app_content
 ke.com##.app_daoliu_layer
 ke.com##.app-down
 ke.com##.download
+
+! ---kimi---
+kimi.com##.download-app-btn
 
 ! ---juejin---
 juejin.im##.extension
@@ -770,6 +773,7 @@ m.ke.com##div.lj-track:nth-of-type(14)
 
 ! ---kimi---
 kimi.moonshot.cn##.app-download
+kimi.com##.download-button
 
 ! ---lenovo---
 lenovo.com.cn##.downloadBar
