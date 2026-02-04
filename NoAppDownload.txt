@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 20260202001
+! Version: 20260204001
 ! Title: NoAppDownload
-! Last modified: 2026/02/02 13:00:00 +0800
+! Last modified: 2026/02/04 20:30:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -392,7 +392,7 @@ vip.com##.wp-phone
 vivo.com.cn##.vp-vivo-app
 
 ! ---v.qq.com---
-v.qq.com##.svg_icon_client.svg_quick_icon > path:nth-of-type(1)
+v.qq.com##.client-loading-cta__btn
 v.qq.com##.svg_icon_client.svg_quick_icon
 v.qq.com###pc_client > .quick_link
 
