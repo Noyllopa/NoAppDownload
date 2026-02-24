@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 20260225001
+! Version: 20260225002
 ! Title: NoAppDownload
-! Last modified: 2026/02/25 02:00:00 +0800
+! Last modified: 2026/02/25 02:15:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 !-----------------------Desktop-----------------------
@@ -854,11 +854,11 @@ sina.cn##.j_sax sina_tj_banner
 sina.cn##.j_callST.ldy_art_bottom_button_box
 sina.cn###j_card_searchHotwords > section.s_card > a:last-child > ins.most
 sina.cn##.qr_box
-finance.sina.cn##.flag_sf:upward(div):upward(div)
 finance.sina.cn##.pluse.animated
-finance.sina.cn##.snp-container:upward(div)
 finance.sina.cn##.wap-msg-bar
 finance.sina.cn##div[class^="s-"]
+finance.sina.cn#?#.flag_sf:upward(div):upward(div)
+finance.sina.cn#?#.snp-container:upward(div)
 cj.sina.cn##.module-footer
 cj.sina.cn##.module-hot.module-extend
 cj.sina.cn##.unfold-words
