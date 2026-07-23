@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 20260415001
+! Version: 20260723001
 ! Title: NoAppDownload
-! Last modified: 2026/04/15 21:30:00 +0800
+! Last modified: 2026/07/23 20:30:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 ! ---12306---
@@ -111,7 +111,6 @@ jingyan.baidu.com##.fresh-share-exp-e
 jingyan.baidu.com##.task-panel-entrance
 ! Mobile
 baidu.com##.square-banner-bgicon.index-banner
-baidu.com###header > div:last-child
 baidu.com###login-wraps > a.index-banner.square-banner-bgicon
 baidu.com###tab_news_1
 baidu.com###tab_news_1 > div.tab-news-content.water-container:nth-child(2)
