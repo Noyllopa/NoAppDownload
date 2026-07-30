@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 20260723001
+! Version: 20260730001
 ! Title: NoAppDownload
-! Last modified: 2026/07/23 20:30:00 +0800
+! Last modified: 2026/07/31 03:30:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 ! ---12306---
@@ -160,7 +160,6 @@ bilibili.com##.app-download-link
 bilibili.com##.bili-app
 bilibili.com##.bili-app-link-container
 bilibili.com##.btn-ad
-bilibili.com##.btn-ctnr
 bilibili.com##.clearfix.h5-download-bar
 bilibili.com##.desktop-download-tip
 bilibili.com##.download-client-trigger.download-entry
