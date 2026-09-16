@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 20260915001
+! Version: 20260916001
 ! Title: NoAppDownload
-! Last modified: 2026/09/15 23:30:00 +0800
+! Last modified: 2026/09/16 19:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 ! ---12306---
@@ -155,7 +155,10 @@ zhidao.baidu.com###feed-recommend
 
 ! ---bilibili---
 ! Desktop
+bilibili.com#?#.left-entry__item-trigger:contains(下载客户端)
 bilibili.com#?#.van-popover__reference:contains(下载)
+bilibili.com###fixed_app_download
+bilibili.com###openAppBtn
 bilibili.com##.app-download-link
 bilibili.com##.bili-app
 bilibili.com##.bili-app-link-container
@@ -170,30 +173,40 @@ bilibili.com##.index__openApp__src-videoPage-related2Col-videoItem-
 bilibili.com##.index__openAppBtn__src-commonComponent-topArea-
 bilibili.com##.mobile.nav-item
 bilibili.com##.open-app-bar
-bilibili.com###app > DIV.bili-header-m.report-wrap-module:first-child > DIV.nav-menu:first-child > DIV.nav-wrapper.clearfix.bili-wrapper:last-child > DIV.nav-con.fl:first-child > UL > LI.nav-item.mobile:last-child
-bilibili.com###fixed_app_download
-bilibili.com###openAppBtn
 bilibili.com##a[href="//app.bilibili.com"]
 link.bilibili.com#?#.shortcut-item:contains(下载客户端)
 live.bilibili.com#?#div.pointer:contains(下载客户端)
 manga.bilibili.com##.app-button.download-app
 ! Mobile
-bilibili.com#?#.float-btn:contains(打开App)
-bilibili.com##.open-btn
 m.bilibili.com#?#.bottom-tab:contains(App)
 m.bilibili.com#?#.container:contains(打开App)
-m.bilibili.com#?#.launch-app-btn > a:contains(App)
+m.bilibili.com#?#.float-btn:contains(打开App)
 m.bilibili.com#?#.launch-app-btn:contains(打开APP)
+m.bilibili.com##.dialog > .m-open-app
+m.bilibili.com##.gsl-poster-tips
+m.bilibili.com##.guide-mask
 m.bilibili.com##.m-home-float-openapp
 m.bilibili.com##.m-nav-openapp.m-open-app
 m.bilibili.com##.m-video2-awaken-btn
 m.bilibili.com##.m-video2-float-openapp
-m.bilibili.com##.natural-margin.visible-open-app-btn.m-video-main-launchapp.launch-app-btn
 m.bilibili.com##.nav-open-app-img
+m.bilibili.com##.open-app-img
+m.bilibili.com##.open-app.weakened
+m.bilibili.com##.open-btn
+m.bilibili.com##.openapp-btn
+m.bilibili.com##.player-mask
+m.bilibili.com##.v-card-toapp
+m.bilibili.com##div[class*="GoApp"]
+m.bilibili.com##div[class*="launchapp"]
 m.bilibili.com##div[class*="mplayer-control-btn mplayer-control-btn-callapp mplayer-control-btn-speed"]
 m.bilibili.com##div[class*="mplayer-widescreen-callapp"]
-m.bilibili.com##div[class*="openapp"]
-m.bilibili.com##div[class^="open-app-btn"]
+m.bilibili.com##div[class*="open-app-btn"]
+m.bilibili.com##div[class*="OpenApp"]
+m.bilibili.com##div[class*="TopBar_downloadEntry"]
+m.bilibili.com##div[class*="VideoCover_bottomMask"]
+m.bilibili.com##i[class*="MainButton_icon"]
+m.bilibili.com##m-open-app[class*="download"]
+m.bilibili.com##m-open-app[class*="MainButton_btnWrap"]:style(height: 0 !important; overflow: hidden !important; padding: 0 !important;)
 manga.bilibili.com##.download-hinter
 manga.bilibili.com##.p-absolute.download-tip
 
