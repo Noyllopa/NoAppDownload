@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 20260918001
+! Version: 20261012001
 ! Title: NoAppDownload
-! Last modified: 2026/09/18 21:00:00 +0800
+! Last modified: 2026/10/12 14:00:00 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 ! ---12306---
@@ -348,6 +348,10 @@ wap.gamersky.com##.ymw-footer
 wap.gamersky.com##.ymw-header2021.ymwBootDownload
 wap.gamersky.com##.ymw-rel-list.ymw-aside-box
 wap.gamersky.com##section.ymw-rel-list
+
+! ---Google Gemini---
+! Desktop
+gemini.google.com##.ng-star-inserted.mat-badge-hidden.mat-badge-small.mat-badge-after.mat-badge-above.mat-badge-overlap.mat-unthemed.mat-tonal-button.mat-badge.mat-mdc-button-base.mdc-button
 
 ! ---gome---
 ! Desktop
@@ -1150,6 +1154,7 @@ youku.com##div[class^="clip"]
 ! Desktop
 yuanbao.tencent.com#?#div.input-guide-v2-item:contains(下载)
 yuanbao.tencent.com##.agent-dialogue__content-qrcode
+yuanbao.tencent.com##.download_hint__wrap
 yuanbao.tencent.com##.icon-yb-downapp
 yuanbao.tencent.com##div[class^="index_pc_download"]
 ! Mobile
