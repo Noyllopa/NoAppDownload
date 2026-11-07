@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 20261107022
+! Version: 20261108001
 ! Title: NoAppDownload
-! Last modified: 2026/11/07 18:39:01 +0800
+! Last modified: 2026/11/08 00:44:29 +0800
 ! Homepage: https://github.com/Noyllopa/NoAppDownload
 
 ! ---12306---
@@ -1004,7 +1004,7 @@ m.thepaper.cn##li.icon_openapp
 tieba.baidu.com##.download-app-link
 tieba.baidu.com##.tbui_fbar_down.tbui_aside_fbar_button
 ! Mobile
-tieba.baidu.com##.more-btn-desc
+tieba.baidu.com#?#.more-btn-desc:-abp-contains(打开APP)
 tieba.baidu.com##.banner-wrapper
 tieba.baidu.com##.bottom-guide-box
 tieba.baidu.com##.comment-box
